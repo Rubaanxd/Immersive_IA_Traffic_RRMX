@@ -43,8 +43,8 @@ Eventos reducidos:
 
 ### ⚡ Ajuste Global de Velocidad IA
 **Archivo:** `def/traffic_data.sii`
-- **`ai_speed_coef_preferred`**: `(1.02, 1.22)` → `(1.05, 1.25)`
-  - La IA ahora conduce del **5% al 25% por encima del límite**, empujando las velocidades para un comportamiento agresivo y fluido más acorde a las carreteras reales.
+- **`ai_speed_coef_preferred`**: `(1.05, 1.25)` → `(1.10, 1.30)`
+  - La IA ahora conduce del **10% al 30% por encima del límite**, empujando las velocidades para un comportamiento agresivo y erradicando por completo el tráfico "lento".
 
 ---
 
