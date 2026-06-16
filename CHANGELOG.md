@@ -41,6 +41,30 @@ Eventos reducidos:
 
 ---
 
+### ⚡ Ajuste Global de Velocidad IA
+**Archivo:** `def/traffic_data.sii`
+- **`ai_speed_coef_preferred`**: `(1.02, 1.22)` → `(1.05, 1.25)`
+  - La IA ahora conduce del **5% al 25% por encima del límite**, empujando las velocidades para un comportamiento agresivo y fluido más acorde a las carreteras reales.
+
+---
+
+### 🇲🇽 Adaptación a México (Soporte Mapa Reforma)
+**Archivos:** `def/country/[estado]/speed_limits.sii` y `traffic.sii` (NUEVO)
+Se crearon definiciones específicas por estado para 12 estados de Reforma (`aguascalientes`, `baja_california`, `baja_california_sur`, `chihuahua`, `coahuila`, `durango`, `jalisco`, `nayarit`, `san_luis_potosi`, `sinaloa`, `sonora`, `zacatecas`).
+
+**1. Límites de velocidad realistas (`speed_limits.sii`)**
+- Coches: 110 km/h (Autopista), 90 km/h (Carretera dividida), 80 km/h (Carretera local), 50 km/h (Urbano).
+- Camiones pesados: 80 km/h máximo en todas las vías extraurbanas, 40 km/h en ciudad.
+- Autobuses: 95 km/h (Autopista), 80 km/h (Carreteras secundarias), 50 km/h (Urbano).
+*(Nota: Al usar km/h aquí, se fuerza a que la IA que transita por estos estados respete la ley mexicana).*
+
+**2. Composición de tráfico adaptada (`traffic.sii`)**
+- **Menos deportivos/lujo:** Mercedes CE (0.10x), Mustang (0.10x), Tesla (0.05x).
+- **Más utilitarios y antiguos:** Pickups Chevy/Sierra (2.00x-2.50x), coches antiguos Mercury (2.00x).
+- **Entorno urbano:** Multiplicado el spawn de taxis (8.00x) y autobuses locales (1.50x) dentro de las ciudades.
+
+---
+
 ### 🚔 Policía — Multas Realistas
 **Archivo:** `def/police_data.sii` (NUEVO)
 

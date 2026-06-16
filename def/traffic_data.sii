@@ -34,8 +34,8 @@ traffic_data : .traffic.data {
 
 	## Global AI speed coefficient - influences the preferred speed relative to the speed limit
 	## Range raised so the majority of traffic runs ABOVE the posted limit (realistic highway behavior)
-	## Min 1.02 = almost no one goes slow | Max 1.22 = fast drivers push it ~20% over
-	ai_speed_coef_preferred: (1.02, 1.22)
+	## Min 1.05 = almost no one goes slow | Max 1.25 = fast drivers push it ~25% over
+	ai_speed_coef_preferred: (1.05, 1.25)
 
 	## Horn and blink delay intervals - how long before an AI vehicle uses its horn (e.g. when blocked)
 	## or lights (e.g. when yielding) to notify other vehicle about something

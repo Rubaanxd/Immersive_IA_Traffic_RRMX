@@ -37,6 +37,13 @@ La carretera ahora está verdaderamente viva entre viaje y viaje:
 - Accidentes en autopista con conos y vehículos de emergencia bloqueando carriles.
 - Los árboles caídos son menos frecuentes en el oeste árido del país.
 
+[ ADAPTACIÓN PARA MÉXICO (Soporte Mapa Reforma) ]
+El mod detecta si cruzas la frontera hacia estados mexicanos del mapa Reforma y adapta dinámicamente:
+- La IA respeta los límites de velocidad mexicanos reales (ej: 110 km/h autos, 80 km/h camiones pesados, 95 km/h autobuses).
+- Cambia la densidad vehicular: notarás que hay muchos menos vehículos de lujo o superdeportivos rodando por México.
+- Se multiplican los spawns de camionetas de trabajo (pickups), vehículos compactos y autos de años anteriores.
+- En las zonas urbanas de México, verás muchos más taxis y autobuses circulando.
+
 [ MULTAS REALISTAS ]
 - Las multas por colisión han subido a $1,200 (más acorde con la realidad estadounidense).
 - La multa por exceso de velocidad ahora es de $350 (el promedio real en EE.UU. es de $150-$400).
@@ -80,6 +87,13 @@ The road is now truly alive between journeys:
 - Road construction with alternating traffic signals (the most iconic single-lane US road scenario).
 - Highway accidents with cones and emergency vehicles blocking lanes.
 - Fallen trees are now less frequent, reflecting the arid western US landscape.
+
+[ MEXICO ADAPTATION (Reforma Map Support) ]
+The mod detects when you cross the border into Mexican states from the Reforma map mod and adapts dynamically:
+- AI strictly follows real Mexican speed limits (e.g., 110 km/h for cars, 80 km/h for heavy trucks, 95 km/h for buses).
+- Traffic composition changes: you'll notice far fewer luxury and sports cars driving around Mexico.
+- Spawns for work pickups, compact vehicles, and older cars are multiplied.
+- In Mexican urban areas, you will see many more local taxis and buses driving around.
 
 [ REALISTIC FINES ]
 - Collision fines raised to $1,200 (more in line with US reality).

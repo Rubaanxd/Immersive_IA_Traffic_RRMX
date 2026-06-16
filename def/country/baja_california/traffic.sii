@@ -1,0 +1,52 @@
+﻿SiiNunit
+{
+
+# Reducir vehiculos de lujo/deportivos en Mexico
+country_traffic_info : .country.info.traffic.mercedes_ce {
+	object: traffic.mercedes_ce
+	spawn_ratio: 0.10
+}
+
+country_traffic_info : .country.info.traffic.mustang {
+	object: traffic.mustang
+	spawn_ratio: 0.10
+}
+
+country_traffic_info : .country.info.traffic.tesla {
+	object: traffic.tesla
+	spawn_ratio: 0.05
+}
+
+# Aumentar pickups, furgonetas y vehiculos comunes
+country_traffic_info : .country.info.traffic.sierra_hd {
+	object: traffic.sierra_hd
+	spawn_ratio: 2.50
+}
+
+country_traffic_info : .country.info.traffic.chevy_pickup {
+	object: traffic.chevy_pickup
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.mercury {
+	object: traffic.mercury
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.box {
+	object: traffic.box
+	spawn_ratio: 2.00
+}
+
+# Taxis y autobuses mas frecuentes en ciudad
+country_traffic_info : .country.info.traffic.crown_t {
+	object: traffic.crown_t
+	spawn_ratio: 8.00
+}
+
+country_traffic_info : .country.info.traffic.bus_e {
+	object: traffic.bus_e
+	spawn_ratio: 1.50
+}
+
+}

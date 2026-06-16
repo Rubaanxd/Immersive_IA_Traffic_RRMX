@@ -1,0 +1,44 @@
+﻿SiiNunit
+{
+country_speed_limit : .speed_limit.car {
+	vehicle_speed_class: car
+	lane_speed_class[]: local_road
+	limit[]: 80
+	urban_limit[]: 50
+	lane_speed_class[]: divided_road
+	limit[]: 90
+	urban_limit[]: 50
+	lane_speed_class[]: freeway
+	limit[]: 110
+	urban_limit[]: 80
+}
+
+country_speed_limit : .speed_limit.truck {
+	vehicle_speed_class: truck
+	lane_speed_class[]: local_road
+	limit[]: 70
+	urban_limit[]: 40
+	max_limit[]: 80
+	lane_speed_class[]: divided_road
+	limit[]: 80
+	urban_limit[]: 40
+	max_limit[]: 80
+	lane_speed_class[]: freeway
+	limit[]: 80
+	urban_limit[]: 60
+	max_limit[]: 80
+}
+
+country_speed_limit : .speed_limit.bus {
+	vehicle_speed_class: bus
+	lane_speed_class[]: local_road
+	limit[]: 80
+	urban_limit[]: 50
+	lane_speed_class[]: divided_road
+	limit[]: 80
+	urban_limit[]: 50
+	lane_speed_class[]: freeway
+	limit[]: 95
+	urban_limit[]: 60
+}
+}
