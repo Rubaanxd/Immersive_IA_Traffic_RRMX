@@ -1,0 +1,35 @@
+SiiNunit
+{
+# IMMERSIVE IA TRAFFIC - RRMX
+# Override: journey_road_event_master.sii
+#
+# BASE values for reference:
+#   probability[0]: 0.017
+#   min_road_events_distance[0]: 1500.0 m
+#   max_road_events_count[0]: 100
+#   probability[1]: 0.5
+#   min_road_events_distance[1]: 30.0 m
+#   max_road_events_count[1]: 100
+#
+# RRMX changes:
+#   - Events are now ~2x more frequent (probability doubled)
+#   - Minimum distance between events halved (800m vs 1500m)
+#     Justification: On busy US highways it's common to see 2-3
+#     incidents in under 5km. 800m keeps it realistic without saturation.
+#   - Max simultaneous events increased to 150 for denser world feel
+#   - Decorative elements (set 1) slightly more frequent (0.65 vs 0.5)
+
+journey_events_road_event_data : .master
+{
+	# Set 0 — Main events (accidents, roadworks, police, random)
+	max_road_events_count[0]: 150			// BASE: 100
+	min_road_events_distance[0]: 800.0		// [m] BASE: 1500 m
+	probability[0]: 0.035					// BASE: 0.017
+
+	# Set 1 — Decorative/ambient (road decals, channels, small debris)
+	max_road_events_count[1]: 120			// BASE: 100
+	min_road_events_distance[1]: 30.0		// [m] unchanged
+	probability[1]: 0.65					// BASE: 0.5
+}
+
+}

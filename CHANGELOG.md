@@ -4,24 +4,62 @@ Registro de todos los cambios realizados al mod para alimentar el archivo `descr
 
 ---
 
-## [Unreleased] — En desarrollo
+## [Unreleased] — En desarrollo (rama `dev`)
 
-### 🚗 Comportamiento de velocidad del tráfico AI
-**Archivo:** `def/traffic_data.sii`
+### 🚦 Road Events — Carreteras Vivas
+**Archivos:** `def/world/journey_road_event_master.sii`, `def/world/journey_road_event.sii`
 
-- **`ai_speed_coef_preferred`**: `(0.95, 1.10)` → `(1.02, 1.22)`
-  - El rango completo ahora está **por encima del límite de velocidad**, haciendo que la gran mayoría del tráfico circule más rápido que el límite indicado, como ocurre en la realidad en carreteras de EE.UU.
-  - Mínimo: 102% del límite (casi nadie va lento)
-  - Máximo: 122% del límite (los conductores más agresivos van ~20% sobre el límite)
+#### `journey_road_event_master.sii` (NUEVO)
+- **`probability[0]`**: 0.017 → `0.035` — Eventos aparecen ~2× más frecuentemente
+- **`min_road_events_distance[0]`**: 1500 m → `800 m` — Menos distancia mínima entre eventos; realista en autopistas USA
+- **`max_road_events_count[0]`**: 100 → `150` — Más eventos activos simultáneamente
+- **`probability[1]`** (decorativos): 0.5 → `0.65` — Más calcomanías y detalles en el asfalto
 
-### 🧠 Comportamiento de seguridad y paciencia AI
-**Archivo:** `def/traffic_data.sii`
+#### `journey_road_event.sii` (NUEVO — full override del BASE con rebalanceo de pesos)
+Eventos potenciados:
+- **Policía en arcén** (`j_re.police`): weight 8 → `14` — Muy común en autopistas USA
+- **Policía deportivo** (`j_re.police_sp`): weight 8 → `10`
+- **Policía country 1-1** (`j_re.pol_cou/pol_ext`): weight 2 → `5`
+- **Neumáticos/debris** (`j_re.tire`): weight 5 → `12` — Ubicuo en interstates
+- **Basura en 1-1** (`j_re.tire2`): weight 5 → `13`
+- **Accidente freeway small** (`j_re.crash1`): weight 6 → `9`
+- **Accidente freeway big** (`j_re.acc_hw_b`): weight 10 → `12`
+- **Truck-car crash** (`j_re.tr_car_cra`): weight 6 → `8`
+- **Obras ciudad** (`j_re.rw_city/city_in`): weight 10 → `12`
+- **Obras 1-1** (`j_re.rw_1_1`): weight 7 → `10`
+- **Obras semáforo 120m** (`j_re.rw_1_tlw/tln120`): weight 10 → `14`
+- **Obras semáforo 80m** (`j_re.rw_1_tlw/tln80`): weight 5 → `8`
+- **Obras country 1-1** (`j_re.rw_cou/rw_ext`): weight 3 → `6`
+- **Evento urbano** (`j_re.city_ev`): weight 9 → `11`
+- **Accidentes country 1-1**: weight +2 a +3 puntos
 
-- **`ai_safety_modifier`**: `-0.15` → `-0.25`
-  - Los vehículos mantienen distancias más reducidas y frenan de forma más abrupta, reflejando el comportamiento real a velocidades elevadas.
+Eventos reducidos:
+- **Árbol caído** (`j_re.tree*`): weight 10 → `5` — Raro en oeste árido de EE.UU.
+- **Cessna estrellada** (`j_re.cessna`): weight 3 → `2` — Evento especial/raro
+- **Tráiler volcado freeway** (`j_re.trailer`): weight 6 → `5`
+- **Tiendas ambulantes** (`j_re.shop*`): weight 10 → `8`
 
-- **`ai_patience_modifier`**: `-0.3` → `-0.4`
-  - Mayor impaciencia general: los vehículos AI adelantan con más frecuencia, esperan menos tiempo en cruces y usan el claxon antes al sentirse bloqueados.
+---
+
+### 🚔 Policía — Multas Realistas
+**Archivo:** `def/police_data.sii` (NUEVO)
+
+- **`fine_amounts[0]`** (choque): $900 → `$1,200` — Más realista para EE.UU.
+- **`fine_amounts[6]`** (velocidad): $200 → `$350` — Multa promedio en EE.UU. ($150-$400)
+- **`offence_probabilty[6]`** (velocidad): `0.0` → `0.15` — Antes NUNCA multaba por velocidad desde patrulla. Ahora 15% de chance si hay policía cerca.
+- **`offence_check_delay[6]`** (velocidad): 60 s → `30 s` — Detección más rápida
+- **`police_nearby_offence_timer`**: 25 s → `20 s` — Policía más vigilante
+
+---
+
+### 📁 Carpeta `.context/` (NUEVO — solo para desarrollo)
+Carpeta de contexto para IA y desarrolladores:
+- `README.md` — Guía de la carpeta
+- `project_overview.md` — Descripción del proyecto
+- `mod_architecture.md` — Mapa de archivos
+- `design_decisions.md` — Justificación de decisiones
+- `base_reference.md` — Tabla comparativa BASE vs RRMX
+- `dev_log.md` — Historial de sesiones de desarrollo
 
 ---
 

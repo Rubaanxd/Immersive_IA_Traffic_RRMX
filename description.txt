@@ -28,6 +28,20 @@ La densidad del tráfico ahora está fuertemente dictada por la hora del día y 
 - Los trenes tienen configuraciones realistas de kilómetros de largo en lugar de solo un puñado de vagones. Los trenes de pasajeros funcionan principalmente durante el día, mientras que los trenes de carga funcionan con mayor densidad por la noche.
 - Los tranvías y metros pasan con mayor frecuencia durante la hora pico.
 
+[ ROAD EVENTS — CARRETERAS QUE RESPIRAN ]
+La carretera ahora está verdaderamente viva entre viaje y viaje:
+- Eventos de carretera hasta 2× más frecuentes en comparación con el juego base.
+- Verás patrullas de policía estacionadas en arcenes con mucha más regularidad, exactamente como en las interstates americanas.
+- Los escombros y neumáticos reventados aparecen en el asfalto de forma frecuente.
+- Obras viales con semáforos alternativos (el escenario más icónico de carreteras de un carril en EE.UU.).
+- Accidentes en autopista con conos y vehículos de emergencia bloqueando carriles.
+- Los árboles caídos son menos frecuentes en el oeste árido del país.
+
+[ MULTAS REALISTAS ]
+- Las multas por colisión han subido a $1,200 (más acorde con la realidad estadounidense).
+- La multa por exceso de velocidad ahora es de $350 (el promedio real en EE.UU. es de $150-$400).
+- Los agentes de policía ahora pueden multarte activamente por exceso de velocidad (15% de probabilidad) cuando estás acelerando frente a una patrulla.
+
 ¡Disfruta del viaje con Immersive Traffic - RRMX!
 
 [ ENGLISH ]
@@ -57,6 +71,20 @@ The traffic density is now heavily dictated by the time of day and the zone you 
 - Historic and classic vehicles spawn much less frequently, as in real life.
 - Trains have realistic, miles-long setups instead of just a handful of wagons. Passenger trains run mostly during the day, while freight trains run heavier at night.
 - Trams and metros run more frequently during rush hour.
+
+[ ROAD EVENTS — ROADS THAT BREATHE ]
+The road is now truly alive between journeys:
+- Road events up to 2× more frequent compared to the base game.
+- You'll see police cruisers parked on highway shoulders far more regularly, exactly like on American interstates.
+- Tire debris and road trash appear on the asphalt frequently.
+- Road construction with alternating traffic signals (the most iconic single-lane US road scenario).
+- Highway accidents with cones and emergency vehicles blocking lanes.
+- Fallen trees are now less frequent, reflecting the arid western US landscape.
+
+[ REALISTIC FINES ]
+- Collision fines raised to $1,200 (more in line with US reality).
+- Speeding fines are now $350 (the real US average is $150-$400).
+- Police officers can now actively fine you for speeding (15% probability) when you accelerate in front of a patrol unit.
 
 Enjoy the drive with Immersive Traffic - RRMX!
 
