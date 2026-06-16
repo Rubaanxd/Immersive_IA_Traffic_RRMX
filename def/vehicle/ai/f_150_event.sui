@@ -1,0 +1,119 @@
+traffic_vehicle : traffic.f_150_lb_r
+{
+	accessories[]: .f_150_lb_r.chassis
+	accessories[]: .f_150_lb_r.fwheel
+	accessories[]: .f_150_lb_r.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 3000
+
+
+
+//	variant[]: traffic.f_150_lb_l
+	tags[]: budget
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f150_colors.sui"
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .f_150_lb_r.chassis
+{
+	data_path: "/def/vehicle/ai/f_150/chassis_lb_r.sii"
+}
+
+vehicle_wheel_accessory: .f_150_lb_r.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_20in_o_3.sii"
+}
+
+vehicle_wheel_accessory: .f_150_lb_r.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in_o_3.sii"
+}
+
+
+traffic_vehicle : traffic.f_150_lb_l
+{
+	accessories[]: .f_150_lb_l.chassis
+	accessories[]: .f_150_lb_l.fwheel
+	accessories[]: .f_150_lb_l.rwheel
+
+	max_speed: 160
+
+
+	vehicle_mass: 3000
+	tags[]: budget
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f150_colors.sui"
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .f_150_lb_l.chassis
+{
+	data_path: "/def/vehicle/ai/f_150/chassis_lb_l.sii"
+}
+
+vehicle_wheel_accessory: .f_150_lb_l.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in_o_3.sii"
+}
+
+vehicle_wheel_accessory: .f_150_lb_l.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in_o_3.sii"
+}
+
+traffic_vehicle : traffic.f_150_follow
+{
+	accessories[]: .f_150_follow.chassis
+	accessories[]: .f_150_follow.fwheel
+	accessories[]: .f_150_follow.rwheel
+
+	max_speed: 160
+
+
+	vehicle_mass: 3000
+	tags[]: budget
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f150_colors.sui"
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .f_150_follow.chassis
+{
+	data_path: "/def/vehicle/ai/f_150/chassis_follow.sii"
+}
+
+vehicle_wheel_accessory: .f_150_follow.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in_o_3.sii"
+}
+
+vehicle_wheel_accessory: .f_150_follow.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in_o_3.sii"
+}
+
+
+
+
+

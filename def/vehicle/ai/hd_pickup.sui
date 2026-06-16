@@ -1,0 +1,409 @@
+traffic_vehicle : traffic.hd_pickup
+{
+	accessories[]: .hd_pickup.chassis
+	accessories[]: .hd_pickup.fwheel
+	accessories[]: .hd_pickup.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+
+	
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+
+
+
+traffic_vehicle : traffic.hd_pickup.boat
+{
+	accessories[]: .hd_pickup.boat.chassis
+	accessories[]: .hd_pickup.boat.fwheel
+	accessories[]: .hd_pickup.boat.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 4500 # +1500kg trailer
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+	trailer_chains[]: "trailer.ai_car.speedboat"
+	
+	spawn_ratio: 0.1
+
+	
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.boat.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis_boat.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.boat.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.boat.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+
+
+
+
+
+
+
+
+
+traffic_vehicle : traffic.hd_pickup.utility
+{
+	accessories[]: .hd_pickup.utility.chassis
+	accessories[]: .hd_pickup.utility.fwheel
+	accessories[]: .hd_pickup.utility.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+
+	
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.utility.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis_utility.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.utility.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.utility.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+
+
+
+
+
+traffic_vehicle : traffic.hd_pickup.flatbed
+{
+	accessories[]: .hd_pickup.flatbed.chassis
+	accessories[]: .hd_pickup.flatbed.fwheel
+	accessories[]: .hd_pickup.flatbed.rwheel
+
+	max_speed: 140
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+
+	
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.flatbed.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis_flatbed.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.flatbed.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.flatbed.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+
+
+
+
+
+
+
+traffic_vehicle : traffic.hd_pickup.cargo
+{
+	accessories[]: .hd_pickup.cargo.chassis
+	accessories[]: .hd_pickup.cargo.fwheel
+	accessories[]: .hd_pickup.cargo.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 4000 # +1000kg cargo
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+
+	
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.cargo.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis_cargo.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.cargo.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.cargo.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+
+
+###########LarusTravelTrailer################
+traffic_vehicle : traffic.hd_pickup.larus_tt_23
+{
+	accessories[]: .hd_pickup.larus_tt_23.chassis
+	accessories[]: .hd_pickup.larus_tt_23.fwheel
+	accessories[]: .hd_pickup.larus_tt_23.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 3750 # +750kg trailer
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+	trailer_chains[]: "trailer.larus.trailer.travel_23"
+	
+	spawn_ratio: 0.1
+
+	
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.larus_tt_23.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.larus_tt_23.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.larus_tt_23.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+
+
+
+
+traffic_vehicle : traffic.hd_pickup.crane
+{
+	accessories[]: .hd_pickup.crane.chassis
+	accessories[]: .hd_pickup.crane.fwheel
+	accessories[]: .hd_pickup.crane.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 4000 # +1000kg crane
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+
+	
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.crane.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis_crane.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.crane.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.crane.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+############ TOUR Arizona Rework ##########
+
+traffic_vehicle : traffic.hd_pickup.tour
+{
+	accessories[]: .hd_pickup.tour.chassis
+	accessories[]: .hd_pickup.tour.fwheel
+	accessories[]: .hd_pickup.tour.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	#tags[]: context
+	
+
+	vehicle_mass: 3000
+
+
+	color[]: (0.3325, 0.3663, 0.3864)
+
+
+	
+@include "drivers_generic.sui"
+
+spawn_condition[]: .traffic.tourtruck.condition.city
+	
+}
+
+vehicle_accessory: .hd_pickup.tour.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis_tour.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.tour.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_hdpickup.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.tour.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_hdpickup.sii"
+}
+
+traffic_spawn_condition: .traffic.tourtruck.condition.city
+{
+	#spawn only near city with specified name
+	type: city
+	str_param[]: "g_canyon_vlg"
+}

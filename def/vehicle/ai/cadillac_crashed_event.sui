@@ -1,0 +1,33 @@
+traffic_vehicle : traffic.cadillac_crs.event
+{
+	accessories[]: .cadillac_crs.event.chassis
+	accessories[]: .cadillac_crs.event.fwheel
+	accessories[]: .cadillac_crs.event.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 2000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/cadillac_ats_colors.sui"
+@include "/def/vehicle/ai/colors/cadillac_deville_colors.sui"
+@include "/def/vehicle/ai/colors/cadillac_escalade_colors.sui"
+}
+
+vehicle_accessory: .cadillac_crs.event.chassis
+{
+	data_path: "/def/vehicle/ai/cadillac_crashed/event.sii"
+}
+
+vehicle_wheel_accessory: .cadillac_crs.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .cadillac_crs.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

@@ -1,0 +1,574 @@
+
+traffic_rule_data : traffic_rule.s_car_l
+{
+	# name: "Spawn density car low"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+@include "/def/world/traffic_times/s_car_l_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_car_h
+{
+	# name: "Spawn density car high"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+@include "/def/world/traffic_times/s_car_h_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_car_u
+{
+	# name: "Spawn density car urban"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+@include "/def/world/traffic_times/s_car_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_car_uh
+{
+	# name: "Spawn density car urban high density"
+
+	rule: "density"
+
+	str_params[]: "car"
+
+@include "/def/world/traffic_times/s_car_uh_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_car_cs_u
+{
+	# name: "Spawn density urban-specific cars (small city)"
+
+	rule: "density"
+
+	str_params[]: "car_custom urban !large_city"
+
+@include "/def/world/traffic_times/s_car_cs_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_car_c_u
+{
+	# name: "Spawn density urban-specific cars"
+
+	rule: "density"
+
+	str_params[]: "car_custom urban"
+
+@include "/def/world/traffic_times/s_car_c_u_traffic_times.sui"
+}
+
+
+traffic_rule_data : traffic_rule.s_trl_u
+{
+	# name: "Spawn density light trucks urban"
+
+	rule: "density"
+
+	str_params[]: "truck_light"
+
+@include "/def/world/traffic_times/s_trl_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_trl_r
+{
+	# name: "Spawn density light trucks rural"
+
+	rule: "density"
+
+	str_params[]: "truck_light"
+
+@include "/def/world/traffic_times/s_trl_r_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_trl_t
+{
+	# name: "Spawn density light trucks tourist"
+
+	rule: "density"
+
+	str_params[]: "truck_light tourist"
+
+@include "/def/world/traffic_times/s_trl_t_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_trm_u
+{
+	# name: "Spawn density medium trucks urban"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.5 0.35 0.15"
+	str_params[]: "truck_medium"
+
+@include "/def/world/traffic_times/s_trm_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_trm_r
+{
+	# name: "Spawn density medium trucks rural"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.9 0.1 0.0"
+	str_params[]: "truck_medium"
+
+@include "/def/world/traffic_times/s_trm_r_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_trm_f
+{
+	# name: "Spawn density medium trucks freeway"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.6 0.3 0.1"
+	str_params[]: "truck_medium"
+
+@include "/def/world/traffic_times/s_trm_f_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_trh_u
+{
+	# name: "Spawn density heavy (non-semi) trucks urban"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.5 0.35 0.15"
+	str_params[]: "truck_heavy"
+
+@include "/def/world/traffic_times/s_trh_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_trh_r
+{
+	# name: "Spawn density heavy (non-semi) trucks rural"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.95 0.05 0.0"
+	str_params[]: "truck_heavy"
+
+@include "/def/world/traffic_times/s_trh_r_traffic_times.sui"
+}
+
+
+traffic_rule_data : traffic_rule.s_truck_l
+{
+	# name: "Spawn density truck low"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.95 0.05 0.0"
+	str_params[]: "truck"
+
+@include "/def/world/traffic_times/s_truck_l_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_d_l
+{
+	# name: "Spawn density truck-long"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.95 0.05 0.0"
+	str_params[]: "truck_long"
+
+@include "/def/world/traffic_times/s_truck_d_l_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_h
+{
+	# name: "Spawn density truck high"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.65 0.25 0.1"
+	str_params[]: "truck"
+
+@include "/def/world/traffic_times/s_truck_h_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_f
+{
+	# name: "Spawn density truck freeway"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.65 0.25 0.1"
+	str_params[]: "truck"
+
+@include "/def/world/traffic_times/s_truck_f_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_u
+{
+	# name: "Spawn density truck urban"
+
+	rule: "density"
+
+	str_params[]: "truck"
+
+@include "/def/world/traffic_times/s_truck_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_cs_u
+{
+	# name: "Spawn density urban-specific trucks (small city)"
+
+	rule: "density"
+
+	str_params[]: "truck_custom urban !large_city"
+
+@include "/def/world/traffic_times/s_truck_cs_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_c_u
+{
+	# name: "Spawn density urban-specific trucks"
+
+	rule: "density"
+
+	str_params[]: "truck_custom urban"
+
+@include "/def/world/traffic_times/s_truck_c_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_bus_l
+{
+	# name: "Spawn density bus low"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.9 0.1 0.0"
+	str_params[]: "bus"
+
+@include "/def/world/traffic_times/s_bus_l_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_bus_h
+{
+	# name: "Spawn density bus high"
+
+	rule: "density"
+
+	str_params[]: "lanes: 0.8 0.15 0.05"
+	str_params[]: "bus"
+
+@include "/def/world/traffic_times/s_bus_h_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_police
+{
+	# name: "Spawn density police (highway patrol)"
+
+	rule: "density"
+
+	str_params[]: "police highway"
+
+@include "/def/world/traffic_times/s_police_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_police_u
+{
+	# name: "Spawn density police (urban)"
+
+	rule: "density"
+
+	str_params[]: "police urban"
+
+@include "/def/world/traffic_times/s_police_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_tram
+{
+	# name: "Spawn density tram"
+
+	rule: "density"
+
+	str_params[]: "tram"
+
+@include "/def/world/traffic_times/s_tram_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_tram_c
+{
+	# name: "Spawn density tram custom"
+
+	rule: "density"
+
+	str_params[]: "tram context"
+
+@include "/def/world/traffic_times/s_tram_c_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_crg
+{
+	# name: "Spawn density cargo train"
+
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 500"
+	str_params[]: "train cargo"
+
+@include "/def/world/traffic_times/s_train_crg_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_m
+{
+	# name: "Spawn density metro trains"
+
+	rule: "density"
+
+	str_params[]: "train_custom metro"
+
+@include "/def/world/traffic_times/s_train_m_traffic_times.sui"
+}
+
+
+traffic_rule_data : traffic_rule._s_train_c2
+{
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 500"
+	str_params[]: "train cargo"
+	str_params[]: "train_car.trplane_car 1 | train_car.trplane_care 1-3 | train_car.trplane_car 1-3 | train_car.trplane_care 1-2 | train_car.trplane_car 1-2 | train_car.trplane_care 1"
+
+@include "/def/world/traffic_times/s_train_crg_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_c2
+{
+	name: "[obsolete] Spawn density - cargo train (plane)"
+
+	str_params[]: "Please replace with '[context] Company area (depot)' and add item tag 'plane'."
+	additional_rules[]: traffic_rule._s_train_c2
+}
+
+traffic_rule_data : traffic_rule._s_train_c3
+{
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 500"
+	str_params[]: "train cargo"
+	str_params[]: "train_car.tube 6-16"
+
+@include "/def/world/traffic_times/s_train_crg_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_c3
+{
+	name: "[obsolete] Spawn density - cargo train (windturb - co)"
+
+	str_params[]: "Please replace with '[context] Company area (depot)' and add item tag 'wind_turbine'."
+	additional_rules[]: traffic_rule._s_train_c3
+}
+
+traffic_rule_data : traffic_rule._s_train_cw
+{
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 500"
+	str_params[]: "train cargo"
+	str_params[]: "train_car.cargo.wood 6-16"
+
+@include "/def/world/traffic_times/s_train_crg_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_cw
+{
+	name: "[obsolete] Spawn density - cargo train (wood full)"
+
+	str_params[]: "Please replace with '[context] Company area (depot)' and add item tag 'wood_full'."
+	additional_rules[]: traffic_rule._s_train_cw
+}
+
+traffic_rule_data : traffic_rule._s_train_cwe
+{
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 500"
+	str_params[]: "train cargo"
+	str_params[]: "train_car.cargo.wood_e 6-16"
+
+@include "/def/world/traffic_times/s_train_crg_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_cwe
+{
+	name: "[obsolete] Spawn density - cargo train (wood empty)"
+
+	str_params[]: "Please change to '[context] Company area (depot)' and add item tag 'wood_empty'."
+	additional_rules[]: traffic_rule._s_train_cwe
+}
+
+traffic_rule_data : traffic_rule.s_train_crgl
+{
+	# name: "Spawn density - 'low' cargo train (no containers)"
+
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 500"
+	str_params[]: "train cargo"
+	str_params[]: "train_car.cargo.tank 6-16"
+	str_params[]: "train_car.cargo.dump 6-16"
+	str_params[]: "train_car.cargo.box 6-16"
+	str_params[]: "train_car.cargo.grain 6-16"
+
+@include "/def/world/traffic_times/s_train_crg_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_p
+{
+	# name: "Spawn density passenger train"
+
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 500"
+	str_params[]: "train passenger"
+
+@include "/def/world/traffic_times/s_train_p_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_w
+{
+	# name: "Spawn density train wire (passenger only)"
+
+	rule: "density"
+
+	str_params[]: "crossing_distance_min: 400"
+	str_params[]: "train_wire"
+
+@include "/def/world/traffic_times/s_train_w_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_train_dp
+{
+	# name: "Spawn density train depot"
+
+	rule: "density"
+
+	str_params[]: "exclusive: true" # Ensure spawning only at exclusively allowed places (i.e. rails)
+	str_params[]: "context: true"
+
+	str_params[]: "crossing_distance_min: 200"
+	str_params[]: "train cargo"
+	str_params[]: "train depot 5-9"
+	str_params[]: "train depot_short 2-3"
+
+@include "/def/world/traffic_times/s_train_dp_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_c_d
+{
+	# name: "Spawn density truck_custom depot"
+
+	rule: "density"
+
+	str_params[]: "truck_custom context"
+
+@include "/def/world/traffic_times/s_truck_c_d_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_d
+{
+	# name: "Spawn density truck depot"
+
+	rule: "density"
+
+	str_params[]: "ranged: true"
+	str_params[]: "context: true"
+
+	str_params[]: "truck"
+	str_params[]: "truck context"
+
+@include "/def/world/traffic_times/s_truck_c_d_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_car_d
+{
+	# name: "Spawn density car depot"
+
+	rule: "density"
+
+	str_params[]: "ranged: true"
+	str_params[]: "context: true"
+
+	str_params[]: "lanes: 0.6 0.3 0.1"
+	str_params[]: "car"
+
+@include "/def/world/traffic_times/s_car_d_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_car_c_d
+{
+	# name: "Spawn density car_custom depot"
+
+	rule: "density"
+
+	str_params[]: "car_custom context"
+
+@include "/def/world/traffic_times/s_car_c_d_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_slow
+{
+	# name: "Spawn density slow"
+
+	rule: "density"
+
+	str_params[]: "truck_custom slow"
+
+@include "/def/world/traffic_times/s_slow_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_truck_r
+{
+	# name: "Spawn density truck rural"
+
+	rule: "density"
+
+	str_params[]: "truck_custom rural"
+
+@include "/def/world/traffic_times/s_truck_r_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_cust_r
+{
+	# name: "Spawn density custom rural"
+
+	# NOTE: Allow only single spawn density with spawn count limit set to 1
+	# until vehicles are able to avoid each other at narrow (field/walk) roads.
+	additional_rules[]: traffic_rule.s_truck_r
+}
+
+traffic_rule_data : traffic_rule.s_medical_u
+{
+	# name: "Spawn density medical (urban)"
+
+	rule: "density"
+
+	str_params[]: "medical"
+
+@include "/def/world/traffic_times/s_medical_u_traffic_times.sui"
+}
+
+traffic_rule_data : traffic_rule.s_fire_u
+{
+	# name: "Spawn density fire (urban)"
+
+	rule: "density"
+
+	str_params[]: "fire"
+
+@include "/def/world/traffic_times/s_fire_u_traffic_times.sui"
+}
+
+

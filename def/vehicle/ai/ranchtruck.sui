@@ -1,0 +1,93 @@
+traffic_vehicle : traffic.ranchtruck
+{
+	accessories[]: .ranchtruck.chassis
+	accessories[]: .ranchtruck.fwheel
+	accessories[]: .ranchtruck.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	tags[]: rural
+	tags[]: cheap
+	tags[]: common
+	
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+
+	vehicle_mass: 2000
+
+	variant[]: traffic.ranchtruck.hc 
+
+	spawn_ratio: 0.5
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .ranchtruck.chassis
+{
+	data_path: "/def/vehicle/ai/ranchtruck/chassis_fullcolor.sii"
+}
+
+vehicle_wheel_accessory: .ranchtruck.fwheel
+
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o.sii"
+}
+
+vehicle_wheel_accessory: .ranchtruck.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o.sii"
+}
+
+
+traffic_vehicle : traffic.ranchtruck.hc
+{
+	accessories[]: .ranchtruck.hc.chassis
+	accessories[]: .ranchtruck.hc.fwheel
+	accessories[]: .ranchtruck.hc.rwheel
+
+	max_speed: 120
+
+	tags[]: rural
+	tags[]: cheap
+	tags[]: common
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+
+	vehicle_mass: 2000
+
+	spawn_ratio: 0.2
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .ranchtruck.hc.chassis
+{
+	data_path: "/def/vehicle/ai/ranchtruck/chassis_halfcolor.sii"
+}
+
+vehicle_wheel_accessory: .ranchtruck.hc.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o.sii"
+}
+
+vehicle_wheel_accessory: .ranchtruck.hc.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o.sii"
+}

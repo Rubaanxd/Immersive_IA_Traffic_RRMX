@@ -1,0 +1,204 @@
+traffic_vehicle : traffic.featan.pickup
+{
+	accessories[]: .featan.pickup.chassis
+	accessories[]: .featan.pickup.fwheel
+	accessories[]: .featan.pickup.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f250_colors.sui"
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .featan.pickup.chassis
+{
+	data_path: "/def/vehicle/ai/featan_modular_truck_25/chassis.sii"
+}
+
+vehicle_wheel_accessory: .featan.pickup.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_offroad.sii"
+}
+
+vehicle_wheel_accessory: .featan.pickup.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_offroad.sii"
+}
+
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+traffic_vehicle : traffic.featan.service
+{
+	accessories[]: .featan.service.chassis
+	accessories[]: .featan.service.fwheel
+	accessories[]: .featan.service.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	variant[]: traffic.featan.highway
+	variant[]: traffic.featan.hook
+
+
+	vehicle_mass: 3000
+
+	spawn_ratio: 0.1
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f250_colors.sui"
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .featan.service.chassis
+{
+	data_path: "/def/vehicle/ai/featan_modular_truck_25/service.sii"
+}
+
+vehicle_wheel_accessory: .featan.service.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_offroad.sii"
+}
+
+vehicle_wheel_accessory: .featan.service.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_offroad.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+traffic_vehicle : traffic.featan.highway
+{
+	accessories[]: .featan.highway.chassis
+	accessories[]: .featan.highway.fwheel
+	accessories[]: .featan.highway.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f250_colors.sui"
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .featan.highway.chassis
+{
+	data_path: "/def/vehicle/ai/featan_modular_truck_25/highway.sii"
+}
+
+vehicle_wheel_accessory: .featan.highway.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_offroad.sii"
+}
+
+vehicle_wheel_accessory: .featan.highway.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_offroad.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.featan.hook
+{
+	accessories[]: .featan.hook.chassis
+	accessories[]: .featan.hook.fwheel
+	accessories[]: .featan.hook.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+
+
+	vehicle_mass: 3750 # +750kg trailer
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f250_colors.sui"
+	
+	
+	trailer_chains[]: "trailer.ai_car.camper"
+	trailer_chains[]: "trailer.ai_car.util_buggy"
+	trailer_chains[]: "trailer.ai_car.util_boat"
+	trailer_chains[]: "trailer.ai_car.horse"
+	trailer_chains[]: "trailer.ai_car.small_cargo1"
+	trailer_chains[]: "trailer.ai_car.small_cargo2"
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .featan.hook.chassis
+{
+	data_path: "/def/vehicle/ai/featan_modular_truck_25/chassis_hook.sii"
+}
+
+vehicle_wheel_accessory: .featan.hook.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_offroad.sii"
+}
+
+vehicle_wheel_accessory: .featan.hook.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_offroad.sii"
+}

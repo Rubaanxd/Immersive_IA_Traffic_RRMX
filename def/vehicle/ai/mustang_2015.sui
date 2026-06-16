@@ -1,0 +1,108 @@
+traffic_vehicle : traffic.mustang_2015
+{
+	accessories[]: .mustang_2015.chassis
+	accessories[]: .mustang_2015.fwheel
+	accessories[]: .mustang_2015.rwheel
+
+	max_speed: 300
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_mustang_colors.sui"
+	
+	vehicle_mass: 1600
+	
+	variant[]: traffic.mustang_conv
+	tags[]: expensive
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .mustang_2015.chassis
+{
+	data_path: "/def/vehicle/ai/mustang_2015/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mustang_2015.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_mustang.sii"
+}
+
+vehicle_wheel_accessory: .mustang_2015.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_mustang.sii"
+}
+
+
+traffic_vehicle : traffic.mustang_conv
+{
+	accessories[]: .mustang_conv.chassis
+	accessories[]: .mustang_conv.fwheel
+	accessories[]: .mustang_conv.rwheel
+
+	max_speed: 300
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_mustang_colors.sui"
+	
+	vehicle_mass: 1600
+
+	spawn_condition[]: .traffic.mustang_conv.condition.weather
+	spawn_condition[]: .traffic.mustang_conv.condition.time
+	tags[]: expensive
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .mustang_conv.chassis
+{
+	data_path: "/def/vehicle/ai/mustang_2015/chassis_convert.sii"
+}
+
+vehicle_wheel_accessory: .mustang_conv.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_19in_l.sii"
+}
+
+vehicle_wheel_accessory: .mustang_conv.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_19in_l.sii"
+}
+
+traffic_spawn_condition: .traffic.mustang_conv.condition.weather
+{
+	# spawn only in nice weather
+	type: weather
+	num_param[]: 0
+}
+
+traffic_spawn_condition: .traffic.mustang_conv.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 08:00 - 21:00
+	num_param[]: 480
+	num_param[]: 1260
+}

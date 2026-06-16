@@ -1,0 +1,44 @@
+#glass transporter
+
+traffic_vehicle : traffic.f350_hd_g
+{
+	accessories[]: .f350_hd_g.chassis
+	accessories[]: .f350_hd_g.fwheel
+	accessories[]: .f350_hd_g.rwheel
+
+	max_speed: 100
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	tags[]: heavy_duty
+
+    base: traffic.f350_hd
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f350_colors.sui"
+
+	vehicle_mass: 2750 # +750kg cargo
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .f350_hd_g.chassis
+{
+	data_path: "/def/vehicle/ai/f350_heavy_duty/chassis_g.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_g.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_g.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}

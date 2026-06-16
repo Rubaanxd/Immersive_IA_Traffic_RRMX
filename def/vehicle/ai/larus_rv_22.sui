@@ -1,0 +1,75 @@
+
+traffic_vehicle : traffic.larus.rv.22
+{
+	accessories[]: .larus.rv.22.chassis
+	accessories[]: .larus.rv.22.fwheel
+	accessories[]: .larus.rv.22.rwheel
+
+	max_speed: 100
+	vehicle_mass: 15000
+	engine_power: 336
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	spawn_ratio: 0.1
+	variant[]: traffic.larus.rv.22.orange
+
+	license_plate_type: car
+
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .larus.rv.22.chassis
+{
+	data_path: "/def/vehicle/ai/larus_rv_22/chassis_blue.sii"
+}
+vehicle_wheel_accessory: .larus.rv.22.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+vehicle_wheel_accessory: .larus.rv.22.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+traffic_vehicle : traffic.larus.rv.22.orange
+{
+	accessories[]: .larus.rv.22.orange.chassis
+	accessories[]: .larus.rv.22.orange.fwheel
+	accessories[]: .larus.rv.22.orange.rwheel
+
+	max_speed: 100
+	vehicle_mass: 15000
+	engine_power: 336
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	spawn_ratio: 0.1
+
+	license_plate_type: car
+
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .larus.rv.22.orange.chassis
+{
+	data_path: "/def/vehicle/ai/larus_rv_22/chassis_orange.sii"
+}
+vehicle_wheel_accessory: .larus.rv.22.orange.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+vehicle_wheel_accessory: .larus.rv.22.orange.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}

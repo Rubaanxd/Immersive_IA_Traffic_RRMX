@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.accord
+{
+	accessories[]: .accord.chassis
+	accessories[]: .accord.fwheel
+	accessories[]: .accord.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/honda_accord_colors.sui"
+
+	vehicle_mass: 1700
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .accord.chassis
+{
+	data_path: "/def/vehicle/ai/accord/chassis.sii"
+}
+
+vehicle_wheel_accessory: .accord.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_7.sii"
+}
+
+vehicle_wheel_accessory: .accord.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_7.sii"
+}
+

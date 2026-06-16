@@ -1,0 +1,90 @@
+traffic_vehicle : traffic.range_rover
+{
+	accessories[]: .range_rover.chassis
+	accessories[]: .range_rover.fwheel
+	accessories[]: .range_rover.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	vehicle_mass: 2500
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/land_rover_range_rover_colors.sui"
+	tags[]: expensive
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .range_rover.chassis
+{
+	data_path: "/def/vehicle/ai/range_rover/chassis.sii"
+}
+
+vehicle_wheel_accessory: .range_rover.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in_o_2.sii"
+}
+
+vehicle_wheel_accessory: .range_rover.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in_o_2.sii"
+}
+
+########## Land Rover Range Rover towing variant ##########
+traffic_vehicle : traffic.range_roverh
+{
+	accessories[]: .range_roverh.chassis
+	accessories[]: .range_roverh.fwheel
+	accessories[]: .range_roverh.rwheel
+
+	max_speed: 120
+	vehicle_mass: 3250 # +750kg trailer
+	spawn_ratio: 0.1
+	allow_parked: false
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/land_rover_range_rover_colors.sui"
+
+	tags[]: expensive
+	tags[]: common
+
+	trailer_chains[]: "trailer.ai_car.camper"
+	trailer_chains[]: "trailer.ai_car.util_buggy"
+	trailer_chains[]: "trailer.ai_car.util_boat"
+	trailer_chains[]: "trailer.ai_car.horse"
+	trailer_chains[]: "trailer.ai_car.small_cargo1"
+	trailer_chains[]: "trailer.ai_car.small_cargo2"
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .range_roverh.chassis
+{
+	data_path: "/def/vehicle/ai/range_rover/chassis_h.sii"
+}
+
+vehicle_wheel_accessory: .range_roverh.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in_o_2.sii"
+}
+
+vehicle_wheel_accessory: .range_roverh.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in_o_2.sii"
+}

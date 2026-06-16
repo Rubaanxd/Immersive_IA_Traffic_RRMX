@@ -1,0 +1,189 @@
+traffic_vehicle : traffic.mack_rd.dump
+{
+	accessories[]: .mack_rd.dump.chassis
+	accessories[]: .mack_rd.dump.fwheel
+	accessories[]: .mack_rd.dump.rwheel
+	accessories[]: .mack_rd.dump.rwheel2
+
+	max_speed: 100
+	allow_parked: false
+
+	vehicle_mass: 28800
+
+	engine_power: 330
+
+	spawn_ratio: 0.5
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/mack_rd_690_colors.sui"
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .mack_rd.dump.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/dump.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.dump.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.dump.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.dump.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX MIX XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.mack_rd.mix
+{
+	accessories[]: .mack_rd.mix.chassis
+	accessories[]: .mack_rd.mix.fwheel
+	accessories[]: .mack_rd.mix.rwheel
+	accessories[]: .mack_rd.mix.rwheel2
+
+	max_speed: 100
+
+	spawn_ratio: 0.5
+	allow_parked: false
+
+	vehicle_mass: 35000
+	engine_power: 330
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/mack_rd_690_colors.sui"
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .mack_rd.mix.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/mix.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.mix.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.mix.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.mix.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX PUMP XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.mack_rd.pump
+{
+	accessories[]: .mack_rd.pump.chassis
+	accessories[]: .mack_rd.pump.fwheel
+	accessories[]: .mack_rd.pump.rwheel
+	accessories[]: .mack_rd.pump.rwheel2
+
+	max_speed: 100
+	engine_power: 330
+
+	spawn_ratio: 0.1
+	allow_parked: false
+
+	vehicle_mass: 25000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/mack_rd_690_colors.sui"
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .mack_rd.pump.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/pump.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.pump.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.pump.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.pump.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX C CLASS CISTERN XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.mack_rd.ccistern
+{
+	accessories[]: .mack_rd.ccistern.chassis
+	accessories[]: .mack_rd.ccistern.fwheel
+	accessories[]: .mack_rd.ccistern.rwheel
+	accessories[]: .mack_rd.ccistern.rwheel2
+
+	max_speed: 100
+	engine_power: 330
+
+	spawn_ratio: 0.01
+	allow_parked: false
+
+	vehicle_mass: 37500
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/mack_rd_690_colors.sui"
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .mack_rd.ccistern.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/ccistern.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.ccistern.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.ccistern.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.ccistern.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}

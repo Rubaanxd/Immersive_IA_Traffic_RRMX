@@ -1,0 +1,3023 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (11 colors, 68 times repeated)
+	# - Gray colors:   ~21%  (44 colors, 14 times repeated)
+	# - Black colors:  ~20%  (15 colors, 40 times repeated)
+	# - Silver colors: ~11%  (14 colors, 24 times repeated)
+	# - Blue colors:   ~10%  (30 colors, 10 times repeated)
+	# - Red colors:    ~8%   (14 colors, 17 times repeated)
+	# - Green colors:  ~1.8% (20 colors, 3 times repeated)
+	# - Brown colors:  ~1.3% (11 colors, 4 times repeated)
+	# - Orange colors: ~0.6% (3 colors, 6 times repeated)
+	# - Yellow colors: ~0.2% (2 colors, 3 times repeated)
+	# - Gold colors:   ~0.2% (5 colors, 1 time repeated)
+	# - Purple colors: ~0.1% (3 colors, 1 time repeated)
+	# - Other colors:  ~0.8% (5 colors, 5 times repeated)
+
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.5520, 0.4125, 0.3231) # Maya Gold
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.0802, 0.1559, 0.1620) # Giola Green
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0630, 0.0409, 0.0356) # Desire
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.1384, 0.1714, 0.1274) # Kent Green
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.3140, 0.2623, 0.2542) # Batumi Gold
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5395, 0.5520, 0.4125) # Chablis
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper Satin
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0296, 0.0144, 0.0242) # Bournville
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.0331, 0.0513, 0.0723) # Lugano Teal
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0578, 0.0630, 0.0369) # Woodcote Green
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0612, 0.0296, 0.0307) # Barossa
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.5271, 0.0999, 0.0284) # Phoenix Orange
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper Satin
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.5089, 0.0953, 0.0437) # Madagascar Orange
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0296, 0.0144, 0.0242) # Bournville
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.0467, 0.0232, 0.0212) # Bordeaux Red
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0409, 0.0595, 0.0482) # Galway Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0273, 0.0296, 0.0185) # Epsom Green
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.2016, 0.4910, 0.4508) # Charleston Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.9823, 0.4452, 0.0060) # Yellow
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5271, 0.0999, 0.0284) # Phoenix Orange
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper Satin
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.0331, 0.0513, 0.0723) # Lugano Teal
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.3325, 0.3467, 0.2384) # Vienna Green
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0612, 0.0296, 0.0307) # Barossa
+	color[]: (0.0630, 0.0409, 0.0356) # Desire
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.0203, 0.0529, 0.0356) # British Racing Green Satin
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.0273, 0.0296, 0.0185) # Epsom Green
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0144, 0.0144, 0.0144) # Phoenicia Black
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.0976, 0.1195, 0.1095) # Tonga Green
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0976, 0.1195, 0.1095) # Tonga Green
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5271, 0.0999, 0.0284) # Phoenix Orange
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.0630, 0.0409, 0.0356) # Desire
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.2016, 0.4910, 0.4508) # Charleston Green
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.5583, 0.0630, 0.0232) # Sanguinello Orange
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0307, 0.0666, 0.0529) # Belize Green
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0331, 0.0513, 0.0723) # Lugano Teal
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0000, 0.0612, 0.0331) # Spectral British Racing Green
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.0030, 0.0482, 0.0343) # British Racing Green
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0452, 0.0110, 0.0160) # Ruffina Red
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0296, 0.0144, 0.0242) # Bournville
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.3763, 0.1500, 0.1046) # Zanzibar
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0203, 0.0529, 0.0356) # British Racing Green
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5583, 0.0630, 0.0232) # Sanguinello Orange
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.0802, 0.1559, 0.1620) # Giola Green
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0976, 0.0409, 0.0612) # Rossello Red
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.0953, 0.1221, 0.0999) # Belgravia Green
+	color[]: (0.5089, 0.0953, 0.0437) # Madagascar Orange
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.9823, 0.4452, 0.0060) # Yellow
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.6308, 0.5520, 0.3763) # Sunset Gold Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.1746, 0.1356, 0.1221) # Nara Bronze
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown Satin
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.7084, 0.4287, 0.0452) # Borrego Yellow
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0409, 0.0595, 0.0482) # Galway Green
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.0953, 0.1221, 0.0999) # Belgravia Green
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.2016, 0.4910, 0.4508) # Charleston Green
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0203, 0.0529, 0.0356) # British Racing Green Satin
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.3763, 0.1500, 0.1046) # Zanzibar
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.2016, 0.4910, 0.4508) # Charleston Green
+	color[]: (0.3005, 0.3564, 0.3140) # Lucerne Green
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.3325, 0.3467, 0.2384) # Vienna Green
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.5089, 0.0953, 0.0437) # Madagascar Orange
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.0103, 0.0452, 0.0343) # Aintree Green
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.5210, 0.3095, 0.2307) # Corinthian Bronze
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5841, 0.4793, 0.3663) # Atacama Sand
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0953, 0.1221, 0.0999) # Belgravia Green
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.0887, 0.1144, 0.1046) # Keswick Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0130, 0.0382, 0.0252) # British Racing Green
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.5271, 0.5583, 0.4910) # Rio Gold
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.5583, 0.0630, 0.0232) # Sanguinello Orange
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0030, 0.0482, 0.0343) # British Racing Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.5395, 0.5520, 0.4125) # Chablis
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.3005, 0.3564, 0.3140) # Lucerne Green
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0203, 0.0529, 0.0356) # British Racing Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.0144, 0.0144, 0.0144) # Phoenicia Black
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0144, 0.0144, 0.0144) # Phoenicia Black
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.0802, 0.1559, 0.1620) # Giola Green
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0630, 0.0409, 0.0356) # Desire
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0331, 0.0513, 0.0723) # Lugano Teal
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.0137, 0.0762, 0.0887) # Petrolix Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.0802, 0.0612, 0.0595) # Havana
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.0000, 0.0612, 0.0331) # Spectral British Racing Green
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0137, 0.0762, 0.0887) # Petrolix Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper Satin
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.7084, 0.4287, 0.0452) # Borrego Yellow
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.1746, 0.1356, 0.1221) # Nara Bronze
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.0103, 0.0452, 0.0343) # Aintree Green
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown Satin
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.3185, 0.3916, 0.4564) # Helsinki
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0887, 0.1144, 0.1046) # Keswick Green
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3005, 0.3564, 0.3140) # Lucerne Green
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.5089, 0.0953, 0.0437) # Madagascar Orange
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0296, 0.0144, 0.0242) # Bournville
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.5271, 0.5583, 0.4910) # Rio Gold
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.0409, 0.0595, 0.0482) # Galway Green
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.5841, 0.4793, 0.3663) # Atacama Sand
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.0802, 0.0612, 0.0595) # Havana
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0296, 0.0144, 0.0242) # Bournville
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.5210, 0.3095, 0.2307) # Corinthian Bronze
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0802, 0.0612, 0.0595) # Havana
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0203, 0.0529, 0.0356) # British Racing Green Satin
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.5210, 0.3095, 0.2307) # Corinthian Bronze
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0307, 0.0666, 0.0529) # Belize Green
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5089, 0.0953, 0.0437) # Madagascar Orange
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.5841, 0.4793, 0.3663) # Atacama Sand
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0000, 0.0612, 0.0331) # Spectral British Racing Green
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.5841, 0.4793, 0.3663) # Atacama Sand
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.5271, 0.5583, 0.4910) # Rio Gold
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0203, 0.0529, 0.0356) # British Racing Green
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0307, 0.0666, 0.0529) # Belize Green
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0130, 0.0382, 0.0252) # British Racing Green
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.0612, 0.0296, 0.0307) # Barossa
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0612, 0.0296, 0.0307) # Barossa
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.1022, 0.1441, 0.1878) # Marmaris Teal
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.1746, 0.1356, 0.1221) # Nara Bronze
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.5395, 0.5520, 0.5711) # Indus
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.2346, 0.2918, 0.2789) # Scotia Gray
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.1046, 0.0953, 0.1144) # Bonatti Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0103, 0.0452, 0.0343) # Aintree Green
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper Satin
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.1746, 0.1356, 0.1221) # Nara Bronze
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5271, 0.0999, 0.0284) # Phoenix Orange
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.5210, 0.3095, 0.2307) # Corinthian Bronze
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.0144, 0.0144, 0.0144) # Phoenicia Black
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.0578, 0.0630, 0.0369) # Woodcote Green
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.0467, 0.0232, 0.0212) # Bordeaux Red
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver Satin
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.2086, 0.2423, 0.2542) # Arroios Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0976, 0.1195, 0.1095) # Tonga Green
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.5271, 0.0999, 0.0284) # Phoenix Orange
+	color[]: (0.0030, 0.0482, 0.0343) # British Racing Green
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.5583, 0.0630, 0.0232) # Sanguinello Orange
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0723, 0.0887, 0.1274) # Nebula Blue
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0467, 0.0232, 0.0212) # Bordeaux Red
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.5089, 0.0953, 0.0437) # Madagascar Orange
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0065, 0.0369, 0.2270) # Estoril Blue
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.1356, 0.1274, 0.1356) # Corris Gray
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0999, 0.0648, 0.0409) # Tourmaline Brown Satin
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0030, 0.0865, 0.1620) # Spectral Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0467, 0.0685, 0.1046) # Cairns Blue
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.3325, 0.3467, 0.2384) # Vienna Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver Satin
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.2384, 0.2582, 0.3372) # Izmir
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.6308, 0.5520, 0.3763) # Sunset Gold
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.1274, 0.2874, 0.4678) # Byron Blue
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.3372, 0.1046, 0.1070) # Sunrise Copper
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue Satin
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.1248, 0.0024, 0.0091) # Spectral Racing Red
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal Frost Silver
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.0222, 0.0331, 0.0356) # Bosphorus Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.5271, 0.5333, 0.5395) # Hakuba Silver
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity
+	color[]: (0.5583, 0.0630, 0.0232) # Sanguinello Orange
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.0409, 0.0685, 0.0887) # Tribeca Blue
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0097, 0.0222, 0.0685) # Bluefire
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0742, 0.1095, 0.1845) # Portofino Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0273, 0.0296, 0.0185) # Epsom Green
+	color[]: (0.5583, 0.0630, 0.0232) # Sanguinello Orange
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.0887, 0.1144, 0.1046) # Keswick Green
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.0137, 0.0762, 0.0887) # Petrolix Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.3763, 0.1500, 0.1046) # Zanzibar
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0065, 0.0194, 0.0666) # Balmoral Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.5271, 0.5711, 0.6514) # Eiger Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.1529, 0.0160, 0.0137) # Alveston Red
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.0052, 0.0110, 0.0232) # Buckingham Blue
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.1095, 0.0953, 0.1046) # Charente Grey
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0782, 0.0908, 0.1195) # Amethyst Grey Purple
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.3467, 0.3140, 0.2961) # Kaikoura Stone
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.1384, 0.1714, 0.1274) # Kent Green
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0222, 0.0319, 0.0648) # Loire
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0723, 0.0742, 0.0723) # Waitomo Gray
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0040, 0.0024, 0.0086) # Caracal Black
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.8469, 0.0000, 0.0018) # Monza Red
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Satin
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0612, 0.0723, 0.0931) # Avalon Blue
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.9823, 0.4452, 0.0060) # Yellow
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.3515, 0.3419, 0.3140) # Ipanema Sand
+	color[]: (0.0040, 0.0024, 0.0086) # Beluga Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7084, 0.4287, 0.0452) # Borrego Yellow
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.0545, 0.0467, 0.0482) # Causeway Gray
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0331, 0.0513, 0.0723) # Lugano Teal
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.1441, 0.1683, 0.1651) # Giverny Green
+	color[]: (0.0137, 0.0273, 0.0545) # Constellation Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.3467, 0.0080, 0.0144) # Firenze Red
+	color[]: (0.5906, 0.6724, 0.6867) # Zermatt Silver
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0802, 0.0612, 0.0595) # Havana
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.2346, 0.2051, 0.2159) # Stornaway Gray
+	color[]: (0.0331, 0.0497, 0.0844) # Windjammer Blue
+	color[]: (0.0513, 0.0497, 0.0685) # Niagara
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.1248, 0.2307, 0.2789) # Windward Gray
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.6172, 0.5210, 0.4621) # White Gold
+	color[]: (0.0382, 0.0513, 0.0782) # Tamar Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7379, 0.7454, 0.6939) # Alaska White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.0578, 0.1248, 0.3050) # Monte Carlo Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.2270, 0.3515, 0.4678) # Icelandic Blue
+	color[]: (0.3916, 0.4125, 0.4287) # Ethereal
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0203, 0.0252, 0.0976) # Bali Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Santorini Black
+	color[]: (0.6308, 0.6308, 0.6308) # Verbier Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.3763, 0.1500, 0.1046) # Zanzibar
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.3712, 0.0356, 0.0194) # Chile
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Barolo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.5149, 0.5583, 0.6240) # Flux Silver
+	color[]: (0.0222, 0.0319, 0.0648) # Loire Blue
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.0467, 0.0232, 0.0212) # Bordeaux Red
+	color[]: (0.5395, 0.5520, 0.4125) # Chablis
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.1441, 0.1683, 0.1651) # Giverney Green
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.0130, 0.0382, 0.0252) # British Racing Green
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.0176, 0.0331, 0.0648) # Baltic Blue
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7682, 0.7835, 0.6867) # Chawton White
+	color[]: (0.4793, 0.0000, 0.0018) # Rutland Red
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.3095, 0.3278, 0.3613) # Lantau Bronze
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.2664, 0.0232, 0.0194) # Rimini Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.3005, 0.0331, 0.0185) # Tobago Spice
+	color[]: (0.0578, 0.0630, 0.0369) # Woodcote Green
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White Pearl
+	color[]: (0.0296, 0.0030, 0.0052) # Mescalito Black
+	color[]: (0.0865, 0.1022, 0.1221) # Nolita Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.0844, 0.1046, 0.1046) # Keswick Green
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.5089, 0.5333, 0.5520) # Zambezi Silver
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White Satin
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Silver
+	color[]: (0.4452, 0.4233, 0.4072) # Marl Grey
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.5972, 0.5906, 0.5776) # Borasco Grey
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.0009, 0.0027, 0.0065) # Ligurian Black Satin
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0194, 0.0887, 0.3185) # Ultra Blue
+	color[]: (0.6172, 0.5583, 0.5271) # Luxor
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.2346, 0.2051, 0.2159) # Stornoway Gray
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.1384, 0.1714, 0.1274) # Kent Green
+	color[]: (0.5149, 0.4910, 0.4621) # Aruba
+	color[]: (0.1529, 0.0160, 0.0137) # Copperleaf Red
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0513, 0.0232, 0.0395) # Barossa
+	color[]: (0.3231, 0.0000, 0.0044) # Rioja Red
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Satin
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.1248, 0.1248, 0.0999) # Willow Green
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3140, 0.3140, 0.3140) # Seoul Pearl Silver
+	color[]: (0.3231, 0.0000, 0.0044) # Flame Red
+	color[]: (0.5149, 0.6038, 0.6038) # Arctic Frost
+	color[]: (0.0194, 0.0232, 0.0529) # Oslo Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidean Black Satin
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.4969, 0.5395, 0.5089) # Ionian Silver
+	color[]: (0.0685, 0.4397, 0.8070) # Moraine Blue
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.5395, 0.5520, 0.5711) # Indus Silver
+	color[]: (0.5906, 0.6172, 0.6172) # Ostuni Pearl White
+	color[]: (0.5271, 0.0999, 0.0284) # Phoenix Orange
+	color[]: (0.0144, 0.0144, 0.0409) # Oxford Blue
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.0080, 0.0110, 0.0091) # Borealis Black
+	color[]: (0.6654, 0.6376, 0.6038) # Blenheim Silver
+	color[]: (0.0185, 0.0704, 0.4179) # Velocity Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Yulong White
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.2086, 0.2270, 0.2307) # Zadar Grey
+	color[]: (0.4910, 0.4969, 0.5029) # Icy White
+	color[]: (0.1274, 0.1170, 0.1170) # Flux Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Mescalito Black
+	color[]: (0.0048, 0.0103, 0.0144) # Mariana Black
+	color[]: (0.1274, 0.1170, 0.1170) # Flux
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.2270, 0.0097, 0.0130) # Montalcino Red
+	color[]: (0.0497, 0.0497, 0.0513) # Carpathian Grey
+	color[]: (0.0887, 0.0723, 0.0685) # Scafell Grey
+	color[]: (0.2384, 0.2051, 0.2051) # Silicon Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fuji White
+	color[]: (0.0000, 0.0000, 0.0000) # Java Black
+	color[]: (0.5029, 0.5457, 0.5841) # Altai Silver
+	color[]: (0.2623, 0.0091, 0.0110) # Kinver Sand
+	color[]: (0.0000, 0.0000, 0.0000) # Narvik Black
+	color[]: (0.7835, 0.7605, 0.6376) # Valloire White
+	color[]: (0.5029, 0.5271, 0.6038) # Siverian Silver
+	color[]: (0.5271, 0.5583, 0.5583) # Aleutian Silver
+	color[]: (0.7682, 0.7913, 0.8148) # Fugi White
+	color[]: (0.0000, 0.0000, 0.0000) # Arabian Black
+	color[]: (0.2016, 0.4910, 0.4508) # Charleston Green
+	color[]: (0.0630, 0.0782, 0.0953) # Varesine Blue
+	color[]: (0.8308, 0.7605, 0.6724) # Alpine White
+	color[]: (0.8714, 0.9560, 0.9560) # Meribel White
+	color[]: (0.0273, 0.0319, 0.0513) # Adriatic Blue

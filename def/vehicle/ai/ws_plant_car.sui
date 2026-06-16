@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.ws_plant_car
+{
+	accessories[]: .ws_plant_car.chassis
+	accessories[]: .ws_plant_car.fwheel
+	accessories[]: .ws_plant_car.rwheel
+
+	max_speed: 160
+	
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+
+
+	prefer_variant: true
+	tags[]: budget
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .ws_plant_car.chassis
+{
+	data_path: "/def/vehicle/ai/f_150/chassis.sii"
+}
+
+vehicle_wheel_accessory: .ws_plant_car.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_20in_o_3.sii"
+}
+
+vehicle_wheel_accessory: .ws_plant_car.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in_o_3.sii"
+}

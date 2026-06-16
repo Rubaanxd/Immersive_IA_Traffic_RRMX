@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.city_exp
+{
+	accessories[]: .city_exp.chassis
+	accessories[]: .city_exp.fwheel
+	accessories[]: .city_exp.rwheel
+
+	max_speed: 100
+	allow_parked: false
+	vehicle_mass: 1800
+
+	spawn_ratio: 0.3
+		
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_city_express_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .city_exp.chassis
+{
+	data_path: "/def/vehicle/ai/city_express/chassis.sii"
+}
+
+vehicle_wheel_accessory: .city_exp.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .city_exp.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}

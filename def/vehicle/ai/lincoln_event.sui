@@ -1,0 +1,69 @@
+traffic_vehicle : traffic.lincoln_ev
+{
+	accessories[]: .lincoln_ev.chassis
+	accessories[]: .lincoln_ev.fwheel
+	accessories[]: .lincoln_ev.rwheel
+
+	max_speed: 160
+	allow_parked: false
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_mkt_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_navigator_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_town_car_colors.sui"
+
+	vehicle_mass: 2000
+}
+vehicle_accessory: .lincoln_ev.chassis
+{
+	data_path: "/def/vehicle/ai/lincoln_mkt/chassis_ev.sii"
+}
+
+vehicle_wheel_accessory: .lincoln_ev.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .lincoln_ev.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+#xxxx CRASH xxxxx
+
+traffic_vehicle : traffic.lincoln_cr
+{
+	accessories[]: .lincoln_ev.crash.chassis
+	accessories[]: .lincoln_ev.crash.fwheel
+	accessories[]: .lincoln_ev.crash.rwheel
+
+	max_speed: 160
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_mkt_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_navigator_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_town_car_colors.sui"
+	allow_parked: false
+
+	vehicle_mass: 2000
+}
+vehicle_accessory: .lincoln_ev.crash.chassis
+{
+	data_path: "/def/vehicle/ai/lincoln_mkt/chassis_crash.sii"
+}
+
+vehicle_wheel_accessory: .lincoln_ev.crash.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .lincoln_ev.crash.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

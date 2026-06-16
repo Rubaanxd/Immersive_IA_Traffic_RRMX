@@ -1,0 +1,50 @@
+traffic_vehicle : traffic.emd_sd40
+{
+	accessories[]: .emd_sd40.chassis
+	accessories[]: .emd_sd40.fwheel
+	accessories[]: .emd_sd40.rwheel
+	accessories[]: .emd_sd40.rwheel2
+	accessories[]: .emd_sd40.rwheel3
+
+	max_speed: 72
+	vehicle_mass: 160000
+	engine_power: 2240
+
+	sound_move[]: "/sound/traffic/train_diesel.soundref"
+	sound_horn[]: "/sound/traffic/train_horn_2.soundref"
+
+	tags[]: cargo
+
+@include "/def/vehicle/ai/trailer_chains/cargo_train_trailer_chains.sui"
+
+	displacement_limit: 0.0
+}
+
+vehicle_accessory: .emd_sd40.chassis
+{
+	data_path: "/def/vehicle/ai/train_emd_sd40/chassis.sii"
+}
+
+vehicle_wheel_accessory: .emd_sd40.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .emd_sd40.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .emd_sd40.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .emd_sd40.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

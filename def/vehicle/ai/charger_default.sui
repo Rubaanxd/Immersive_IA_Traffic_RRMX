@@ -1,0 +1,91 @@
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Default Variant - RT  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.charger
+{
+	accessories[]: .charger.chassis
+	accessories[]: .charger.fwheel
+	accessories[]: .charger.rwheel
+
+	max_speed: 225
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/dodge_charger_colors.sui"
+	
+	
+	vehicle_mass: 1980
+	tags[]: expensive
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .charger.chassis
+{
+	data_path: "/def/vehicle/ai/charger/chassis.sii"
+}
+
+vehicle_wheel_accessory: .charger.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_charger.sii"
+}
+
+vehicle_wheel_accessory: .charger.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_charger.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Sport Variant-SRT  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.charger_srt1
+{
+	accessories[]: .charger_srt1.chassis
+	accessories[]: .charger_srt1.fwheel
+	accessories[]: .charger_srt1.rwheel
+
+	max_speed: 280
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/dodge_charger_colors.sui"
+	
+	
+	vehicle_mass: 1980
+
+	tags[]: luxury
+	tags[]: expensive
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .charger_srt1.chassis
+{
+	data_path: "/def/vehicle/ai/charger/chassis_srt.sii"
+}
+
+vehicle_wheel_accessory: .charger_srt1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_charger.sii"
+}
+
+vehicle_wheel_accessory: .charger_srt1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_charger.sii"
+}
+

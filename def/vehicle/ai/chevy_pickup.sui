@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.chevy_pickup
+{
+	accessories[]: .chevy_pickup.chassis
+	accessories[]: .chevy_pickup.fwheel
+	accessories[]: .chevy_pickup.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_1.soundref"
+
+	vehicle_mass: 1800
+
+	spawn_ratio: 0.005
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+
+	tags[]: vintage
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .chevy_pickup.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_pickup/chassis.sii"
+}
+
+vehicle_wheel_accessory: .chevy_pickup.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_oldc.sii"
+}
+
+vehicle_wheel_accessory: .chevy_pickup.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_oldc.sii"
+}
+

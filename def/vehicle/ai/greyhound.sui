@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.greyhound
+{
+	accessories[]: .greyhound.chassis
+	accessories[]: .greyhound.fwheel
+	accessories[]: .greyhound.rwheel
+	accessories[]: .greyhound.rwheel2
+
+	max_speed: 100
+	allow_parked: false
+	
+	vehicle_mass: 20000
+	engine_power: 200
+
+	spawn_ratio: 0.1
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .greyhound.chassis
+{
+	data_path: "/def/vehicle/ai/greyhound/chassis.sii"
+}
+
+vehicle_wheel_accessory: .greyhound.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .greyhound.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .greyhound.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/t_wheel/front.sii"
+}

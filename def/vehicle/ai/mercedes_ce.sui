@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.mercedes_ce
+{
+	accessories[]: .mercedes_ce.chassis
+	accessories[]: .mercedes_ce.fwheel
+	accessories[]: .mercedes_ce.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/mercedes_benz_c_class_colors.sui"
+
+	vehicle_mass: 1700
+	
+	tags[]: cheap
+	tags[]: common
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .mercedes_ce.chassis
+{
+	data_path: "/def/vehicle/ai/mercedes_ce/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mercedes_ce.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_19in_l.sii"
+}
+
+vehicle_wheel_accessory: .mercedes_ce.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_19in_l.sii"
+}

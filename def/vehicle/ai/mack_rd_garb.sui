@@ -1,0 +1,253 @@
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX GENERIC XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.mack_rd.garb
+{
+	accessories[]: .mack_rd.garb.chassis
+	accessories[]: .mack_rd.garb.fwheel
+	accessories[]: .mack_rd.garb.rwheel
+	accessories[]: .mack_rd.garb.rwheel2
+
+	max_speed: 100
+	allow_parked: false
+
+	vehicle_mass: 32500
+
+	engine_power: 330
+
+	tags[]: urban
+	tags[]: garbage_trck
+
+	color[]: (0.9, 0.9, 0.9) #white
+	color[]: (0.8, 0.8, 0.8) #white
+
+@include "drivers_generic.sui"
+
+
+	prefer_variant: true
+	variant[]: traffic.mack_rd.garb.alb
+	variant[]: traffic.mack_rd.garb.phx
+	variant[]: traffic.mack_rd.garb.sf
+
+
+}
+
+vehicle_accessory: .mack_rd.garb.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/garb.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Albuquerque XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.mack_rd.garb.alb
+{
+	accessories[]: .mack_rd.garb.alb.chassis
+	accessories[]: .mack_rd.garb.alb.fwheel
+	accessories[]: .mack_rd.garb.alb.rwheel
+	accessories[]: .mack_rd.garb.alb.rwheel2
+
+	max_speed: 100
+	allow_parked: false
+
+	tags[]: urban
+	tags[]: garbage_trck
+
+	vehicle_mass: 32500
+
+	engine_power: 330
+
+	color[]: (0.0097, 0.0761, 0.1844) #blue
+	color[]: (0.8, 0.8, 0.8) #white
+	color[]: (0.8, 0.8, 0.8) #white
+
+@include "drivers_generic.sui"
+
+	spawn_condition[]: .traffic.mack_rd.garb.alb.albuquerque.condition.city
+	spawn_condition[]: .traffic.mack_rd.garb.alb.albuquerque.condition.time
+}
+
+vehicle_accessory: .mack_rd.garb.alb.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/alb.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.alb.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.alb.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.alb.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+traffic_spawn_condition: .traffic.mack_rd.garb.alb.albuquerque.condition.city
+{
+	# spawn only near city with name equal to traffic vehicle name suffix
+	type: city
+	str_param[]: "albuquerque"
+}
+traffic_spawn_condition: .traffic.mack_rd.garb.alb.albuquerque.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 06:00 - 16:00
+	num_param[]: 360
+	num_param[]: 960
+}
+
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Phoenix XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.mack_rd.garb.phx
+{
+	accessories[]: .mack_rd.garb.phx.chassis
+	accessories[]: .mack_rd.garb.phx.fwheel
+	accessories[]: .mack_rd.garb.phx.rwheel
+	accessories[]: .mack_rd.garb.phx.rwheel2
+
+	max_speed: 100
+	engine_power: 330
+	allow_parked: false
+
+	tags[]: urban
+	tags[]: garbage_trck
+
+	vehicle_mass: 32500
+
+	color[]: (0.3915, 0.1878, 0.0886) # brown
+	color[]: (0.4969, 0.3915, 0.2541) #light brown
+
+@include "drivers_generic.sui"
+
+	spawn_condition[]: .traffic.mack_rd.garb.phx.phoenix.condition.city
+	spawn_condition[]: .traffic.mack_rd.garb.phx.phoenix.condition.time
+
+}
+
+vehicle_accessory: .mack_rd.garb.phx.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/phx.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.phx.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.phx.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.phx.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+traffic_spawn_condition: .traffic.mack_rd.garb.phx.phoenix.condition.city
+{
+	# spawn only near city with name equal to traffic vehicle name suffix
+	type: city
+	str_param[]: "phoenix"
+}
+traffic_spawn_condition: .traffic.mack_rd.garb.phx.phoenix.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 06:00 - 16:00
+	num_param[]: 360
+	num_param[]: 960
+}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX san francisco XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.mack_rd.garb.sf
+{
+	accessories[]: .mack_rd.garb.sf.chassis
+	accessories[]: .mack_rd.garb.sf.fwheel
+	accessories[]: .mack_rd.garb.sf.rwheel
+	accessories[]: .mack_rd.garb.sf.rwheel2
+
+	max_speed: 100
+	engine_power: 330
+	allow_parked: false
+
+	tags[]: urban
+	tags[]: garbage_trck
+	
+	vehicle_mass: 32500
+
+	color[]: (0.8, 0.8, 0.8) #white
+	 color[]: (0.8, 0.8, 0.8) #white
+
+@include "drivers_generic.sui"
+
+	spawn_condition[]: .traffic.mack_rd.garb.sf.san_francisc.condition.city
+	spawn_condition[]: .traffic.mack_rd.garb.sf.san_francisc.condition.time
+
+}
+
+vehicle_accessory: .mack_rd.garb.sf.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/sf.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.sf.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.sf.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.garb.sf.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+traffic_spawn_condition: .traffic.mack_rd.garb.sf.san_francisc.condition.city
+{
+	# spawn only near city with name equal to traffic vehicle name suffix
+	type: city
+	str_param[]: "san_francisc"
+}
+traffic_spawn_condition: .traffic.mack_rd.garb.sf.san_francisc.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 06:00 - 16:00
+	num_param[]: 360
+	num_param[]: 960
+}

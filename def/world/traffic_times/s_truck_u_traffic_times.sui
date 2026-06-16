@@ -1,0 +1,140 @@
+  # This file is part of the "More realistic traffic" mod for SCS ATS.
+  #
+  # rule: traffic_rule.s_truck_u
+  # name: Spawn density truck urban
+
+  num_params[]: 0.0 # 00:00
+  num_params[]: 0.0600 # frequency
+  num_params[]: 50 # count limit
+
+  num_params[]: 1.0 # 01:00
+  num_params[]: 0.0600
+  num_params[]: 50
+
+  num_params[]: 2.0 # 02:00
+  num_params[]: 0.0650
+  num_params[]: 55
+
+  num_params[]: 3.0 # 03:00
+  num_params[]: 0.0700
+  num_params[]: 60
+
+  num_params[]: 4.0 # 04:00
+  num_params[]: 0.0800
+  num_params[]: 70
+
+  num_params[]: 5.0 # 05:00
+  num_params[]: 0.0767
+  num_params[]: 45
+
+  num_params[]: 5.5 # 05:30
+  num_params[]: 0.1017
+  num_params[]: 60
+
+  num_params[]: 6.0 # 06:00
+  num_params[]: 0.1258
+  num_params[]: 150
+
+  num_params[]: 7.0 # 07:00
+  num_params[]: 0.1508
+  num_params[]: 180
+
+  num_params[]: 8.0 # 08:00
+  num_params[]: 0.1675
+  num_params[]: 67
+
+  num_params[]: 8.3333 # 08:20
+  num_params[]: 0.1525
+  num_params[]: 61
+
+  num_params[]: 8.6667 # 08:40
+  num_params[]: 0.125
+  num_params[]: 49
+
+  num_params[]: 9.0 # 09:00
+  num_params[]: 0.1092
+  num_params[]: 130
+
+  num_params[]: 10.0 # 10:00
+  num_params[]: 0.0925
+  num_params[]: 110
+
+  num_params[]: 11.0 # 11:00
+  num_params[]: 0.11
+  num_params[]: 43
+
+  num_params[]: 11.3333 # 11:20
+  num_params[]: 0.125
+  num_params[]: 49
+
+  num_params[]: 11.6667 # 11:40
+  num_params[]: 0.1525
+  num_params[]: 61
+
+  num_params[]: 12.0 # 12:00
+  num_params[]: 0.1675
+  num_params[]: 67
+
+  num_params[]: 12.3333 # 12:20
+  num_params[]: 0.1525
+  num_params[]: 61
+
+  num_params[]: 12.6667 # 12:40
+  num_params[]: 0.125
+  num_params[]: 49
+
+  num_params[]: 13.0 # 13:00
+  num_params[]: 0.1092
+  num_params[]: 130
+
+  num_params[]: 14.0 # 14:00
+  num_params[]: 0.0925
+  num_params[]: 110
+
+  num_params[]: 15.0 # 15:00
+  num_params[]: 0.11
+  num_params[]: 43
+
+  num_params[]: 15.3333 # 15:20
+  num_params[]: 0.125
+  num_params[]: 49
+
+  num_params[]: 15.6667 # 15:40
+  num_params[]: 0.1525
+  num_params[]: 61
+
+  num_params[]: 16.0 # 16:00
+  num_params[]: 0.1675
+  num_params[]: 200
+
+  num_params[]: 17.0 # 17:00
+  num_params[]: 0.1508
+  num_params[]: 180
+
+  num_params[]: 18.0 # 18:00
+  num_params[]: 0.1267
+  num_params[]: 75
+
+  num_params[]: 18.5 # 18:30
+  num_params[]: 0.1017
+  num_params[]: 60
+
+  num_params[]: 19.0 # 19:00
+  num_params[]: 0.0758
+  num_params[]: 90
+
+  num_params[]: 20.0 # 20:00
+  num_params[]: 0.0508
+  num_params[]: 60
+
+  num_params[]: 21.0 # 21:00
+  num_params[]: 0.0550
+  num_params[]: 45
+
+  num_params[]: 22.0 # 22:00
+  num_params[]: 0.0550
+  num_params[]: 45
+
+  num_params[]: 23.0 # 23:00
+  num_params[]: 0.0600
+  num_params[]: 50

@@ -1,0 +1,79 @@
+traffic_vehicle : traffic.oldsmobile
+{
+	accessories[]: .oldsmobil.chassis
+	accessories[]: .oldsmobil.fwheel
+	accessories[]: .oldsmobil.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+	vehicle_mass: 1700
+
+	spawn_ratio: 0.005
+
+	tags[]: vintage
+
+	variant[]: traffic.oldsmobile.cabrio
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+	
+	tags[]: cheap
+
+@include "drivers_generic.sui"
+}
+vehicle_accessory: .oldsmobil.chassis
+{
+	data_path: "/def/vehicle/ai/oldsmobile/chassis_coupe.sii"
+}
+vehicle_wheel_accessory: .oldsmobil.fwheel
+{
+	data_path: "/def/vehicle/ai_wheel/front_oldm.sii"
+}
+vehicle_wheel_accessory: .oldsmobil.rwheel
+{
+	data_path: "/def/vehicle/ai_wheel/rear_oldm.sii"
+}
+
+
+traffic_vehicle : traffic.oldsmobile.cabrio
+{
+	accessories[]: .oldsmobil.cabrio.chassis
+	accessories[]: .oldsmobil.cabrio.fwheel
+	accessories[]: .oldsmobil.cabrio.rwheel
+
+	max_speed: 160
+	vehicle_mass: 1700
+
+	spawn_ratio: 0.005
+
+	tags[]: vintage
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+
+	spawn_condition[]: .traffic.oldsmobile.cabrio.condition.weather
+	tags[]: cheap
+
+
+@include "drivers_generic.sui"
+}
+vehicle_accessory: .oldsmobil.cabrio.chassis
+{
+	data_path: "/def/vehicle/ai/oldsmobile/chassis_cabrio.sii"
+}
+vehicle_wheel_accessory: .oldsmobil.cabrio.fwheel
+{
+	data_path: "/def/vehicle/ai_wheel/front_oldm.sii"
+}
+vehicle_wheel_accessory: .oldsmobil.cabrio.rwheel
+{
+	data_path: "/def/vehicle/ai_wheel/rear_oldm.sii"
+}
+traffic_spawn_condition: .traffic.oldsmobile.cabrio.condition.weather
+{
+	# spawn only in nice weater
+	type: weather
+	num_param[]: 0
+}

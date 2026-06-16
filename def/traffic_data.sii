@@ -1,0 +1,70 @@
+SiiNunit
+{
+traffic_data : .traffic.data {
+
+	max_vehicle_count: 3668 	# Total AI vehicle count limit (including trucks)
+
+	spawn_distance_forward: 550.0 	# The minimum distance for 'far' spawning in the forward direction. We assume that the player cannot see beyond this distance.
+	spawn_distance_backward: 200.0 	# The minimum distance for 'far' spawning in the backward direction. 
+	spawn_distance_min: 125.0 		# The minimum distance for 'close' spawning. We allow spawning from this distance only in places where the player really cannot see (for example thanks to FOV or cutplane).
+
+	remove_distance_forward: 700.0  # The minimum distance for 'far' despawning in the forward direction. We assume that this is too far for the player to meet any potential vehicles that would spawn beyond this distance.
+	remove_distance_backward: 300.0 # The minimum distance for 'far' despawning in the backward direction.
+	remove_distance_min: 200.0		# The minimum distance for 'close' despawning. We allow despawning from this distance only in places where the player really cannot see (for example thanks to FOV or cutplane).
+
+	## Drag length limits - virtually 'shortens' vehicles/trailers to allow then to turn in sharp curves
+	## This attribute affects only on vehicles/trailers which are LONGER than the values set.
+	## The side effect of 'shortening' is that vehicles/trailers slide to sides when turning.
+	## It is more noticeable when the real length is much bigger than the limit
+	#
+	ai_drag_length_limits[0]: 5.5   # vehicles
+	ai_drag_length_limits[1]: 11.0   # trailers
+
+	## Global AI safety modifier - influences 'safety factor' for all AI vehicles
+	## Valid values: <-1;1>  where '-1' means 'minimum safety for all' and '1' means 'maximum safety for all'
+	## Vehicles with low safety factor tend to brake more abruptly, use low spacing distances, use lights later in case of low visibility...
+	#
+	ai_safety_modifier: -0.25	# Slightly more aggressive braking/spacing for realism
+
+	## Global AI patience modifier - influences 'patience factor' for all AI vehicles
+	## Valid values: <-1;1>  where '-1' means 'minimum patience for all' and '1' means 'maximum patience for all'
+	## Vehicles with low patience factor tend to overtake more often, have lower waiting times (e.g. when yielding), use horns sooner (when blocked)...
+	#
+	ai_patience_modifier: -0.4	# More impatient = more overtakes, quicker yielding, horns sooner
+
+	## Global AI speed coefficient - influences the preferred speed relative to the speed limit
+	## Range raised so the majority of traffic runs ABOVE the posted limit (realistic highway behavior)
+	## Min 1.02 = almost no one goes slow | Max 1.22 = fast drivers push it ~20% over
+	ai_speed_coef_preferred: (1.02, 1.22)
+
+	## Horn and blink delay intervals - how long before an AI vehicle uses its horn (e.g. when blocked)
+	## or lights (e.g. when yielding) to notify other vehicle about something
+	## The actual value used depends on vehicle's 'patience factor': lower patience -> lower delay
+	#
+	ai_horn_delay: (2.0, 4.5)
+	ai_blink_delay: (2.0, 4.0)
+
+	## Yield attributes. If a vehicle (including player's one) is forced to give way to other ones for too long time, a 'yield event' can occur.
+	## This should help reducing traffic jams, which can occur at small roads during rush hours.
+	## To make a vehicle yield to another one, the following conditions must be met:
+	##
+	## 1. Vehicles must be on 'small roads' (max 1 lane in each direction)
+	## 2. The speed of the driving vehicle must not be higher than 'ai_yield_max_speed' [m/s]
+	## 3. The waiting vehicle must have been waiting at least 'ai_yield_wait_time' [s].
+	## 4. Yielding vehicle waits for the other one until it moves, but only for 'ai_yield_timeout' [s]. If nothing happens, yielding is cancelled.
+	##
+	## The actual values used depend on yielding vehicle's 'patience factor':
+	#
+	ai_yield_max_speed: (15.0, 22.0)      # lower patience -> lower speed
+	ai_yield_wait_time: (10.0, 20.0)      # lower patience -> higher wait time
+	ai_yield_timeout: (2.0, 3.0)          # lower patience -> lower timeout
+
+	## Obsolete attributes:
+	#
+	# mass_truck: 10500.0  		# the attribute is obsolete - mass is now set per-vehicle
+	# mass_trailer: 20000.0  	# the attribute is obsolete - mass is now set per-vehicle
+	# mass_car: 2000.0  		# the attribute is obsolete - mass is now set per-vehicle
+	# max_truck_count: 3		# the attribute is obsolete - max count limits are now set per vehicle type
+}
+
+}

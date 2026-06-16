@@ -1,0 +1,550 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (4 colors, 34 times repeated)
+	# - Gray colors:   ~21%  (8 colors, 14 times repeated)
+	# - Black colors:  ~20%  (6 colors, 18 times repeated)
+	# - Silver colors: ~11%  (1 color, 59 times repeated)
+	# - Blue colors:   ~10%  (4 colors, 13 times repeated)
+	# - Red colors:    ~8%   (7 colors, 6 times repeated)
+	# - Green colors:  ~1.8% (3 colors, 3 times repeated)
+	# - Brown colors:  ~1.3% (7 colors, 1 time repeated)
+	# - Orange colors: ~0.6% (0 colors, 0 times repeated)
+	# - Yellow colors: ~0.2% (0 colors, 0 times repeated)
+	# - Gold colors:   ~0.2% (1 color, 1 time repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (0 colors, 0 times repeated)
+
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.1301, 0.0648, 0.0742) # Kodiak Brown
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.1046, 0.1746, 0.1590) # Atlantis Green
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.0704, 0.0160, 0.0242) # Bordeaux Reserve
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.6240, 0.5457, 0.3712) # Platinum Dune
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.1119, 0.0060, 0.0176) # Wine Red
+	color[]: (0.4910, 0.4508, 0.3712) # Palladium White Gold
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1714, 0.1119, 0.0908) # Earth
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.1470, 0.0529, 0.0296) # Chrome Elite
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.0356, 0.0908, 0.0976) # Allure Blue
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.2307, 0.2016, 0.1651) # Iced Mocha
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0666, 0.0040, 0.0040) # Burgundy Velvet
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1046, 0.1746, 0.1590) # Atlantis Green
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.0356, 0.0908, 0.0976) # Allure Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0595, 0.0123, 0.0144) # Cinnamon
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.1046, 0.1746, 0.1590) # Atlantis Green
+	color[]: (0.0704, 0.0160, 0.0242) # Bordeaux Reserve
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0356, 0.0908, 0.0976) # Allure Blue
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.1119, 0.0060, 0.0176) # Wine Red
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1119, 0.0060, 0.0176) # Wine Red
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0704, 0.0160, 0.0242) # Bordeaux Reserve
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1470, 0.0369, 0.0203) # Bronze Fire
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0666, 0.0040, 0.0040) # Burgundy Velvet
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0666, 0.0040, 0.0040) # Burgundy Velvet
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1119, 0.0060, 0.0176) # Wine Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire Blue
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0666, 0.0040, 0.0040) # Burgundy Velvet
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.0666, 0.0040, 0.0040) # Burgundy Velvet
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.1119, 0.0060, 0.0176) # Wine Red
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0704, 0.0160, 0.0242) # Bordeaux Reserve
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0704, 0.0160, 0.0242) # Bordeaux Reserve
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7157, 0.6867, 0.5647) # Gold Leaf
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.5906, 0.6038, 0.5210) # Ivory Pearl
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Diamond
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0666, 0.0040, 0.0040) # Burgundy Velvet
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7454, 0.7758, 0.7529) # Ceramic
+	color[]: (0.0000, 0.0000, 0.0000) # Black Velvet
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.0704, 0.0160, 0.0242) # Bordeaux Reserve
+	color[]: (0.0000, 0.0000, 0.0000) # Infinite Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.2664, 0.2346, 0.2270) # Luxe
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.1119, 0.0060, 0.0176) # Wine Red
+	color[]: (0.0144, 0.0203, 0.0887) # Kona Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0612, 0.1384, 0.1651) # Steel Blue
+	color[]: (0.3712, 0.3712, 0.3095) # Ginger Ale
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7454, 0.7454, 0.6867) # Crystal Champagne
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver

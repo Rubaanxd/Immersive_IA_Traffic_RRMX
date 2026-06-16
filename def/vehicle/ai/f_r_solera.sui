@@ -1,0 +1,97 @@
+traffic_vehicle : traffic.f_r_solera_w
+{
+	accessories[]: .solera_w.chassis
+	accessories[]: .solera_w.fwheel
+	accessories[]: .solera_w.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 5000
+
+	engine_power: 200
+
+	tags[]: van
+	tags[]: tourist
+
+	spawn_ratio: 1.0
+
+	variant[]: traffic.f_r_solera_e
+
+	spawn_condition[]: .traffic.f_r_solera_w.spawn.condition
+
+@include "drivers_generic.sui"
+}
+traffic_spawn_condition: .traffic.f_r_solera_w.spawn.condition
+{
+	type: area
+	str_param[]: "!"
+	str_param[]: "company"
+	str_param[]: "commercial"
+	str_param[]: "industrial"
+}
+
+vehicle_accessory: .solera_w.chassis
+{
+	data_path: "/def/vehicle/ai/solera/chassis_w.sii"
+}
+
+vehicle_wheel_accessory: .solera_w.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .solera_w.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+
+
+traffic_vehicle : traffic.f_r_solera_e
+{
+	accessories[]: .solera_e.chassis
+	accessories[]: .solera_e.fwheel
+	accessories[]: .solera_e.rwheel
+
+	max_speed: 120
+
+	vehicle_mass: 5000
+
+	engine_power: 200
+
+
+	tags[]: van
+	tags[]: tourist
+
+	spawn_ratio: 1.0
+
+	spawn_condition[]: .traffic.f_r_solera_e.spawn.condition
+
+@include "drivers_generic.sui"
+}
+traffic_spawn_condition: .traffic.f_r_solera_e.spawn.condition
+{
+	type: area
+	str_param[]: "!"
+	str_param[]: "company"
+	str_param[]: "commercial"
+	str_param[]: "industrial"
+}
+
+vehicle_accessory: .solera_e.chassis
+{
+	data_path: "/def/vehicle/ai/solera/chassis_e.sii"
+}
+
+vehicle_wheel_accessory: .solera_e.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .solera_e.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}

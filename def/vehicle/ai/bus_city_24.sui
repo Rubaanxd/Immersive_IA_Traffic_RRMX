@@ -1,0 +1,421 @@
+traffic_vehicle : traffic.bus.city_24
+{
+	accessories[]: .bus.city_24.chassis
+	accessories[]: .bus.city_24.fwheel
+	accessories[]: .bus.city_24.rwheel
+
+	max_speed: 100
+
+	spawn_ratio: 0.1
+
+	vehicle_mass: 16000
+	engine_power: 200
+
+	spawn_condition[]: .traffic.bus.city_24.condition.time
+	spawn_condition[]: .traffic.bus.city_24.condition.city
+
+	tags[]: bus
+	tags[]: passenger
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .bus.city_24.chassis
+{
+	data_path: "/def/vehicle/ai/bus_city_24/chassis_default.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus3.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus3.sii"
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 05:00 - 22:00
+	num_param[]: 300
+	num_param[]: 1320
+
+	
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.condition.city
+{
+	# spawn only inside urban areas
+	type: area
+	str_param[]: "urban"
+}
+
+
+
+
+
+traffic_vehicle : traffic.bus.city.rack_24
+{
+	accessories[]: .bus.city.rack_24.chassis
+	accessories[]: .bus.city.rack_24.fwheel
+	accessories[]: .bus.city.rack_24.rwheel
+
+	max_speed: 100
+
+	spawn_ratio: 0.1
+
+	vehicle_mass: 16000
+	engine_power: 200
+
+	spawn_condition[]: .traffic.bus.city.rack_24.condition.time
+	spawn_condition[]: .traffic.bus.city.rack_24.condition.city
+
+	tags[]: bus
+	tags[]: passenger
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .bus.city.rack_24.chassis
+{
+	data_path: "/def/vehicle/ai/bus_city_24/chassis_rack.sii"
+}
+
+vehicle_wheel_accessory: .bus.city.rack_24.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus3.sii"
+}
+
+vehicle_wheel_accessory: .bus.city.rack_24.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus3.sii"
+}
+
+traffic_spawn_condition: .traffic.bus.city.rack_24.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 05:00 - 22:00
+	num_param[]: 300
+	num_param[]: 1320
+
+}
+
+traffic_spawn_condition: .traffic.bus.city.rack_24.condition.city
+{
+	# spawn only inside urban areas
+	type: area
+	str_param[]: "urban"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Joplin City Look XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.bus.city_24.joplin
+{
+	#accesories
+	accessories[]: .bus.city_24.joplin.chassis
+	accessories[]: .bus.city_24.joplin.fwheel
+	accessories[]: .bus.city_24.joplin.rwheel
+
+	#attributes
+	max_speed: 100
+	spawn_ratio: 0.1
+	vehicle_mass: 16000
+	engine_power: 200
+
+	#spawn conditions
+	spawn_condition[]: .traffic.bus.city_24.joplin.condition.time
+	spawn_condition[]: .traffic.bus.city_24.joplin.condition.area
+	spawn_condition[]: .traffic.bus.city_24.joplin.condition.city
+
+	#tags
+	tags[]: bus
+	tags[]: passenger
+
+	#driver
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .bus.city_24.joplin.chassis
+{
+	data_path: "/def/vehicle/ai/bus_city_24/chassis_joplin.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.joplin.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus3.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.joplin.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus3.sii"
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.joplin.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 05:00 - 22:00
+	num_param[]: 300
+	num_param[]: 1320
+
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.joplin.condition.area
+{
+	# spawn only inside urban areas
+	type: area
+	str_param[]: "urban"
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.joplin.condition.city
+{
+	# spawns only in joplin city
+	type: city
+    str_param[]: "joplin"
+}
+
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  New Orleans City | Look + Passengers XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.bus.city_24.nola_p
+{
+	#accesories
+	accessories[]: .bus.city_24.nola_p.chassis
+	accessories[]: .bus.city_24.nola_p.fwheel
+	accessories[]: .bus.city_24.nola_p.rwheel
+
+	#attributes
+	max_speed: 100
+	spawn_ratio: 0
+	vehicle_mass: 16000
+	engine_power: 200
+	allow_parked: false 
+
+	#spawn conditions
+	spawn_condition[]: .traffic.bus.city_24.nola_p.condition.time
+	spawn_condition[]: .traffic.bus.city_24.nola_p.condition.city
+
+	#tags
+	tags[]: bus
+	tags[]: passenger
+
+	#driver
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .bus.city_24.nola_p.chassis
+{
+	data_path: "/def/vehicle/ai/bus_city_24/chassis_nola_p.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.nola_p.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus3.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.nola_p.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus3.sii"
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.nola_p.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 05:00 - 22:00
+	num_param[]: 300
+	num_param[]: 1320
+
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.nola_p.condition.city
+{
+	# spawns only in specified city
+	type: city
+    str_param[]: "new_orleans"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX NO Passengers XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.bus.city_24.nola
+{
+	#accesories
+	accessories[]: .bus.city_24.nola.chassis
+	accessories[]: .bus.city_24.nola.fwheel
+	accessories[]: .bus.city_24.nola.rwheel
+
+	#attributes
+	max_speed: 100
+	spawn_ratio: 0
+	vehicle_mass: 16000
+	engine_power: 200
+	allow_parked: true 
+
+	#spawn conditions
+	spawn_condition[]: .traffic.bus.city_24.nola.condition.time
+	spawn_condition[]: .traffic.bus.city_24.nola.condition.city
+
+	#tags
+	tags[]: bus
+
+	#driver
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .bus.city_24.nola.chassis
+{
+	data_path: "/def/vehicle/ai/bus_city_24/chassis_nola.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.nola.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus3.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.nola.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus3.sii"
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.nola.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 04:00 - 23:00
+	num_param[]: 240
+	num_param[]: 1380
+
+}
+
+traffic_spawn_condition: .traffic.bus.city_24.nola.condition.city
+{
+	# spawns only in specified city
+	type: city
+    str_param[]: "new_orleans"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Grand Canyon | Arizona Look XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.bus.city_24.az_can_p
+{
+	#accesories
+	accessories[]: .bus.city_24.az_can_p.chassis
+	accessories[]: .bus.city_24.az_can_p.fwheel
+	accessories[]: .bus.city_24.az_can_p.rwheel
+
+	#attributes
+	max_speed: 100
+	spawn_ratio: 0
+	vehicle_mass: 16000
+	engine_power: 200
+	allow_parked: false 
+
+	#spawn conditions
+	spawn_condition[]: .traffic.bus.city_24.az_can_p.condition.city
+
+	#tags
+	tags[]: bus
+	tags[]: passenger
+
+	#driver
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .bus.city_24.az_can_p.chassis
+{
+	data_path: "/def/vehicle/ai/bus_city_24/chassis_az_can_p.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.az_can_p.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus3.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.az_can_p.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus3.sii"
+}
+
+
+traffic_spawn_condition: .traffic.bus.city_24.az_can_p.condition.city
+{
+	# spawns only in specified city
+	type: city
+    str_param[]: "g_canyon_vlg"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  NO PASSENGERS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.bus.city_24.az_can
+{
+	#accesories
+	accessories[]: .bus.city_24.az_can.chassis
+	accessories[]: .bus.city_24.az_can.fwheel
+	accessories[]: .bus.city_24.az_can.rwheel
+
+	#attributes
+	max_speed: 100
+	spawn_ratio: 0
+	vehicle_mass: 16000
+	engine_power: 200
+
+	#spawn conditions
+	spawn_condition[]: .traffic.bus.city_24.az_can.condition.city
+
+	#tags
+	tags[]: bus
+
+	#driver
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .bus.city_24.az_can.chassis
+{
+	data_path: "/def/vehicle/ai/bus_city_24/chassis_az_can.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.az_can.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus3.sii"
+}
+
+vehicle_wheel_accessory: .bus.city_24.az_can.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus3.sii"
+}
+
+
+traffic_spawn_condition: .traffic.bus.city_24.az_can.condition.city
+{
+	# spawns only in specified city
+	type: city
+    str_param[]: "g_canyon_vlg"
+}

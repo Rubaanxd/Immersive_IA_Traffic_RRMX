@@ -1,0 +1,43 @@
+traffic_vehicle : traffic.cadillac_ats
+{
+	accessories[]: .cadillac_ats.chassis
+	accessories[]: .cadillac_ats.fwheel
+	accessories[]: .cadillac_ats.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 1700
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/cadillac_ats_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .cadillac_ats.chassis
+{
+	data_path: "/def/vehicle/ai/cadillac_ats/chassis.sii"
+}
+
+vehicle_wheel_accessory: .cadillac_ats.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_7.sii"
+}
+
+vehicle_wheel_accessory: .cadillac_ats.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_7.sii"
+}
+

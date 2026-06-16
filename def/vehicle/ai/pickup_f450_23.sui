@@ -1,0 +1,46 @@
+
+traffic_vehicle : traffic.pickup.f450_23
+{
+	accessories[]: .pickup.f450_23.chassis
+	accessories[]: .pickup.f450_23.fwheel
+	accessories[]: .pickup.f450_23.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f450_colors.sui"
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .pickup.f450_23.chassis
+{
+	data_path: "/def/vehicle/ai/pickup_f450_23/chassis.sii"
+}
+
+vehicle_wheel_accessory: .pickup.f450_23.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .pickup.f450_23.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+

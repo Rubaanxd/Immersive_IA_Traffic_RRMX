@@ -1,0 +1,142 @@
+traffic_vehicle : traffic.tt_pickup
+{
+	accessories[]: .tt_pickup.chassis
+	accessories[]: .tt_pickup.fwheel
+	accessories[]: .tt_pickup.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/toyota_tundra_colors.sui"
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .tt_pickup.chassis
+{
+	data_path: "/def/vehicle/ai/tt_pickup/chassis.sii"
+}
+
+vehicle_wheel_accessory: .tt_pickup.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_offroad.sii"
+}
+
+vehicle_wheel_accessory: .tt_pickup.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_offroad.sii"
+}
+
+
+
+
+
+
+traffic_vehicle : traffic.tt_pickup.offroad
+{
+	accessories[]: .tt_pickup.offroad.chassis
+	accessories[]: .tt_pickup.offroad.fwheel
+	accessories[]: .tt_pickup.offroad.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/toyota_tundra_colors.sui"
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .tt_pickup.offroad.chassis
+{
+	data_path: "/def/vehicle/ai/tt_pickup/chassis_offroad.sii"
+}
+
+vehicle_wheel_accessory: .tt_pickup.offroad.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_offroad.sii"
+}
+
+vehicle_wheel_accessory: .tt_pickup.offroad.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_offroad.sii"
+}
+
+
+
+
+
+
+traffic_vehicle : traffic.tt_pickup.truckcap
+{
+	accessories[]: .tt_pickup.truckcap.chassis
+	accessories[]: .tt_pickup.truckcap.fwheel
+	accessories[]: .tt_pickup.truckcap.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/toyota_tundra_colors.sui"
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .tt_pickup.truckcap.chassis
+{
+	data_path: "/def/vehicle/ai/tt_pickup/chassis_truckcap.sii"
+}
+
+vehicle_wheel_accessory: .tt_pickup.truckcap.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_offroad.sii"
+}
+
+vehicle_wheel_accessory: .tt_pickup.truckcap.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_offroad.sii"
+}
+
+

@@ -1,0 +1,55 @@
+traffic_vehicle : traffic.voltse.factory
+{
+	accessories[]: .voltse.factory.chassis
+	accessories[]: .voltse.factory.fwheel
+	accessories[]: .voltse.factory.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 1600
+
+	sound_move[]: "/sound/traffic/car_electric_1.soundref"
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/tesla_model_y_colors.sui"
+
+	tags[]: expensive
+	tags[]: common
+	tags[]: context
+
+	spawn_condition[]: .traffic.voltse.factory.spawn.condition
+	spawn_condition[]: .traffic.voltse.factory.spawn.condition2
+
+@include "drivers_generic.sui"
+}
+
+traffic_spawn_condition: .traffic.voltse.factory.spawn.condition
+{
+	type: area
+	str_param[]: "vm_car_pln"
+	str_param[]: "vm_car_exp"
+}
+traffic_spawn_condition: .traffic.voltse.factory.spawn.condition2
+{
+	type: area
+	str_param[]: "company"
+}
+
+vehicle_accessory: .voltse.factory.chassis
+{
+	data_path: "/def/vehicle/ai/voltison_sedan/chassis_factory.sii"
+}
+
+vehicle_wheel_accessory: .voltse.factory.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/voltison_front.sii"
+}
+
+vehicle_wheel_accessory: .voltse.factory.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/voltison_rear.sii"
+}

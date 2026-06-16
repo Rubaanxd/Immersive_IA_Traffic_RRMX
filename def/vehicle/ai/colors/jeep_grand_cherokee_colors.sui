@@ -1,0 +1,2980 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (3 colors, 250 times repeated)
+	# - Gray colors:   ~21%  (9 colors, 70 times repeated)
+	# - Black colors:  ~20%  (5 colors, 120 times repeated)
+	# - Silver colors: ~11%  (7 colors, 47 times repeated)
+	# - Blue colors:   ~10%  (13 colors, 23 times repeated)
+	# - Red colors:    ~8%   (9 colors, 27 times repeated)
+	# - Green colors:  ~1.8% (6 colors, 9 times repeated)
+	# - Brown colors:  ~1.3% (9 colors, 4 times repeated)
+	# - Orange colors: ~0.6% (0 colors, 0 times repeated)
+	# - Yellow colors: ~0.2% (1 color, 6 times repeated)
+	# - Gold colors:   ~0.2% (1 color, 6 times repeated)
+	# - Purple colors: ~0.1% (3 colors, 1 time repeated)
+	# - Other colors:  ~0.8% (0 colors, 0 times repeated)
+
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0369, 0.0176, 0.0222) # Rugged Brown
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0369, 0.0176, 0.0222) # Luxury Brown
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0343, 0.0075, 0.0123) # Ultraviolet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1812, 0.0953, 0.0452) # Bronze Star
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.7305, 0.6445, 0.0887) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.6105, 0.5583, 0.4397) # White Gold
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1812, 0.0953, 0.0452) # Bronze Star
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0212, 0.0130, 0.0194) # Ember Pearl
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0762, 0.0467, 0.0395) # Walnut Brown
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.6105, 0.5583, 0.4397) # White Gold
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0595, 0.0152, 0.0006) # Deep Auburn
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0212, 0.0130, 0.0194) # Ember
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0369, 0.0176, 0.0222) # Luxury Brown
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7305, 0.6445, 0.0887) # Rocky Mountain
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.6105, 0.5583, 0.4397) # White Gold
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7305, 0.6445, 0.0887) # Rocky Mountain
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.0595, 0.0152, 0.0006) # Deep Auburn
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0369, 0.0176, 0.0222) # Luxury Brown
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0212, 0.0130, 0.0194) # Ember
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.7305, 0.6445, 0.0887) # Rocky Mountain
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7011, 0.5776, 0.4564) # Cashmere
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0212, 0.0130, 0.0194) # Ember Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.7011, 0.5776, 0.4564) # Cashmere
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.2462, 0.1046, 0.0369) # Copper Shino
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2462, 0.1046, 0.0369) # Copper Shino
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.7011, 0.5776, 0.4564) # Cashmere
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0369, 0.0176, 0.0222) # Luxury Brown
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.7011, 0.5776, 0.4564) # Cashmere
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.7305, 0.6445, 0.0887) # Rocky Mountain
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0212, 0.0130, 0.0194) # Ember Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0369, 0.0176, 0.0222) # Rugged Brown
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.2462, 0.1046, 0.0369) # Copper Shino
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.6105, 0.5583, 0.4397) # White Gold
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0762, 0.0467, 0.0395) # Walnut Brown
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0369, 0.0176, 0.0222) # Rugged Brown
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.6105, 0.5583, 0.4397) # White Gold
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.6105, 0.5583, 0.4397) # White Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.0212, 0.0130, 0.0194) # Ember
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.7305, 0.6445, 0.0887) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2462, 0.1046, 0.0369) # Copper Shino
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.0497, 0.0908, 0.0262) # Green
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0030, 0.0296, 0.0152) # Black Forest Green
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0762, 0.0467, 0.0395) # Walnut Brown
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0595, 0.0152, 0.0006) # Deep Auburn
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0452, 0.0033, 0.0185) # Deep Molten Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.0212, 0.0130, 0.0194) # Ember
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.1812, 0.0953, 0.0452) # Bronze Star
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.2086, 0.2051, 0.0467) # Optic Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0437, 0.0395, 0.0307) # Recon Green
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0395, 0.0437, 0.0742) # Rinho
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0252, 0.0203, 0.0782) # True Blue
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0212, 0.0130, 0.0194) # Ember Pearl
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1812, 0.0953, 0.0452) # Bronze Star
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.3515, 0.0097, 0.0116) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0369, 0.0176, 0.0222) # Rugged Brown
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0685, 0.0578, 0.0578) # Baltic Gray
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.4397, 0.5149, 0.5972) # Winter Chill
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0222, 0.0823, 0.0666) # Jeep Green
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0762, 0.0467, 0.0395) # Walnut Brown
+	color[]: (0.0395, 0.0437, 0.0742) # Rhino
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4072, 0.5089, 0.5333) # Silver Zynith
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Blue Shade
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1022, 0.1981, 0.3095) # Reactor Blue
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0369, 0.0452, 0.0060) # Natural Green
+	color[]: (0.1620, 0.0060, 0.0048) # Red Rock Crystal
+	color[]: (0.4910, 0.4910, 0.5210) # Billet
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0762, 0.0040, 0.0065) # Velvet Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.4910, 0.4910, 0.5210) # Billet Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1022, 0.1981, 0.3095) # Slate Blue
+	color[]: (0.0097, 0.0319, 0.0704) # Midnight Sky
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.4678, 0.0000, 0.0065) # Redline
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black Crystal
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.2623, 0.0152, 0.0203) # Deep Cherry Red Crystal
+	color[]: (0.0802, 0.0012, 0.0030) # Bloodshot
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.1170, 0.1170, 0.1170) # Granite Crystal
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory Pearl
+	color[]: (0.0382, 0.0356, 0.0284) # Rocky Mountain
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0130, 0.1022, 0.4793) # Hydro Blue
+	color[]: (0.0123, 0.0212, 0.0319) # Modern Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Diamond Black
+	color[]: (0.1022, 0.1981, 0.3095) # Pacific Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0953, 0.2195, 0.2831) # Lake Front Blue
+	color[]: (0.2051, 0.1878, 0.1812) # Light Brownstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.9131, 0.9301, 0.9473) # Bright White
+	color[]: (0.0343, 0.0075, 0.0123) # Sangria
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.4678, 0.0000, 0.0065) # Redline Red
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.0595, 0.0152, 0.0006) # Deep Auburn
+	color[]: (0.0296, 0.0423, 0.0844) # Maximum Steel
+	color[]: (0.7454, 0.7913, 0.7529) # Ivory White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black Crystal
+	color[]: (0.9131, 0.9301, 0.8148) # Ivory
+	color[]: (0.1590, 0.1529, 0.1356) # Sting Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.4072, 0.5089, 0.5333) # Zynith Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0578, 0.0578, 0.0612) # Dark Charcoal
+	color[]: (0.5520, 0.5333, 0.5210) # Light Graystone

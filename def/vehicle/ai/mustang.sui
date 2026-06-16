@@ -1,0 +1,60 @@
+traffic_vehicle : traffic.mustang
+{
+	accessories[]: .mustang.chassis
+	accessories[]: .mustang.fwheel
+	accessories[]: .mustang.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+
+	vehicle_mass: 1700
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_mustang_colors.sui"
+	tags[]: cheap
+	tags[]: common
+	
+	spawn_condition[]: .traffic.mustang.condition.weather
+	spawn_condition[]: .traffic.mustang.condition.time
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .mustang.chassis
+{
+	data_path: "/def/vehicle/ai/mustang/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mustang.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .mustang.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+
+traffic_spawn_condition: .traffic.mustang.condition.weather
+{
+	# spawn only in nice weather
+	type: weather
+	num_param[]: 0
+}
+
+traffic_spawn_condition: .traffic.mustang.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 08:00 - 21:00
+	num_param[]: 480
+	num_param[]: 1260
+}

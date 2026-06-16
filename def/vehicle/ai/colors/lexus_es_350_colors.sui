@@ -1,0 +1,1014 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (5 colors, 50 times repeated)
+	# - Gray colors:   ~21%  (14 colors, 15 times repeated)
+	# - Black colors:  ~20%  (8 colors, 25 times repeated)
+	# - Silver colors: ~11%  (2 colors, 55 times repeated)
+	# - Blue colors:   ~10%  (12 colors, 8 times repeated)
+	# - Red colors:    ~8%   (2 colors, 40 times repeated)
+	# - Green colors:  ~1.8% (1 color, 18 times repeated)
+	# - Brown colors:  ~1.3% (5 colors, 3 times repeated)
+	# - Orange colors: ~0.6% (0 colors, 0 times repeated)
+	# - Yellow colors: ~0.2% (0 colors, 0 times repeated)
+	# - Gold colors:   ~0.2% (1 color, 2 times repeated)
+	# - Purple colors: ~0.1% (1 color, 1 time repeated)
+	# - Other colors:  ~0.8% (8 colors, 1 time repeated)
+
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.5711, 0.4397, 0.3613) # Sonora Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.2270, 0.1441, 0.0723) # Amber Pearl
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.5711, 0.4397, 0.3613) # Sonora Gold
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.0612, 0.1170, 0.1470) # Oasis Mica
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0423, 0.0075, 0.0091) # Royal Ruby
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.0423, 0.0075, 0.0091) # Royal Ruby Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.2270, 0.1441, 0.0723) # Amber
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.6939, 0.5647, 0.5149) # Sleek Ecru
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.0595, 0.0467, 0.0356) # Deep Peridot
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.0252, 0.0075, 0.0052) # Autumn Shimmer
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.6654, 0.5089, 0.4233) # Golden Almond Mica
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0931, 0.0612, 0.0595) # Fire Agate
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0252, 0.0075, 0.0052) # Autumn Shimmer
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.6654, 0.5089, 0.4233) # Golden Almond Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0931, 0.0612, 0.0595) # Fire Agate
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.2270, 0.1441, 0.0723) # Amber
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.2270, 0.1441, 0.0723) # Amber
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.6654, 0.5089, 0.4233) # Golden Almond
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.6939, 0.5647, 0.5149) # Satin Cashmere
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.1590, 0.2195, 0.3613) # Blue Shale
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Mica
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0030, 0.0185, 0.1845) # Ultrasonic Blue
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0252, 0.0075, 0.0052) # Autumn Shimmer
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0262, 0.0024, 0.0130) # Dark Red
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0931, 0.0612, 0.0595) # Fire Agate
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.2270, 0.1441, 0.0723) # Amber Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.0044, 0.0056, 0.0212) # Dark Blue
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0203, 0.0685, 0.1529) # Aquamarine
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0595, 0.0467, 0.0356) # Deep Peridot
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Mica
+	color[]: (0.0595, 0.0467, 0.0356) # Deep Peridot
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0176, 0.0232, 0.0612) # Deep Sea
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0000, 0.0052, 0.0252) # Nightfall
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.3005, 0.2705, 0.3140) # Sonic Titanium
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Mica
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.2270, 0.1441, 0.0723) # Amber Pearl
+	color[]: (0.0782, 0.0561, 0.0704) # Truffle
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.5583, 0.4735, 0.5029) # Moon Shell Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.1500, 0.1301, 0.1470) # Nebula Gray
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.4452, 0.4020, 0.3564) # Moonbeam Beige
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite Pearl
+	color[]: (0.1500, 0.1301, 0.1470) # Mercury Gray
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire
+	color[]: (0.0056, 0.0130, 0.0482) # Black Sapphire Pearl
+	color[]: (0.4969, 0.6240, 0.6654) # Cerulean Blue
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.0953, 0.1119, 0.0762) # Sunlit Green
+	color[]: (0.2122, 0.2307, 0.2423) # Iridium
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black Mica
+	color[]: (0.3005, 0.2705, 0.3140) # Atomic Silver
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten Metallic
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.9734, 0.9911, 0.9734) # Ultra White
+	color[]: (0.1221, 0.1248, 0.1301) # Cloudburst Gray
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0185, 0.0203, 0.0232) # Caviar
+	color[]: (0.5210, 0.5395, 0.5520) # Tungsten
+	color[]: (0.9734, 0.9560, 0.9823) # Starfire Pearl
+	color[]: (0.0160, 0.0194, 0.0212) # Smokey Granite
+	color[]: (0.3467, 0.3419, 0.3325) # Shell
+	color[]: (0.6867, 0.7084, 0.7529) # Eminent White
+	color[]: (0.0000, 0.0000, 0.0000) # Starlight Black
+	color[]: (0.5333, 0.5395, 0.5972) # Silver Lining
+	color[]: (0.4910, 0.5149, 0.5457) # Classic Silver
+	color[]: (0.0044, 0.0056, 0.0212) # Blue Onyx
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.2384, 0.0232, 0.0319) # Matador Red Pearl
+	color[]: (0.9047, 0.8469, 0.7835) # White Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black

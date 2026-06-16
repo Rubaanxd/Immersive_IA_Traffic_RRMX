@@ -1,0 +1,1001 @@
+traffic_vehicle : traffic.hood_cab
+{
+	accessories[]: .hood_cab.chassis
+	accessories[]: .hood_cab.fwheel
+	accessories[]: .hood_cab.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	tags[]: hood_cab
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+	allow_parked: false
+
+	variant[]: traffic.hoodcab_r_p
+
+	variant[]: traffic.hoodcabfbed
+	variant[]: traffic.hoodcabfbed1
+	variant[]: traffic.hoodcabfbed2
+	variant[]: traffic.hoodcabfbed3
+	variant[]: traffic.hoodcabfbed4
+	variant[]: traffic.hoodcabfbeds
+	variant[]: traffic.hoodcabdumpt
+	variant[]: traffic.hoodcabdumpd
+
+	variant[]: traffic.hoodcab_r_p1
+	variant[]: traffic.hoodcab_r_p2
+	variant[]: traffic.hoodcab_r_c1
+	variant[]: traffic.hoodcab_r_c2
+	variant[]: traffic.hoodcab_r_d1
+	variant[]: traffic.hoodcab_r_d2
+	variant[]: traffic.hoodcab_r_t1
+	variant[]: traffic.hoodcab_r_t2
+	variant[]: traffic.hoodcab_r_b1
+	variant[]: traffic.hoodcab_r_b2
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hood_cab.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis.sii"
+}
+
+vehicle_wheel_accessory: .hood_cab.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .hood_cab.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Produce XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcab_r_p
+{
+	accessories[]: .hoodcab_r_p.chassis
+	accessories[]: .hoodcab_r_p.fwheel
+	accessories[]: .hoodcab_r_p.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: hood_cab
+
+
+	# BLUE
+	color[]: (0.0685, 0.1248, 0.1812)
+	#silver
+	color[]: (0.3662, 0.3277, 0.2788)
+	#GRAY
+	color[]: (0.6, 0.6, 0.6)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_p.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_p.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_p.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_p.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - No Load XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabfbed
+{
+	accessories[]: .hoodcabfbed.chassis
+	accessories[]: .hoodcabfbed.fwheel
+	accessories[]: .hoodcabfbed.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabfbed.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_fbed.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabfbed.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabfbed.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Shutters No Load XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabfbeds
+{
+	accessories[]: .hoodcabfbeds.chassis
+	accessories[]: .hoodcabfbeds.fwheel
+	accessories[]: .hoodcabfbeds.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabfbeds.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_fbed_s.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabfbeds.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabfbeds.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Load 1 ( Boxed Fruits ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabfbed1
+{
+	accessories[]: .hoodcabfbed1.chassis
+	accessories[]: .hoodcabfbed1.fwheel
+	accessories[]: .hoodcabfbed1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+	# WHITE/GRAY
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.7084, 0.7084, 0.7084)
+	color[]: (0.6, 0.6, 0.6)
+	# YELLOW
+	color[]: (0.9909, 0.5522, 0.017)
+	# BLUE
+	color[]: (0.0685, 0.1248, 0.1812)
+	#silver
+	color[]: (0.3662, 0.3277, 0.2788)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabfbed1.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_fbed_l1.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabfbed1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabfbed1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed + Shutters - Load 2 ( Construction Materials ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabfbed2
+{
+	accessories[]: .hoodcabfbed2.chassis
+	accessories[]: .hoodcabfbed2.fwheel
+	accessories[]: .hoodcabfbed2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabfbed2.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_fbed_l2.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabfbed2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabfbed2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed + Shutters - Load 3 ( Mixed ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabfbed3
+{
+	accessories[]: .hoodcabfbed3.chassis
+	accessories[]: .hoodcabfbed3.fwheel
+	accessories[]: .hoodcabfbed3.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabfbed3.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_fbed_l3.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabfbed3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabfbed3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Load 4 ( Cable Rolls ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabfbed4
+{
+	accessories[]: .hoodcabfbed4.chassis
+	accessories[]: .hoodcabfbed4.fwheel
+	accessories[]: .hoodcabfbed4.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabfbed4.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_fbed_l4.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabfbed4.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabfbed4.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dump Tailer ( blue ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabdumpt
+{
+	accessories[]: .hoodcabdumpt.chassis
+	accessories[]: .hoodcabdumpt.fwheel
+	accessories[]: .hoodcabdumpt.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+	# WHITE/GRAY
+	color[]: (0.7084, 0.7084, 0.7084)
+	color[]: (0.6, 0.6, 0.6)
+	#silver
+	color[]: (0.3662, 0.3277, 0.2788)
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabdumpt.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_d.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabdumpt.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabdumpt.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dump Tailer ( default ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcabdumpd
+{
+	accessories[]: .hoodcabdumpd.chassis
+	accessories[]: .hoodcabdumpd.fwheel
+	accessories[]: .hoodcabdumpd.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcabdumpd.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_d1.sii"
+}
+
+vehicle_wheel_accessory: .hoodcabdumpd.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcabdumpd.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dream Burger1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcab_r_b1
+{
+	accessories[]: .hoodcab_r_b1.chassis
+	accessories[]: .hoodcab_r_b1.fwheel
+	accessories[]: .hoodcab_r_b1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Orange
+	color[]: (0.812, 0.376, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_b1.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_d_burger1.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_b1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_b1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dream Burger2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcab_r_b2
+{
+	accessories[]: .hoodcab_r_b2.chassis
+	accessories[]: .hoodcab_r_b2.fwheel
+	accessories[]: .hoodcab_r_b2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Orange
+	color[]: (0.812, 0.376, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_b2.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_d_burger2.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_b2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_b2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dirk Chicken1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcab_r_d1
+{
+	accessories[]: .hoodcab_r_d1.chassis
+	accessories[]: .hoodcab_r_d1.fwheel
+	accessories[]: .hoodcab_r_d1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Black
+	color[]: (0.196, 0.196, 0.196)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_d1.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_d_chicken1.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_d1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_d1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dirk Chicken2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.hoodcab_r_d2
+{
+	accessories[]: .hoodcab_r_d2.chassis
+	accessories[]: .hoodcab_r_d2.fwheel
+	accessories[]: .hoodcab_r_d2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Black
+	color[]: (0.196, 0.196, 0.196)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_d2.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_d_chicken2.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_d2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_d2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Pizza House1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcab_r_p1
+{
+	accessories[]: .hoodcab_r_p1.chassis
+	accessories[]: .hoodcab_r_p1.fwheel
+	accessories[]: .hoodcab_r_p1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Green
+	color[]: (0.314, 0.580, 0.259)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_p1.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_pizzah1.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_p1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_p1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Pizza House2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.hoodcab_r_p2
+{
+	accessories[]: .hoodcab_r_p2.chassis
+	accessories[]: .hoodcab_r_p2.fwheel
+	accessories[]: .hoodcab_r_p2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Green
+	color[]: (0.314, 0.580, 0.259)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_p2.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_pizzah2.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_p2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_p2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Taco1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.hoodcab_r_t1
+{
+	accessories[]: .hoodcab_r_t1.chassis
+	accessories[]: .hoodcab_r_t1.fwheel
+	accessories[]: .hoodcab_r_t1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Salmon red
+	color[]: (0.812, 0.376, 0.314)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_t1.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_taco1.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_t1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_t1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Taco2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+traffic_vehicle : traffic.hoodcab_r_t2
+{
+	accessories[]: .hoodcab_r_t2.chassis
+	accessories[]: .hoodcab_r_t2.fwheel
+	accessories[]: .hoodcab_r_t2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Salmon red
+	color[]: (0.812, 0.376, 0.314)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_t2.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_taco2.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_t2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_t2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Truckercola1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.hoodcab_r_c1
+{
+	accessories[]: .hoodcab_r_c1.chassis
+	accessories[]: .hoodcab_r_c1.fwheel
+	accessories[]: .hoodcab_r_c1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Red
+	color[]: (0.553, 0.090, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_c1.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_truckcola1.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_c1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_c1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Truckercola2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.hoodcab_r_c2
+{
+	accessories[]: .hoodcab_r_c2.chassis
+	accessories[]: .hoodcab_r_c2.fwheel
+	accessories[]: .hoodcab_r_c2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Red
+	color[]: (0.553, 0.090, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .hoodcab_r_c2.chassis
+{
+	data_path: "/def/vehicle/ai/hood_cab/chassis_truckcola2.sii"
+}
+
+vehicle_wheel_accessory: .hoodcab_r_c2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"}
+
+vehicle_wheel_accessory: .hoodcab_r_c2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}

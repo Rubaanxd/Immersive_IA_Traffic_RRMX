@@ -1,0 +1,637 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (4 colors, 38 times repeated)
+	# - Gray colors:   ~21%  (17 colors, 8 times repeated)
+	# - Black colors:  ~20%  (3 colors, 41 times repeated)
+	# - Silver colors: ~11%  (1 color, 68 times repeated)
+	# - Blue colors:   ~10%  (15 colors, 4 times repeated)
+	# - Red colors:    ~8%   (8 colors, 6 times repeated)
+	# - Green colors:  ~1.8% (7 colors, 2 times repeated)
+	# - Brown colors:  ~1.3% (8 colors, 1 time repeated)
+	# - Orange colors: ~0.6% (2 colors, 2 times repeated)
+	# - Yellow colors: ~0.2% (0 colors, 0 times repeated)
+	# - Gold colors:   ~0.2% (0 colors, 0 times repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (0 colors, 0 times repeated)
+
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.0252, 0.0075, 0.0000) # Smoked Mesquite
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.0545, 0.1301, 0.1356) # Timerland Pearl
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.0037, 0.0086, 0.0369) # Blueprint
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0252, 0.0343, 0.0630) # Blue Martin
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.0040, 0.0075, 0.0844) # Spectra Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak
+	color[]: (0.0040, 0.0075, 0.0844) # Spectra Blue
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.5333, 0.0168, 0.0130) # Radiant Red
+	color[]: (0.0630, 0.0742, 0.0612) # Army Green
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Pearl
+	color[]: (0.0887, 0.0003, 0.0040) # Dark Red
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0056, 0.0075, 0.0423) # Stellar Blue
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0056, 0.0075, 0.0423) # Stellar Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0037, 0.0086, 0.0369) # Blueprint
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.0040, 0.0075, 0.0844) # Spectra Blue
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Pearl
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.2122, 0.0000, 0.0056) # Sunfire Red
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.1301, 0.0203, 0.0052) # Terra
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.4452, 0.0000, 0.0027) # Supersonic Red
+	color[]: (0.6240, 0.0497, 0.0144) # Solar Octane
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.2918, 0.2051, 0.1500) # Quicksand
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0097, 0.0319, 0.0976) # Blue Ribbon
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Mica
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0252, 0.0343, 0.0630) # Blue Martin
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue Pearl
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.8308, 0.0762, 0.0242) # Inferno
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0176, 0.0369, 0.0704) # Blue Steel
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0356, 0.0497, 0.0452) # Silver
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue Pearl
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0252, 0.0953, 0.2232) # Blazing Blue
+	color[]: (0.0331, 0.1144, 0.3140) # Voodoo Blue
+	color[]: (0.6240, 0.0497, 0.0144) # Solar Octane
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3864, 0.0116, 0.0194) # Barcelona Red
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0331, 0.1144, 0.3140) # Voodoo Blue
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0097, 0.0319, 0.0976) # Blue Ribbon
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0704, 0.1170, 0.2051) # Cavalry Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Pearl
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.0284, 0.0273, 0.0497) # Stratosphere
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0887, 0.0003, 0.0040) # Dark Red
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.0097, 0.0319, 0.0976) # Blue Ribbon
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0545, 0.1301, 0.1356) # Timerland
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.0723, 0.0123, 0.0097) # Copper
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.1413, 0.0296, 0.0222) # Sunset Bronze
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0097, 0.0212, 0.0194) # Imperial Jade
+	color[]: (0.5333, 0.0168, 0.0130) # Radiant Red
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.6308, 0.4735, 0.4020) # Sandy Beach
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Pearl
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.0887, 0.0003, 0.0040) # Dark Red
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.2122, 0.0000, 0.0056) # Sunfire Red
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0252, 0.0343, 0.0630) # Blue Martin
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Pearl
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.5333, 0.0168, 0.0130) # Radiant Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0252, 0.0953, 0.2232) # Blazing Blue
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0284, 0.0273, 0.0497) # Stratosphere
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0037, 0.0086, 0.0369) # Blueprint
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.8308, 0.0762, 0.0242) # Inferno
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.2122, 0.0000, 0.0056) # Sunfire Red
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Mica
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3864, 0.0116, 0.0194) # Barcelona Red
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0284, 0.0273, 0.0497) # Stratosphere
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.0037, 0.0086, 0.0369) # Blueprint
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0176, 0.0369, 0.0704) # Blue Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.3864, 0.0116, 0.0194) # Barcelona Red
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Pearl
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0331, 0.1144, 0.3140) # Voodoo Blue
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Mica
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Mica
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.4452, 0.0000, 0.0027) # Supersonic Red
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.3663, 0.2195, 0.1248) # Golden Sand
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Mica
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.0887, 0.0003, 0.0040) # Dark Red
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.0056, 0.0075, 0.0423) # Stellar Blue
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.0176, 0.0369, 0.0704) # Blue Steel
+	color[]: (0.4452, 0.0000, 0.0027) # Supersonic Red
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3864, 0.0116, 0.0194) # Barcelona Red
+	color[]: (0.4452, 0.0000, 0.0027) # Supersonic Red
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0284, 0.0999, 0.2159) # Blue Streak Mica
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.1022, 0.0953, 0.1274) # Slate
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.0395, 0.0612, 0.0497) # Spruce
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.0097, 0.0212, 0.0194) # Imperial Jade Green
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.4452, 0.0000, 0.0027) # Supersonic Red
+	color[]: (0.1119, 0.1022, 0.1441) # Magnetic Gray
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Mica
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.0887, 0.0003, 0.0040) # Dark Red
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.2122, 0.0000, 0.0056) # Sunfire Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3712, 0.2918, 0.1946) # Mudbath
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0887, 0.0003, 0.0040) # Dark Red
+	color[]: (0.0040, 0.0075, 0.0844) # Spectra Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.0704, 0.1170, 0.2051) # Cavalry Blue
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Mica
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.0545, 0.1301, 0.1356) # Timerland Pearl
+	color[]: (0.0176, 0.0369, 0.0704) # Blue Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.0284, 0.0273, 0.0497) # Stratosphere
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.2122, 0.0000, 0.0056) # Sunfire Red
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0704, 0.1170, 0.2051) # Cavalry Blue
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.5333, 0.0168, 0.0130) # Radiant Red
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.0704, 0.1170, 0.2051) # Cavalry Blue
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0252, 0.0953, 0.2232) # Blazing Blue
+	color[]: (0.0097, 0.0212, 0.0194) # Imperial Jade Green
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0356, 0.0497, 0.0452) # Silver
+	color[]: (0.0545, 0.1301, 0.1356) # Timerland
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.6376, 0.7011, 0.7011) # Wind Chill
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.3864, 0.0116, 0.0194) # Barcelona Red
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.1022, 0.0953, 0.1274) # Slate Metallic
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.2874, 0.2270) # Beige
+	color[]: (0.0097, 0.0212, 0.0194) # Imperial Jade
+	color[]: (0.0056, 0.0075, 0.0423) # Stellar Blue
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0086, 0.0168, 0.0723) # Nautical Blue Pearl
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Pearl
+	color[]: (0.4452, 0.0000, 0.0027) # Supersonic Red
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.5333, 0.0168, 0.0130) # Radiant Red
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.0097, 0.0319, 0.0976) # Blue Ribbon
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Pearl
+	color[]: (0.0252, 0.0343, 0.0630) # Blue Martin
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Mica
+	color[]: (0.5333, 0.0168, 0.0130) # Radiant Red
+	color[]: (0.0823, 0.0823, 0.0823) # Thunder Gray
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Pearl
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0395, 0.0612, 0.0497) # Spruce
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite
+	color[]: (0.0887, 0.0003, 0.0040) # Salsa Red Mica
+	color[]: (0.1878, 0.2016, 0.2122) # Cement
+	color[]: (0.4910, 0.5395, 0.5906) # Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0252, 0.0953, 0.2232) # Blazing Blue
+	color[]: (0.3467, 0.3564, 0.3613) # Silver Sky
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.2122, 0.0000, 0.0056) # Sunfire Red
+	color[]: (0.0331, 0.1144, 0.3140) # Voodoo Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.3050, 0.3515, 0.3864) # Celestial Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Attitude Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Mica
+	color[]: (0.1714, 0.2051, 0.1878) # Lunar Rock
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.3864, 0.0116, 0.0194) # Barcelona Red
+	color[]: (0.3050, 0.2874, 0.2270) # Desert Sand Gold Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1329, 0.1070, 0.0976) # Pyrite Mica
+	color[]: (0.7379, 0.7305, 0.6654) # Super White
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7379, 0.7305, 0.6654) # Ice Cap
+	color[]: (0.0630, 0.0742, 0.0612) # Army Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7379, 0.7305, 0.6654) # White
+	color[]: (0.7758, 0.7835, 0.6445) # Natural White

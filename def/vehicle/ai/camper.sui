@@ -1,0 +1,51 @@
+traffic_vehicle : traffic.camper
+{
+	accessories[]: .camper.chassis
+	accessories[]: .camper.fwheel
+	accessories[]: .camper.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+
+	vehicle_mass: 2700
+
+	spawn_ratio: 0.1
+
+	tags[]: van
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_g20_van_colors.sui"
+
+	spawn_condition[]: .traffic.camper.spawn.condition
+
+@include "drivers_generic.sui"
+}
+traffic_spawn_condition: .traffic.camper.spawn.condition
+{
+	type: area
+	str_param[]: "!"
+	str_param[]: "company"
+	str_param[]: "commercial"
+	str_param[]: "industrial"
+}
+
+vehicle_accessory: .camper.chassis
+{
+	data_path: "/def/vehicle/ai/camper/chassis.sii"
+}
+
+vehicle_wheel_accessory: .camper.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_trailer.sii"
+}
+
+vehicle_wheel_accessory: .camper.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/trailer.sii"
+}
+

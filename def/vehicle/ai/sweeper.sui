@@ -1,0 +1,54 @@
+traffic_vehicle : traffic.sweeper
+{
+	accessories[]: .sweeper.chassis
+	accessories[]: .sweeper.fwheel
+	accessories[]: .sweeper.rwheel
+
+	max_speed: 15
+	vehicle_mass: 15000
+	engine_power: 200
+	allow_parked: false
+
+	license_plate_type: truck_city
+
+	tags[]: urban
+
+	spawn_condition[]: .traffic.sweeper.condition.city
+	spawn_condition[]: .traffic.sweeper.condition.time
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .sweeper.chassis
+{
+	data_path: "/def/vehicle/ai/sweeper/chassis.sii"
+}
+vehicle_wheel_accessory: .sweeper.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+vehicle_wheel_accessory: .sweeper.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+traffic_spawn_condition: .traffic.sweeper.condition.city
+{
+	# spawn only inside urban areas
+	type: area
+	str_param[]: "urban"
+}
+traffic_spawn_condition: .traffic.sweeper.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 09:00 - 12:00
+	num_param[]: 540
+	num_param[]: 720
+
+	# 13:00 - 15:00
+	num_param[]: 780
+	num_param[]: 900
+}

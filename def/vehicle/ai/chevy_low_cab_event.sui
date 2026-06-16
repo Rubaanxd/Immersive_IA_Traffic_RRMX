@@ -1,0 +1,180 @@
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Load 1 ( Boxed Fruits ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed.event
+{
+	accessories[]: .lowcab_fbed.event.chassis
+	accessories[]: .lowcab_fbed.event.fwheel
+	accessories[]: .lowcab_fbed.event.rwheel
+
+	max_speed: 120
+	
+	
+	# WHITE/GRAY
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.7084, 0.7084, 0.7084)
+	color[]: (0.6, 0.6, 0.6)
+	# YELLOW
+	color[]: (0.9909, 0.5522, 0.017)
+	# BLUE
+	color[]: (0.0685, 0.1248, 0.1812)
+	#silver
+	color[]: (0.3662, 0.3277, 0.2788) 
+	
+
+	vehicle_mass: 8000
+	
+	engine_power: 140
+	
+@include "drivers_generic.sui"
+	
+	prefer_variant: true
+	variant[]: traffic.lowcab_fbed1.event
+	variant[]: traffic.lowcab_fbed2.event
+	variant[]: traffic.lowcab_fbed3.event
+}
+
+vehicle_accessory: .lowcab_fbed.event.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed + Shutters - Load 2 ( Construction Materials ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed1.event
+{
+	accessories[]: .lowcab_fbed1.event.chassis
+	accessories[]: .lowcab_fbed1.event.fwheel
+	accessories[]: .lowcab_fbed1.event.rwheel
+
+	max_speed: 120
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+	
+
+	vehicle_mass: 8000
+	
+	engine_power: 140
+	
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .lowcab_fbed1.event.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l2.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed1.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed1.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed + Shutters - Load 3 ( Mixed ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed2.event
+{
+	accessories[]: .lowcab_fbed2.event.chassis
+	accessories[]: .lowcab_fbed2.event.fwheel
+	accessories[]: .lowcab_fbed2.event.rwheel
+
+	max_speed: 120
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+	
+
+	vehicle_mass: 8000
+	
+	engine_power: 140
+	
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .lowcab_fbed2.event.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l3.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed2.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed2.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Load 4 ( Cable Rolls ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed3.event
+{
+	accessories[]: .lowcab_fbed3.event.chassis
+	accessories[]: .lowcab_fbed3.event.fwheel
+	accessories[]: .lowcab_fbed3.event.rwheel
+
+	max_speed: 120
+	
+	
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+	
+
+	vehicle_mass: 8000
+	
+	engine_power: 140
+	
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .lowcab_fbed3.event.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l4.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed3.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed3.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}

@@ -1,0 +1,40 @@
+traffic_vehicle : traffic.toyota_prius
+{
+	accessories[]: .toyota_prius.chassis
+	accessories[]: .toyota_prius.fwheel
+	accessories[]: .toyota_prius.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_electric_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+	vehicle_mass: 1500
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/toyota_prius_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .toyota_prius.chassis
+{
+	data_path: "/def/vehicle/ai/toyota_prius/chassis.sii"
+}
+
+vehicle_wheel_accessory: .toyota_prius.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .toyota_prius.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+

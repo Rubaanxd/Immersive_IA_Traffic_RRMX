@@ -1,0 +1,32 @@
+traffic_vehicle : traffic.a6_crashed.event
+{
+	accessories[]: .a6_crashed.event.chassis
+	accessories[]: .a6_crashed.event.fwheel
+	accessories[]: .a6_crashed.event.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 2000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/audi_a6_colors.sui"
+
+}
+
+vehicle_accessory: .a6_crashed.event.chassis
+{
+	data_path: "/def/vehicle/ai/a6_crashed/event.sii"
+}
+
+vehicle_wheel_accessory: .a6_crashed.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .a6_crashed.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.mercury
+{
+	accessories[]: .mercury.chassis
+	accessories[]: .mercury.fwheel
+	accessories[]: .mercury.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 2100
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+
+	tags[]: vintage
+
+	spawn_ratio: 0.0075
+	tags[]: cheap
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .mercury.chassis
+{
+	data_path: "/def/vehicle/ai/mercury/chassis.sii"
+}
+
+vehicle_wheel_accessory: .mercury.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_oldm.sii"
+}
+
+vehicle_wheel_accessory: .mercury.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_oldm.sii"
+}

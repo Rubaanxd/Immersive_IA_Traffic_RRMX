@@ -1,0 +1,82 @@
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Nebraska - motorhome XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.larus.motorhome
+{
+	accessories[]: .larus.motorhome.chassis
+	accessories[]: .larus.motorhome.fwheel
+	accessories[]: .larus.motorhome.rwheel
+
+	max_speed: 100
+	vehicle_mass: 15000
+	engine_power: 336
+
+	sound_move[]: "/sound/traffic/truck_us_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_3.soundref"
+
+	tags[]: caravan
+	
+	variant[]: traffic.larus.motorhome.orange
+
+	spawn_ratio: 0.1
+
+	license_plate_type: car
+
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .larus.motorhome.chassis
+{
+	data_path: "/def/vehicle/ai/larus_motorhome/blue.sii"
+}
+vehicle_wheel_accessory: .larus.motorhome.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus.sii"
+}
+vehicle_wheel_accessory: .larus.motorhome.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus.sii"
+}
+
+##################### ORANGE #########################################
+
+traffic_vehicle : traffic.larus.motorhome.orange
+{
+	accessories[]: .larus.motorhome.orange.chassis
+	accessories[]: .larus.motorhome.orange.fwheel
+	accessories[]: .larus.motorhome.orange.rwheel
+
+	max_speed: 100
+	vehicle_mass: 15000
+	engine_power: 336
+
+	sound_move[]: "/sound/traffic/truck_us_2.soundref"
+	sound_horn[]: "/sound/traffic/truck_horn_3.soundref"
+	
+	spawn_ratio: 0.1
+
+	tags[]: caravan
+
+	license_plate_type: car
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .larus.motorhome.orange.chassis
+{
+	data_path: "/def/vehicle/ai/larus_motorhome/orange.sii"
+}
+vehicle_wheel_accessory: .larus.motorhome.orange.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_bus.sii"
+}
+vehicle_wheel_accessory: .larus.motorhome.orange.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_bus.sii"
+}

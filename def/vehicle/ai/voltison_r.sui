@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.voltison_r
+{
+	accessories[]: .voltison_r.chassis
+	accessories[]: .voltison_r.fwheel
+	accessories[]: .voltison_r.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_electric_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	vehicle_mass: 2000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/tesla_model_s_colors.sui"
+
+
+	tags[]: expensive
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .voltison_r.chassis
+{
+	data_path: "/def/vehicle/ai/voltison_r/chassis.sii"
+}
+
+vehicle_wheel_accessory: .voltison_r.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .voltison_r.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+

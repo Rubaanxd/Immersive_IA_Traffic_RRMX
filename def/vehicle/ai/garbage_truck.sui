@@ -1,0 +1,131 @@
+traffic_vehicle : traffic.garbage_trck
+{
+	accessories[]: .garbage_trck.chassis
+	accessories[]: .garbage_trck.fwheel
+	accessories[]: .garbage_trck.rwheel
+	accessories[]: .garbage_trck.rwheel2
+
+	max_speed: 90
+
+	tags[]: urban
+	tags[]: garbage_trck
+	tags[]: context
+
+	license_plate_type: truck_city
+
+	sound_move[]: "/sound/traffic/car_normal_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+
+	vehicle_mass: 18750
+
+@include "drivers_generic.sui"
+
+	spawn_condition[]: .traffic.garbage_trck.spawn.condition
+	spawn_condition[]: .traffic.garbage_trck.spawn.condition2
+	spawn_condition[]: .traffic.garbage_trck.spawn.condition3
+}
+traffic_spawn_condition: .traffic.garbage_trck.spawn.condition
+{
+	type: area
+	str_param[]: "urban" # spawn inside cities
+}
+traffic_spawn_condition: .traffic.garbage_trck.spawn.condition2
+{
+	type: area
+	str_param[]: "!"
+	str_param[]: "company" # don't spawn inside companies
+	str_param[]: "dealer" # don't spawn inside truck dealers
+}
+traffic_spawn_condition: .traffic.garbage_trck.spawn.condition3
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 06:00 - 16:00
+	num_param[]: 360
+	num_param[]: 960
+}
+
+vehicle_accessory: .garbage_trck.chassis
+{
+	data_path: "/def/vehicle/ai/garbage_truck/chassis.sii"
+}
+
+vehicle_wheel_accessory: .garbage_trck.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/chrome.sii"
+}
+
+vehicle_wheel_accessory: .garbage_trck.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/chrome.sii"
+}
+
+vehicle_wheel_accessory: .garbage_trck.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/chrome.sii"
+}
+
+traffic_vehicle : traffic.garbage_trck.company
+{
+	accessories[]: .garbage_trck.company.chassis
+	accessories[]: .garbage_trck.company.fwheel
+	accessories[]: .garbage_trck.company.rwheel
+	accessories[]: .garbage_trck.company.rwheel2
+
+	max_speed: 90
+
+	tags[]: context
+	tags[]: garbage_trck
+
+	license_plate_type: truck_city
+
+	sound_move[]: "/sound/traffic/car_normal_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+
+	vehicle_mass: 18750
+
+	spawn_condition[]: .traffic.garbage_trck.company.spawn.condition
+	spawn_condition[]: .traffic.garbage_trck.company.spawn.condition2
+
+@include "drivers_generic.sui"
+}
+traffic_spawn_condition: .traffic.garbage_trck.company.spawn.condition
+{
+	type: area
+	str_param[]: "mwm_wst_whs" # spawn at given company
+}
+traffic_spawn_condition: .traffic.garbage_trck.company.spawn.condition2
+{
+	type: area
+	str_param[]: "company"
+}
+
+vehicle_accessory: .garbage_trck.company.chassis
+{
+	data_path: "/def/vehicle/ai/garbage_truck/chassis.sii"
+}
+
+vehicle_wheel_accessory: .garbage_trck.company.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/chrome.sii"
+}
+
+vehicle_wheel_accessory: .garbage_trck.company.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/chrome.sii"
+}
+
+vehicle_wheel_accessory: .garbage_trck.company.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/chrome.sii"
+}
+

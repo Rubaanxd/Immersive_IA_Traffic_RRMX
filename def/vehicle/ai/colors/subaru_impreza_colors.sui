@@ -1,0 +1,1007 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (5 colors, 50 times repeated)
+	# - Gray colors:   ~21%  (12 colors, 18 times repeated)
+	# - Black colors:  ~20%  (6 colors, 33 times repeated)
+	# - Silver colors: ~11%  (9 colors, 12 times repeated)
+	# - Blue colors:   ~10%  (29 colors, 3 times repeated)
+	# - Red colors:    ~8%   (14 colors, 6 times repeated)
+	# - Green colors:  ~1.8% (7 colors, 3 times repeated)
+	# - Brown colors:  ~1.3% (0 colors, 0 times repeated)
+	# - Orange colors: ~0.6% (1 color, 6 times repeated)
+	# - Yellow colors: ~0.2% (2 colors, 1 time repeated)
+	# - Gold colors:   ~0.2% (1 color, 2 times repeated)
+	# - Purple colors: ~0.1% (1 color, 1 time repeated)
+	# - Other colors:  ~0.8% (1 color, 8 times repeated)
+
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.4397, 0.3712, 0.3278) # Topaz Gold
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.2307, 0.2874, 0.2270) # Jasmine Green
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0000, 0.0086, 0.3005) # World Rally Blue
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0545, 0.0823, 0.1221) # Newport Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.1746, 0.2789, 0.4793) # Sky Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0144, 0.1356, 0.3185) # Hyper Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.0262, 0.0296, 0.0742) # Cobalt Blue
+	color[]: (0.0152, 0.0176, 0.0369) # Dark Blue
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.4678, 0.0086, 0.0116) # San Remo Red
+	color[]: (0.2307, 0.2874, 0.2270) # Jasmine Green
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0423, 0.1651, 0.2961) # Mystic Blue
+	color[]: (0.5089, 0.0152, 0.0152) # Cardinal Red
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.0000, 0.0086, 0.3005) # WR Blue Pearl
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0110, 0.0160, 0.0262) # Dark Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0319, 0.0578, 0.1413) # Blue Ridge
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.1590, 0.0130, 0.0194) # Crimson Red
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.0497, 0.0931, 0.1529) # Quartz Blue
+	color[]: (0.0000, 0.0086, 0.3005) # World Rally Blue
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0000, 0.0086, 0.3005) # Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0319, 0.0578, 0.1413) # Blue Ridge
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.2705, 0.0000, 0.0012) # Crimson Red
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.0452, 0.0137, 0.0262) # Deep Cherry
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2346, 0.0086, 0.0086) # Pure Red
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0203, 0.1470, 0.4621) # Ocean Blue
+	color[]: (0.0000, 0.0307, 0.1500) # Sapphire Blue
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0144, 0.1356, 0.3185) # Hyper Blue
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0144, 0.0887, 0.2918) # Rally Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0075, 0.0185, 0.1070) # Lapis Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0307, 0.0802, 0.0802) # Hunter Green
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0075, 0.0185, 0.1070) # Lapis Blue
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0545, 0.2307, 0.3663) # Island Blue
+	color[]: (0.0648, 0.0887, 0.1470) # Marine Blue
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.2705, 0.0000, 0.0012) # Crimson Red
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.4342, 0.0123, 0.0110) # Brilliant Red
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0086, 0.3005) # Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0953, 0.1683, 0.2502) # Heritage Blue
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0953, 0.1683, 0.2502) # Heritage Blue
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.0545, 0.2307, 0.3663) # Island Blue
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.5089, 0.0152, 0.0152) # Cardinal Red
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0000, 0.0086, 0.3005) # WR Blue Pearl
+	color[]: (0.4621, 0.0168, 0.0232) # Lightning Red
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0356, 0.0844, 0.0467) # Savana Green
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.5972, 0.0648, 0.0307) # Tangerine Orange
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.0369, 0.0999, 0.0844) # Acadia Green
+	color[]: (0.4621, 0.0168, 0.0232) # Lightning Red
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.4397, 0.3712, 0.3278) # Topaz Gold
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.0262, 0.0296, 0.0742) # Cobalt Blue
+	color[]: (0.0160, 0.0865, 0.0931) # Spruce
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0000, 0.0086, 0.3005) # WR Blue
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.3419, 0.0356, 0.0242) # Paprika Red
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.2122, 0.0103, 0.0103) # Mica Ruby
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0203, 0.0343, 0.0685) # Cosmic Blue
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.1590, 0.0130, 0.0194) # Crimson Red
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.4621, 0.0168, 0.0232) # Lightning Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0176, 0.0395, 0.1384) # Brisbane Blue
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.2232, 0.0160, 0.0185) # Venetian Red
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0000, 0.0086, 0.3005) # WR Blue
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0000, 0.0086, 0.3005) # Blue
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0137, 0.0252, 0.0802) # Regal Blue
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0152, 0.0176, 0.0545) # Plasma Blue
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.1620, 0.0110, 0.0160) # Camellia Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.3419, 0.0356, 0.0242) # Paprika Red
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0545, 0.0823, 0.1221) # Newport Blue
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0203, 0.0343, 0.0685) # Cosmic Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2232, 0.0160, 0.0185) # Venetian Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.3095, 0.0252, 0.0116) # Sedona Red
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0144, 0.0887, 0.2918) # Rally Blue
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.2346, 0.0086, 0.0086) # Pure Red
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.2232, 0.0160, 0.0185) # Venetian Red
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0423, 0.1651, 0.2961) # Mystic Blue
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.3419, 0.0356, 0.0242) # Paprika Red
+	color[]: (0.0000, 0.0086, 0.3005) # WR Blue Pearl
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.3095, 0.0252, 0.0116) # Sedona Red
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2346, 0.0086, 0.0086) # Pure Red
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.8070, 0.7011, 0.1384) # Blaze Yellow
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0006, 0.2086, 0.9216) # Oasis Blue
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.2051, 0.0116, 0.0075) # Canyon Red
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.1746, 0.2789, 0.4793) # Sky Blue
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.4678, 0.5841, 0.5972) # Aqua Blue
+	color[]: (0.2346, 0.0086, 0.0086) # Pure Red
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.1620, 0.0110, 0.0160) # Camellia Red
+	color[]: (0.4678, 0.0086, 0.0116) # San Remo Red
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.0319, 0.1070, 0.1714) # Aegean Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.5972, 0.0648, 0.0307) # Tangerine Orange
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.1144, 0.1500, 0.1248) # Evergreen
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2051, 0.0116, 0.0075) # Canyon Red
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.0110, 0.0160, 0.0262) # Dark Blue
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.0648, 0.0887, 0.1470) # Marine Blue
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.1620, 0.0110, 0.0160) # Camellia Red
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2346, 0.0086, 0.0086) # Pure Red
+	color[]: (0.0144, 0.1356, 0.3185) # Hyper Blue
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.0137, 0.0252, 0.0802) # Regal Blue
+	color[]: (0.5271, 0.0033, 0.0027) # Lithium Red
+	color[]: (0.0152, 0.0176, 0.0369) # Dark Blue
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.0887, 0.3968, 0.3813) # Caribbean Green
+	color[]: (0.0152, 0.0176, 0.0545) # Plasma Blue
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0176, 0.0395, 0.1384) # Brisbane Blue
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.3095, 0.0252, 0.0116) # Sedona Red
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.5089, 0.0152, 0.0152) # Cardinal Red
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0331, 0.0423, 0.1301) # Pacifica Blue
+	color[]: (0.5089, 0.0152, 0.0152) # Cardinal Red
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.2232, 0.0160, 0.0185) # Venetian Red
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.0331, 0.0423, 0.1301) # Pacifica Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0006, 0.2086, 0.9216) # Oasis Blue
+	color[]: (0.0307, 0.0802, 0.0802) # Hunter Green
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.1144, 0.1500, 0.1248) # Evergreen
+	color[]: (0.0844, 0.1590, 0.1170) # Woodland Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2232, 0.0160, 0.0185) # Venetian Red
+	color[]: (0.5089, 0.0152, 0.0152) # Cardinal Red
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.0356, 0.0844, 0.0467) # Savana Green
+	color[]: (0.0497, 0.0931, 0.1529) # Quartz Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0137, 0.0252, 0.0802) # Regal Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2346, 0.0086, 0.0086) # Pure Red
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.4678, 0.5841, 0.5972) # Aqua Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.2122, 0.0103, 0.0103) # Mica Ruby
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.1590, 0.0130, 0.0194) # Crimson Red
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.0000, 0.0086, 0.3005) # WR Blue
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0343, 0.0437, 0.0782) # Deep Sapphire
+	color[]: (0.2051, 0.0116, 0.0075) # Canyon Red
+	color[]: (0.5271, 0.0033, 0.0027) # Lithium Red
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.0262, 0.0296, 0.0742) # Cobalt Blue
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.0545, 0.0823, 0.1221) # Newport Blue
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2705, 0.0000, 0.0012) # Crimson Red
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0369, 0.0999, 0.0844) # Acadia Green
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.2232, 0.0160, 0.0185) # Venetian Red
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0144, 0.0887, 0.2918) # Rally Blue
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.5271, 0.0033, 0.0027) # Lithium Red
+	color[]: (0.3419, 0.0356, 0.0242) # Paprika Red
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.0497, 0.0931, 0.1529) # Quartz Blue
+	color[]: (0.0648, 0.0887, 0.1470) # Marine Blue
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.2705, 0.0000, 0.0012) # Crimson Red
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.1590, 0.0130, 0.0194) # Crimson Red
+	color[]: (0.0331, 0.0423, 0.1301) # Pacifica Blue
+	color[]: (0.3419, 0.0356, 0.0242) # Paprika Red
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.2051, 0.0116, 0.0075) # Canyon Red
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0176, 0.0395, 0.1384) # Brisbane Blue
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0319, 0.0578, 0.1413) # Blue Ridge
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0953, 0.1683, 0.2502) # Heritage Blue
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0319, 0.1070, 0.1714) # Aegean Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0160, 0.0865, 0.0931) # Spruce
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.0203, 0.1470, 0.4621) # Ocean Blue
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0369, 0.0999, 0.0844) # Acadia Green
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0844, 0.1590, 0.1170) # Woodland Green
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.5271, 0.0033, 0.0027) # Lithium Red
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.1620, 0.0110, 0.0160) # Camellia Red
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.2705, 0.0000, 0.0012) # Crimson Red
+	color[]: (0.1144, 0.1500, 0.1248) # Evergreen
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.0203, 0.1470, 0.4621) # Ocean Blue
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.6654, 0.4072, 0.0152) # Sports Yellow
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.4342, 0.0123, 0.0110) # Brilliant Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.1620, 0.0110, 0.0160) # Camellia Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.2122, 0.0103, 0.0103) # Mica Ruby
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1590, 0.0130, 0.0194) # Crimson Red
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.2122, 0.0103, 0.0103) # Mica Ruby
+	color[]: (0.5972, 0.0648, 0.0307) # Tangerine Orange
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3095, 0.0252, 0.0116) # Sedona Red
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0075, 0.0185, 0.1070) # Lapis Blue
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.1746, 0.2789, 0.4793) # Sky Blue
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.5972, 0.0648, 0.0307) # Tangerine Orange
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.2122, 0.0103, 0.0103) # Mica Ruby
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.4678, 0.0086, 0.0116) # San Remo Red
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.4678, 0.0086, 0.0116) # San Remo Red
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0423, 0.1651, 0.2961) # Mystic Blue
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.3095, 0.0252, 0.0116) # Sedona Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.0343, 0.0437, 0.0782) # Deep Sapphire
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.4342, 0.0123, 0.0110) # Brilliant Red
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.5333, 0.5333, 0.5711) # Platinum Silver
+	color[]: (0.1620, 0.0110, 0.0160) # Camellia Red
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0319, 0.1070, 0.1714) # Aegean Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.5271, 0.0033, 0.0027) # Lithium Red
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0086, 0.3005) # World Rally Blue
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0343, 0.0437, 0.0782) # Deep Sapphire
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.6376, 0.6376, 0.5520) # Silverthorn
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0110, 0.0160, 0.0262) # Dark Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.4678, 0.0086, 0.0116) # San Remo Red
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.2122, 0.0103, 0.0103) # Mica Ruby
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.4342, 0.0123, 0.0110) # Brilliant Red
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.5972, 0.0648, 0.0307) # Tangerine Orange
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.5972, 0.0648, 0.0307) # Tangerine Orange
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0000, 0.0307, 0.1500) # Sapphire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.2051, 0.0116, 0.0075) # Canyon Red
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.1590, 0.0130, 0.0194) # Crimson Red
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.4621, 0.0168, 0.0232) # Lightning Red
+	color[]: (0.2307, 0.2874, 0.2270) # Jasmine Green
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.5089, 0.0152, 0.0152) # Cardinal Red
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0307, 0.1500) # Sapphire Blue
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0844, 0.1590, 0.1170) # Woodland Green
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0356, 0.0844, 0.0467) # Savana Green
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.5029, 0.5395, 0.5520) # Spark Silver
+	color[]: (0.0006, 0.2086, 0.9216) # Oasis Blue
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.2705, 0.0000, 0.0012) # Crimson Red
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0152, 0.0176, 0.0545) # Plasma Blue
+	color[]: (0.4621, 0.0168, 0.0232) # Lightning Red
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.6376, 0.6376, 0.5520) # Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.4020, 0.4397, 0.4452) # Crystal Gray
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.2789, 0.2462, 0.2086) # Graystone
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.7682, 0.8714, 0.8469) # Aspen White
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.5776, 0.6038, 0.6308) # Ice Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Graphite Black
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.2542, 0.2270, 0.1946) # Warm Gray Opal
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0160, 0.0865, 0.0931) # Spruce
+	color[]: (0.6308, 0.5711, 0.5029) # Sunlight Gold Opal
+	color[]: (0.0307, 0.0356, 0.0467) # Deep Sea Blue
+	color[]: (0.2789, 0.2462, 0.2086) # Gray
+	color[]: (0.3419, 0.0356, 0.0242) # Paprika Red
+	color[]: (0.0545, 0.2307, 0.3663) # Island Blue
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.2051, 0.0116, 0.0075) # Canyon Red
+	color[]: (0.4342, 0.0123, 0.0110) # Brilliant Red
+	color[]: (0.0307, 0.0802, 0.0802) # Hunter Green
+	color[]: (0.1119, 0.1441, 0.1500) # Sage Green
+	color[]: (0.0203, 0.0343, 0.0685) # Cosmic Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.4621, 0.0168, 0.0232) # Lightning Red
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Diamond
+	color[]: (0.2542, 0.2270, 0.1946) # Titanium
+	color[]: (0.3095, 0.0252, 0.0116) # Sedona Red
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.4678, 0.5841, 0.5972) # Aqua Blue
+	color[]: (0.0152, 0.0176, 0.0369) # Dark Blue
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.3231, 0.3372, 0.3864) # Ice Silver
+	color[]: (0.9473, 0.9387, 0.8388) # Glacier White
+	color[]: (0.0467, 0.0529, 0.0513) # Magnetite Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5271, 0.0033, 0.0027) # Lithium Red
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.5333, 0.5333, 0.5711) # Premium Silver
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.2122, 0.2122, 0.2051) # Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.4678, 0.0086, 0.0116) # San Remo Red
+	color[]: (0.0561, 0.0437, 0.0666) # Dark Gray
+	color[]: (0.7758, 0.7913, 0.7682) # Satin White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.6376, 0.6376, 0.5520) # Royal Silver
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.7682, 0.8714, 0.8469) # Pure White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Midnight Black
+	color[]: (0.3663, 0.3231, 0.3278) # Slate
+	color[]: (0.0075, 0.0060, 0.0097) # Black Pearl
+	color[]: (0.8632, 0.8632, 0.8632) # Crystal White
+	color[]: (0.3515, 0.3712, 0.4179) # Steel Silver
+	color[]: (0.4342, 0.0123, 0.0110) # Brilliant Red

@@ -1,0 +1,90 @@
+ # xxxxxxxxx event dumper xxxxxxxxx
+traffic_vehicle : traffic.mack_rd.event
+{
+	accessories[]: .mack_rd.event.chassis
+	accessories[]: .mack_rd.event.fwheel
+	accessories[]: .mack_rd.event.rwheel
+	accessories[]: .mack_rd.event.rwheel2
+
+	max_speed: 1
+	allow_parked: false
+	
+	vehicle_mass: 28800
+	
+	engine_power: 330
+
+@include "drivers_generic.sui"
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/mack_rd_690_colors.sui"
+
+}
+
+vehicle_accessory: .mack_rd.event.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/event.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.event.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+ # xxxxxxxxx event truck xxxxxxxxx
+traffic_vehicle : traffic.mack_rd.event_truck
+{
+	accessories[]: .mack_rd.event_truck.chassis
+	accessories[]: .mack_rd.event_truck.fwheel
+	accessories[]: .mack_rd.event_truck.rwheel
+	accessories[]: .mack_rd.event_truck.rwheel2
+
+	max_speed: 1
+	allow_parked: false
+	
+	vehicle_mass: 25000
+	engine_power: 330
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/mack_rd_690_colors.sui"
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .mack_rd.event_truck.chassis
+{
+	data_path: "/def/vehicle/ai/mack_rd/event_truck.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.event_truck.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.event_truck.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}
+
+vehicle_wheel_accessory: .mack_rd.event_truck.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/r_wheel/steel.sii"
+}

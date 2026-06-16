@@ -1,0 +1,39 @@
+traffic_vehicle : traffic.chevy_van
+{
+	accessories[]: .chevy_van.chassis
+	accessories[]: .chevy_van.fwheel
+	accessories[]: .chevy_van.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+
+	vehicle_mass: 2700
+
+	tags[]: van
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_express_colors.sui"
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .chevy_van.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_van/chassis.sii"
+}
+
+vehicle_wheel_accessory: .chevy_van.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_20in_o.sii"
+}
+
+vehicle_wheel_accessory: .chevy_van.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_20in_o.sii"
+}
+

@@ -1,0 +1,91 @@
+traffic_vehicle : traffic.l_lincoln
+{
+	accessories[]: .l_lincoln.chassis
+	accessories[]: .l_lincoln.fwheel
+	accessories[]: .l_lincoln.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	allow_parked: false
+
+	spawn_ratio: 0.01
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_stretch_limo_colors.sui"
+
+	tags[]: urban
+	tags[]: large_city
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .l_lincoln.chassis
+{
+	data_path: "/def/vehicle/ai/limo_lincoln/chassis.sii"
+}
+
+vehicle_wheel_accessory: .l_lincoln.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .l_lincoln.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+
+traffic_vehicle : traffic.l_lincoln_b
+{
+	accessories[]: .l_lincoln_b.chassis
+	accessories[]: .l_lincoln_b.fwheel
+	accessories[]: .l_lincoln_b.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	allow_parked: false
+
+	spawn_ratio: 0.01
+
+	vehicle_mass: 3000
+
+	color[]: (0.0104, 0.0104, 0.0104) #black
+
+	tags[]: urban
+	tags[]: large_city
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .l_lincoln_b.chassis
+{
+	data_path: "/def/vehicle/ai/limo_lincoln/chassis.sii"
+}
+
+vehicle_wheel_accessory: .l_lincoln_b.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .l_lincoln_b.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+

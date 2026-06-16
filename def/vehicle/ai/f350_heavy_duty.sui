@@ -1,0 +1,216 @@
+#Hull variant
+
+traffic_vehicle : traffic.f350_hd
+{
+	accessories[]: .f350_hd.chassis
+	accessories[]: .f350_hd.fwheel
+	accessories[]: .f350_hd.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	tags[]: heavy_duty
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f350_colors.sui"
+
+	vehicle_mass: 2000
+
+	variant[]: traffic.f350_hd_c
+	variant[]: traffic.f350_hd_t1
+	variant[]: traffic.f350_hd_t2
+
+	spawn_ratio: 0.2
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .f350_hd.chassis
+{
+	data_path: "/def/vehicle/ai/f350_heavy_duty/chassis_h.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+#compressor
+
+traffic_vehicle : traffic.f350_hd_c
+{
+	accessories[]: .f350_hd_c.chassis
+	accessories[]: .f350_hd_c.fwheel
+	accessories[]: .f350_hd_c.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	tags[]: heavy_duty
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f350_colors.sui"
+
+	vehicle_mass: 2000
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .f350_hd_c.chassis
+{
+	data_path: "/def/vehicle/ai/f350_heavy_duty/chassis_c.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_c.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_c.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+#compressor_white
+
+traffic_vehicle : traffic.f350_hd_cw
+{
+	accessories[]: .f350_hd_cw.chassis
+	accessories[]: .f350_hd_cw.fwheel
+	accessories[]: .f350_hd_cw.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	tags[]: heavy_duty
+
+
+    color[]: (0.8713, 0.8631, 0.8227) #white
+
+	vehicle_mass: 2000
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .f350_hd_cw.chassis
+{
+	data_path: "/def/vehicle/ai/f350_heavy_duty/chassis_c.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_cw.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_cw.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+#tow 1
+
+traffic_vehicle : traffic.f350_hd_t1
+{
+	accessories[]: .f350_hd_t1.chassis
+	accessories[]: .f350_hd_t1.fwheel
+	accessories[]: .f350_hd_t1.rwheel
+
+	max_speed: 120
+
+	tags[]: heavy_duty
+	tags[]: tow_small
+
+
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 2750 # +750kg trailer
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .f350_hd_t1.chassis
+{
+	data_path: "/def/vehicle/ai/f350_heavy_duty/chassis_t1.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_t1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_t1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+
+#tow 1
+
+traffic_vehicle : traffic.f350_hd_t2
+{
+	accessories[]: .f350_hd_t2.chassis
+	accessories[]: .f350_hd_t2.fwheel
+	accessories[]: .f350_hd_t2.rwheel
+
+	max_speed: 120
+
+	tags[]: heavy_duty
+	tags[]: tow_small
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 2750 # +750kg trailer
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .f350_hd_t2.chassis
+{
+	data_path: "/def/vehicle/ai/f350_heavy_duty/chassis_t2.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_t2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .f350_hd_t2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}

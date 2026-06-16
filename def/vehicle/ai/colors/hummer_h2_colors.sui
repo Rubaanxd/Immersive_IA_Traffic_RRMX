@@ -1,0 +1,1030 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (6 colors, 42 times repeated)
+	# - Gray colors:   ~21%  (13 colors, 16 times repeated)
+	# - Black colors:  ~20%  (7 colors, 29 times repeated)
+	# - Silver colors: ~11%  (11 colors, 10 times repeated)
+	# - Blue colors:   ~10%  (11 colors, 9 times repeated)
+	# - Red colors:    ~8%   (14 colors, 6 times repeated)
+	# - Green colors:  ~1.8% (9 colors, 2 times repeated)
+	# - Brown colors:  ~1.3% (7 colors, 2 times repeated)
+	# - Orange colors: ~0.6% (6 colors, 1 time repeated)
+	# - Yellow colors: ~0.2% (2 colors, 1 time repeated)
+	# - Gold colors:   ~0.2% (1 color, 2 times repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (2 colors, 4 times repeated)
+
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.7835, 0.3916, 0.0296) # Pulse Yellow
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.0232, 0.0887, 0.0931) # Bermuda Blue
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.4072, 0.0369, 0.0212) # Poppy Red
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (1.0000, 0.1170, 0.0762) # Solar Orange
+	color[]: (0.6308, 0.6038, 0.4564) # Tiara Tan
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.2159, 0.0070, 0.0123) # Merlot Jewel
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1500, 0.0060, 0.0116) # Sonoma Jewel
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8963, 0.0395, 0.0185) # Inferno Orange
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.7011, 0.6939, 0.2423) # Lancelot Gold
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0232, 0.0887, 0.0931) # Bermuda Blue
+	color[]: (0.1651, 0.3564, 0.3372) # Ceramic Blue
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.7011, 0.6939, 0.2423) # Lancelot Gold
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.3278, 0.0091, 0.0075) # Firehouse Red
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.3864, 0.0222, 0.0497) # Flame Red
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0545, 0.0382, 0.0194) # Deep Aurora
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8632, 0.0343, 0.0075) # Candy Apple
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.1651, 0.3564, 0.3372) # Ceramic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.1248, 0.1845, 0.1620) # Moonshot Green
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8963, 0.0395, 0.0185) # Inferno Orange
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0823, 0.0103, 0.0123) # Redfire
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.4910, 0.0000, 0.0343) # Marinello Red
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.8632, 0.0343, 0.0075) # Candy Apple
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.5395, 0.4072, 0.1912) # Mojave Tan
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.7011, 0.2270, 0.0000) # Desert Sunset
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.3864, 0.0222, 0.0497) # Flame Red
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.1559, 0.1022, 0.0742) # Cocoa
+	color[]: (0.2623, 0.0369, 0.0242) # Sunset Orange
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (1.0000, 0.5029, 0.0000) # Competition Yellow
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.0612, 0.0887, 0.0232) # Moss Green
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.4072, 0.0369, 0.0212) # Poppy Red
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8963, 0.0395, 0.0185) # Solar Flare
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1500, 0.0060, 0.0116) # Sonoma Jewel
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.4072, 0.0369, 0.0212) # Poppy Red
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.3095, 0.3325, 0.2462) # Mystic Green
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.3864, 0.0222, 0.0497) # Flame Red
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.3278, 0.0091, 0.0075) # Firehouse Red
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.4072, 0.0369, 0.0212) # Poppy Red
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.3278, 0.0091, 0.0075) # Firehouse Red
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (1.0000, 0.1170, 0.0762) # Solar Orange
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0823, 0.0103, 0.0123) # Redfire
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.3278, 0.0091, 0.0075) # Firehouse Red
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.2623, 0.0369, 0.0242) # Sunset Orange
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (1.0000, 0.1170, 0.0762) # Solar Orange
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.6376, 0.1221, 0.0262) # Afterburst
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.2159, 0.0070, 0.0123) # Merlot Jewel
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.0823, 0.0103, 0.0123) # Redfire
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.9647, 0.3005, 0.0252) # Fusion Orange
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.1274, 0.0252, 0.0194) # Seraph Orange
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.4910, 0.0000, 0.0343) # Marinello Red
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.2623, 0.0369, 0.0242) # Sunset Orange
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.8963, 0.0395, 0.0185) # Solar Flare
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.1651, 0.3564, 0.3372) # Ceramic Blue
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.3278, 0.0091, 0.0075) # Firehouse Red
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.3864, 0.0222, 0.0497) # Flame Red
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (1.0000, 0.1170, 0.0762) # Solar Orange
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.7011, 0.0262, 0.0160) # Sonic Orange
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.2159, 0.0070, 0.0123) # Merlot Jewel
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.0823, 0.0103, 0.0123) # Redfire
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.0482, 0.1413, 0.0612) # Woodland Green
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.3095, 0.3325, 0.2462) # Mystic Green
+	color[]: (0.1559, 0.1022, 0.0742) # Cocoa
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0823, 0.0103, 0.0123) # Redfire
+	color[]: (0.8632, 0.0343, 0.0075) # Candy Apple
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.0212, 0.0343, 0.0176) # Grenade Green
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.3278, 0.0091, 0.0075) # Firehouse Red
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.8963, 0.0395, 0.0185) # Solar Flare
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.7011, 0.0262, 0.0160) # Sonic Orange
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.8963, 0.0395, 0.0185) # Solar Flare
+	color[]: (0.7011, 0.0262, 0.0160) # Sonic Orange
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.1195, 0.0782, 0.0529) # Desert Sand
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0823, 0.0103, 0.0123) # Redfire
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.4910, 0.0000, 0.0343) # Marinello Red
+	color[]: (0.4072, 0.0369, 0.0212) # Poppy Red
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.1500, 0.0060, 0.0116) # Sonoma Jewel
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.8963, 0.0395, 0.0185) # Inferno Orange
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.0212, 0.0343, 0.0176) # Grenade Green
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.8963, 0.0395, 0.0185) # Solar Flare
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.5395, 0.4072, 0.1912) # Mojave Tan
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0561, 0.0595, 0.0307) # Medium Sage Green
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.2623, 0.0423, 0.0242) # Copper Haze
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.1500, 0.0060, 0.0116) # Sonoma Jewel
+	color[]: (0.2623, 0.0423, 0.0242) # Copper Haze
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.1651, 0.3564, 0.3372) # Ceramic Blue
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.7011, 0.0262, 0.0160) # Sonic Orange
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (1.0000, 0.1170, 0.0762) # Solar Orange
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.2623, 0.0369, 0.0242) # Sunset Orange
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.0545, 0.0382, 0.0194) # Deep Aurora
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0482, 0.1413, 0.0612) # Woodland Green
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4735, 0.0704, 0.0212) # Sunburst Orange
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.4910, 0.0000, 0.0343) # Marinello Red
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0561, 0.0595, 0.0307) # Medium Sage Green
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.8963, 0.0395, 0.0185) # Solar Flare
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.3095, 0.4969, 0.6105) # Silver Lightning
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (1.0000, 0.1170, 0.0762) # Solar Orange
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.0212, 0.0343, 0.0176) # Shadow Green
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0242, 0.0782, 0.1170) # Atomic Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.6038, 0.6240, 0.5520) # Ultra Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0003, 0.0091, 0.0823) # All Terrain Blue
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.4910, 0.0000, 0.0343) # Marinello Red
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.2159, 0.0070, 0.0123) # Merlot Jewel
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.7011, 0.0262, 0.0160) # Sonic Orange
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.6654, 0.6445, 0.5333) # Boulder Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.9823, 0.3968, 0.0331) # Yellow
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6376, 0.1221, 0.0262) # Afterburner
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0056, 0.0152, 0.0782) # Supernova
+	color[]: (0.4287, 0.4342, 0.3864) # Summit Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8963, 0.0395, 0.0185) # Inferno Orange
+	color[]: (0.2582, 0.2232, 0.1981) # Magna Steel
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.1500, 0.0060, 0.0116) # Sonoma Jewel
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.8632, 0.0343, 0.0075) # Candy Apple
+	color[]: (0.6308, 0.6038, 0.4564) # Tiara Tan
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.7011, 0.0262, 0.0160) # Sonic Orange
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.0212, 0.0343, 0.0176) # Shadow Green
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.1274, 0.0252, 0.0194) # Seraph Orange
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.6654, 0.6445, 0.5333) # Fine Silver Birch
+	color[]: (0.2159, 0.0070, 0.0123) # Merlot Jewel
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.0356, 0.0343, 0.0382) # Night Storm
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.0612, 0.0887, 0.0232) # Moss Green
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.1070, 0.0844, 0.0782) # Smokey Caramel
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.4072, 0.0369, 0.0212) # Poppy Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.1195, 0.0782, 0.0529) # Desert Sand
+	color[]: (0.0000, 0.0000, 0.0000) # Civilian Black
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.2623, 0.0369, 0.0242) # Sunset Orange
+	color[]: (0.2307, 0.4564, 0.6308) # Ocean Blue
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.0423, 0.0423, 0.0423) # Meteorite
+	color[]: (0.4910, 0.0000, 0.0343) # Marinello Red
+	color[]: (0.1500, 0.0060, 0.0116) # Sonoma Jewel
+	color[]: (0.1248, 0.1845, 0.1620) # Moonshot Green
+	color[]: (0.0999, 0.0999, 0.0865) # Evolution Blue
+	color[]: (0.3278, 0.5647, 0.7157) # Neptune Blue
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.8632, 0.0343, 0.0075) # Candy Apple
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.1683, 0.2664, 0.3095) # Stealth Gray
+	color[]: (0.8963, 0.0395, 0.0185) # Inferno Orange
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.6514, 0.6514, 0.6514) # Star Silver III
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0666, 0.0999, 0.0467) # Swerve Green
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.6654, 0.6445, 0.5333) # Silver Birch
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.1144, 0.1248, 0.1301) # Techno Gray
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.1683, 0.2664, 0.3095) # Slate Blue
+	color[]: (0.0666, 0.0999, 0.0467) # Swerve Green
+	color[]: (0.0000, 0.0000, 0.0000) # Vortex Black
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.0844, 0.1356, 0.2195) # Graphite Blue
+	color[]: (0.3564, 0.3515, 0.2918) # Civilian Silver
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1248, 0.1559, 0.1651) # Black Diamond
+	color[]: (0.8796, 0.9131, 0.8879) # Civilian Bright White
+	color[]: (0.0307, 0.0273, 0.0307) # Dark Labyrinth Gray
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.8550, 0.9216, 0.8469) # Athenian White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Black
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.8963, 0.9131, 0.8796) # Bright White
+	color[]: (0.3140, 0.3005, 0.2789) # Graystone
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Void Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.8632, 0.0343, 0.0075) # Candy Apple
+	color[]: (0.5029, 0.4735, 0.4735) # Pewter
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.8963, 0.0395, 0.0185) # Inferno Orange
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8070, 0.8148, 0.8228) # Sheer Silver
+	color[]: (0.5906, 0.6939, 0.8714) # Tide
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.6654, 0.6445, 0.5333) # Birch White
+	color[]: (0.8796, 0.9131, 0.8879) # Bright White
+	color[]: (0.2623, 0.0369, 0.0242) # Sunset Orange
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.5520, 0.5711, 0.6308) # Silver
+	color[]: (0.1248, 0.1559, 0.1651) # Charcoal
+	color[]: (0.8963, 0.8879, 0.8388) # Interstellar White
+	color[]: (0.2159, 0.0070, 0.0123) # Merlot Jewel
+	color[]: (0.0091, 0.1144, 0.2918) # Arrival Blue

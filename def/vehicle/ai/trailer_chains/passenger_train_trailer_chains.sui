@@ -1,0 +1,6 @@
+	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains trailer chains for various passenger trains and is
+	# intended for inclusion in AI train model files.
+
+	trailer_chains[]: "train_car.trakus_car 6-10"

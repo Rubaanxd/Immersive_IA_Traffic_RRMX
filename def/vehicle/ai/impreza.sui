@@ -1,0 +1,47 @@
+traffic_vehicle : traffic.impreza
+{
+	accessories[]: .impreza.chassis
+	accessories[]: .impreza.fwheel
+	accessories[]: .impreza.rwheel
+
+	max_speed: 300
+
+	sound_move[]: "/sound/traffic/car_sport_1.soundref"
+	sound_move[]: "/sound/traffic/car_sport_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/subaru_impreza_colors.sui"
+	
+	vehicle_mass: 1600
+
+	tags[]: luxury
+	
+	
+	tags[]: expensive
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .impreza.chassis
+{
+	data_path: "/def/vehicle/ai/impreza/chassis.sii"
+}
+
+vehicle_wheel_accessory: .impreza.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_camaro.sii"
+}
+
+vehicle_wheel_accessory: .impreza.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_camaro.sii"
+}
+

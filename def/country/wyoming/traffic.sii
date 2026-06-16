@@ -1,0 +1,97 @@
+SiiNunit
+{
+
+#################################################
+########### trains
+#################################################
+
+
+#################################################
+########### police highway patrol
+#################################################
+
+
+country_traffic_info : .country.info.traffic.char_wy_hp
+{
+	object: traffic.char_wy_hp
+	spawn_ratio: 1.0
+}
+
+#################################################
+########### police
+#################################################
+
+
+
+#################################################
+########### paramedic
+#################################################
+
+country_traffic_info : .country.info.traffic.f350_amb.wy
+{
+	object: traffic.f350_amb.wy
+	spawn_ratio: 1.0
+}
+
+
+#################################################
+########### fire truck
+#################################################
+
+country_traffic_info : .country.info.traffic.arrow_xt
+{
+	object: traffic.arrow_xt
+	spawn_ratio: 0.0
+}
+
+country_traffic_info : .country.info.traffic.arrow_xt.city
+{
+	object: traffic.arrow_xt.city
+	spawn_ratio: 0.0
+}
+
+country_traffic_info : .country.info.traffic.arrow_xt.wy
+{
+	object: traffic.arrow_xt.wy
+	spawn_ratio: 1.0
+}
+
+
+
+
+#################################################
+########### trailer
+#################################################
+
+country_traffic_info : .country.info.traffic.scs_grainh40
+{
+	object: traffic.trailer.scs_grainh40
+	spawn_ratio: 0.2
+}
+country_traffic_info : .country.info.traffic.scs_grainhrm
+{
+	object: traffic.trailer.scs_grainhrm
+	spawn_ratio: 0.5
+}
+country_traffic_info : .country.info.traffic.scs_blkfd
+{
+	object: traffic.trailer.scs_blkfd45
+	spawn_ratio: 0.5
+}
+country_traffic_info : .country.info.traffic.scs_grainh50
+{
+	object: traffic.trailer.scs_grainh50
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.scs_foodtank
+{
+	object: traffic.trailer.scs_fodt40
+	spawn_ratio: 1.0
+}
+country_traffic_info : .country.info.traffic.trailer.livestock
+{
+	object: traffic.trailer.scs_livestk
+	spawn_ratio: 2.0
+}
+
+}

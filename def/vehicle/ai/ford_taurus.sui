@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.ford_taurus
+{
+	accessories[]: .ford_taurus.chassis
+	accessories[]: .ford_taurus.fwheel
+	accessories[]: .ford_taurus.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	allow_parked: false
+
+	vehicle_mass: 2000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_taurus_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .ford_taurus.chassis
+{
+	data_path: "/def/vehicle/ai/ford_taurus/chassis.sii"
+}
+
+vehicle_wheel_accessory: .ford_taurus.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .ford_taurus.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}

@@ -1,0 +1,66 @@
+traffic_vehicle : traffic.accord_f.event
+{
+	accessories[]: .accord_f.event.chassis
+	accessories[]: .accord_f.event.fwheel
+	accessories[]: .accord_f.event.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 1800
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/honda_accord_colors.sui"
+	
+
+}
+
+vehicle_accessory: .accord_f.event.chassis
+{
+	data_path: "/def/vehicle/ai/accord_crashed/event_front.sii"
+}
+
+vehicle_wheel_accessory: .accord_f.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .accord_f.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+traffic_vehicle : traffic.accord_r.event
+{
+	accessories[]: .accord_r.event.chassis
+	accessories[]: .accord_r.event.fwheel
+	accessories[]: .accord_r.event.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 1800
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/honda_accord_colors.sui"
+
+
+
+}
+
+vehicle_accessory: .accord_r.event.chassis
+{
+	data_path: "/def/vehicle/ai/accord_crashed/event_rear.sii"
+}
+
+vehicle_wheel_accessory: .accord_r.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .accord_r.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

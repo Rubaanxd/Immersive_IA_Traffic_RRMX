@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.lincoln_mkt
+{
+	accessories[]: .lincoln_mkt.chassis
+	accessories[]: .lincoln_mkt.fwheel
+	accessories[]: .lincoln_mkt.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	allow_parked: false
+
+	vehicle_mass: 2000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/lincoln_mkt_colors.sui"
+	tags[]: cheap
+
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .lincoln_mkt.chassis
+{
+	data_path: "/def/vehicle/ai/lincoln_mkt/chassis.sii"
+}
+
+vehicle_wheel_accessory: .lincoln_mkt.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .lincoln_mkt.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+

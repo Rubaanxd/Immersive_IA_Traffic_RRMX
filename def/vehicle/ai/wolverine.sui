@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.wolverine
+{
+	accessories[]: .wolverine.chassis
+	accessories[]: .wolverine.fwheel
+	accessories[]: .wolverine.rwheel
+
+	max_speed: 70
+
+	sound_move[]: "/sound/traffic/car_atv_1.soundref"
+	allow_parked: true
+	vehicle_mass: 500
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+
+	spawn_ratio: 0.01
+
+	tags[]: rural
+	tags[]: cheap
+
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .wolverine.chassis
+{
+	data_path: "/def/vehicle/ai/wolverine/chassis.sii"
+}
+
+vehicle_wheel_accessory: .wolverine.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_buggy.sii"
+}
+
+vehicle_wheel_accessory: .wolverine.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_buggy.sii"
+}

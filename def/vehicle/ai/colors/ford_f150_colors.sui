@@ -1,0 +1,2490 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (6 colors, 104 times repeated)
+	# - Gray colors:   ~21%  (22 colors, 24 times repeated)
+	# - Black colors:  ~20%  (9 colors, 56 times repeated)
+	# - Silver colors: ~11%  (6 colors, 46 times repeated)
+	# - Blue colors:   ~10%  (20 colors, 12 times repeated)
+	# - Red colors:    ~8%   (22 colors, 9 times repeated)
+	# - Green colors:  ~1.8% (11 colors, 4 times repeated)
+	# - Brown colors:  ~1.3% (13 colors, 2 times repeated)
+	# - Orange colors: ~0.6% (3 colors, 5 times repeated)
+	# - Yellow colors: ~0.2% (3 colors, 2 times repeated)
+	# - Gold colors:   ~0.2% (5 colors, 1 time repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (0 colors, 0 times repeated)
+
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.2789, 0.1981, 0.1529) # Stone Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0080, 0.0203, 0.0075) # Woodland Green
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0595, 0.0056, 0.0065) # Chestnut Brown
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.6445, 0.0482, 0.0152) # Code Orange
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.3515, 0.1651, 0.0908) # Golden Bronze
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.4564, 0.0296, 0.0065) # Competition Orange
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.6939, 0.0382, 0.0252) # Molten Orange
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0185, 0.0222, 0.0185) # Estate Green
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (1.0000, 0.5333, 0.0452) # Chrome Yellow
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.1356, 0.1095, 0.0497) # Shelter Green
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.1095, 0.0262, 0.0176) # Dark Copper
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.6445, 0.0482, 0.0152) # Code Orange
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0595, 0.0123, 0.0144) # Cinnamon
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.6939, 0.0382, 0.0252) # Molten Orange
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.3864, 0.3231, 0.2705) # Harvest Gold
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.6939, 0.0382, 0.0252) # Molten Orange
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1301, 0.0648, 0.0742) # Kodiak Brown
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.2789, 0.1981, 0.1529) # Stone Gray
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (1.0000, 0.5333, 0.0452) # Chrome Yellow
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.6308, 0.5583, 0.3712) # Pueblo Gold
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0137, 0.0252, 0.0222) # Dark Green Satin
+	color[]: (0.0030, 0.0648, 0.0369) # Amazon Green
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0395, 0.0194) # Highland Green
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.5029, 0.4508, 0.3050) # Pale Adobe
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0137, 0.0252, 0.0222) # Dark Green Satin
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.9473, 0.6867, 0.0545) # Screaming Yellow
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.0595, 0.0123, 0.0144) # Cinnamon
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4564, 0.0296, 0.0065) # Competition Orange
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4564, 0.0296, 0.0065) # Competition Orange
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.6445, 0.0482, 0.0152) # Code Orange
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0467, 0.0578, 0.0595) # Aspen Green
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1119, 0.0685, 0.0685) # Caribou
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.6939, 0.0382, 0.0252) # Molten Orange
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.1714, 0.1119, 0.0908) # Earth
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.4564, 0.0296, 0.0065) # Competition Orange
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0529, 0.0369, 0.0331) # Chroma Courture
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.2384, 0.0356, 0.0176) # Bronze Fire
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0467, 0.0685, 0.0685) # Forrest Green
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0595, 0.0056, 0.0065) # Chestnut Brown
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.6445, 0.0482, 0.0152) # Code Orange
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.6445, 0.0482, 0.0152) # Code Orange
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.3231, 0.2789, 0.2346) # Light Prairie Tan
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.0467, 0.0578, 0.0595) # Aspen Green
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1356, 0.1095, 0.0497) # Shelter Green
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1356, 0.1095, 0.0497) # Shelter Green
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0137, 0.0252, 0.0222) # Dark Green Satin
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0595, 0.0056, 0.0065) # Chestnut
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0467, 0.0578, 0.0595) # Aspen Green
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.3231, 0.2789, 0.2346) # Light Prairie Tan
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.6939, 0.0382, 0.0252) # Molten Orange
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0000, 0.0395, 0.0194) # Highland Green
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0185, 0.0222, 0.0185) # Estate Green
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0467, 0.0685, 0.0685) # Forrest Green
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9473, 0.6867, 0.0545) # Screaming Yellow
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1221, 0.0331, 0.0203) # Golden Bronze
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0030, 0.0648, 0.0369) # Amazon Green
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0000, 0.0395, 0.0194) # Highland Green
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.0595, 0.0056, 0.0065) # Chestnut
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0003, 0.0144, 0.0307) # True Blue
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.2705, 0.0065, 0.0048) # Sangria Red
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0395, 0.0194) # Highland Green
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0529, 0.0369, 0.0331) # Chroma Courture
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.4452, 0.2016, 0.0252) # Amber Gold
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0030, 0.0648, 0.0369) # Amazon Green
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.0080, 0.0203, 0.0075) # Woodland Green
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (1.0000, 0.5333, 0.0452) # School Bus Yellow
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.0762, 0.0222, 0.0262) # Deep Toreador Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.0467, 0.0578, 0.0595) # Aspen Green
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1095, 0.0262, 0.0176) # Dark Copper
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0052, 0.0423, 0.1912) # Blue Lightning
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1714, 0.1119, 0.0908) # Earth
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1221, 0.0331, 0.0203) # Golden Bronze
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0467, 0.0685, 0.0685) # Forrest Green
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1620, 0.0000, 0.0065) # Sunset
+	color[]: (0.1812, 0.0222, 0.0319) # Merlot
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2384, 0.0044, 0.0185) # Red Candy
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0185, 0.0222, 0.0185) # Estate Green
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0931, 0.0152, 0.0242) # Royal Red
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0423, 0.0048, 0.0021) # Magma Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4452, 0.4910, 0.4910) # Space White
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.3813, 0.0000, 0.0070) # Ruby Red
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.1356, 0.1095, 0.0497) # Shelter Green
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (1.0000, 0.5333, 0.0452) # School Bus Yellow
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2623, 0.0144, 0.0116) # Redfire
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.0015, 0.0012, 0.0012) # Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0060, 0.0356, 0.0999) # Antimatter Blue
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0137, 0.0252, 0.0222) # Dark Green Satin
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0319, 0.0307, 0.0630) # Deep Wedgewood Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.1529, 0.0056, 0.0044) # Bright Amber
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0185, 0.0222, 0.0185) # Estate Green
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0003, 0.2705, 0.5457) # Velocity Blue
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.1878, 0.2307, 0.2918) # Lead Foot
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.1812, 0.2542, 0.2789) # Silver Spruce
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0091, 0.0185, 0.0685) # Chesapeake Blue
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.0000, 0.0382, 0.1384) # Atlas Blue
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.0000, 0.0529, 0.2086) # Ford Performance Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0030, 0.0648, 0.0369) # Amazon Green
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0176, 0.0343, 0.0931) # Sapphire Blue
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.1248, 0.1651, 0.2122) # Azure Gray
+	color[]: (0.4910, 0.4508, 0.3712) # White Gold
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.1248, 0.1221, 0.1095) # Mountain Shadow Gray
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Sliver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8714, 0.0000, 0.0000) # Hot Pepper Red
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.2384, 0.0356, 0.0176) # Bronze Fire
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.1119, 0.0685, 0.0685) # Caribou
+	color[]: (0.1248, 0.0865, 0.0666) # Mineral Gray
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.6514, 0.6445, 0.6308) # Smokestone
+	color[]: (0.0080, 0.0203, 0.0075) # Woodland Green
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0467, 0.0685, 0.0685) # Forrest Green
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0545, 0.0103, 0.0103) # Lava Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.0015, 0.0296, 0.3372) # Sonic Blue
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.1301, 0.0648, 0.0742) # Kodiak Brown
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1170, 0.1651, 0.2122) # Area 51
+	color[]: (0.1248, 0.1221, 0.1095) # Dark Shadow Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0212, 0.0307, 0.0561) # Charcoal Blue
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.3278, 0.0091, 0.0075) # Infra Red
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.2502, 0.2918, 0.3231) # Bright Silver
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0232, 0.0284, 0.0630) # Dark Blue Pearl
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1170, 0.1413, 0.1683) # Medium Platinum
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.3663, 0.3663, 0.3663) # Brilliant Silver
+	color[]: (0.4452, 0.0000, 0.0000) # Vermillion
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.3372, 0.0232, 0.0086) # Candy Red
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0762, 0.0222, 0.0262) # Dark Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4851, 0.5210, 0.5271) # Iconic Silver
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.4020, 0.3663, 0.2918) # Terrain
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0168, 0.0273, 0.0595) # Dark Tourmaline
+	color[]: (0.1119, 0.0116, 0.0080) # Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.2961, 0.0009, 0.0070) # Rapid Red
+	color[]: (0.0080, 0.0203, 0.0075) # Woodland Green
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0762, 0.0782, 0.1170) # Medium Wedgewood
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.4564, 0.0296, 0.0065) # Competition Orange
+	color[]: (0.2705, 0.0065, 0.0048) # Toreador Red
+	color[]: (0.0000, 0.0000, 0.0000) # Ebony
+	color[]: (0.0578, 0.0612, 0.0666) # Charcoal Beige
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.0185, 0.0160, 0.0212) # Dark Amethyst
+	color[]: (0.0497, 0.0561, 0.0497) # Real Steel
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8308, 0.8550, 0.7913) # Star White
+	color[]: (0.0284, 0.0284, 0.0284) # Smoked Quartz
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black
+	color[]: (0.8879, 0.8796, 0.8632) # White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.5029, 0.4508, 0.3050) # Pale Adobe
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.0080, 0.0437, 0.1714) # Blue Flame
+	color[]: (0.0052, 0.0423, 0.1912) # Lightning Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.9911, 0.9911, 0.9911) # Oxford White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0060, 0.0232, 0.0742) # Island Blue
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum Pearl
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8632, 0.8469, 0.7758) # White Chocolate
+	color[]: (0.4735, 0.5333, 0.6105) # Silver
+	color[]: (0.7231, 0.7758, 0.6724) # White Platinum
+	color[]: (0.2423, 0.2423, 0.2307) # Arizona Beige
+	color[]: (0.0060, 0.0232, 0.0742) # Dark Teal
+	color[]: (0.0000, 0.0000, 0.0000) # Evening Black

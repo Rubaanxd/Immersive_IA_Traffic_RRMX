@@ -1,0 +1,89 @@
+traffic_vehicle : traffic.hummer
+{
+	accessories[]: .hummer.chassis
+	accessories[]: .hummer.fwheel
+	accessories[]: .hummer.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 3000
+
+	spawn_ratio: 0.2
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/hummer_h2_colors.sui"
+	
+	variant[]: traffic.hummer_p
+
+	tags[]: expensive
+	tags[]: common
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hummer.chassis
+{
+	data_path: "/def/vehicle/ai/hummer_h2/chassis.sii"
+}
+
+vehicle_wheel_accessory: .hummer.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_hummer.sii"
+}
+
+vehicle_wheel_accessory: .hummer.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_hummer.sii"
+}
+
+
+traffic_vehicle : traffic.hummer_p
+{
+	accessories[]: .hummer_p.chassis
+	accessories[]: .hummer_p.fwheel
+	accessories[]: .hummer_p.rwheel
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/hummer_h2_colors.sui"
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 3000
+
+	tags[]: expensive
+	tags[]: common
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hummer_p.chassis
+{
+	data_path: "/def/vehicle/ai/hummer_h2/chassis_pickup.sii"
+}
+
+vehicle_wheel_accessory: .hummer_p.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_hummer.sii"
+}
+
+vehicle_wheel_accessory: .hummer_p.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_hummer.sii"
+}

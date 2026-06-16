@@ -1,0 +1,51 @@
+traffic_vehicle : traffic.a_lines
+{
+	accessories[]: .a_lines.chassis
+	accessories[]: .a_lines.fwheel
+	accessories[]: .a_lines.rwheel
+	accessories[]: .a_lines.rwheel2
+	accessories[]: .a_lines.rwheel3
+
+	max_speed: 72
+	vehicle_mass: 196000
+	engine_power: 3000
+
+	tags[]: cargo
+
+@include "/def/vehicle/ai/trailer_chains/cargo_train_trailer_chains.sui"
+
+	displacement_limit: 0.0
+
+	sound_move[]: "/sound/traffic/train_diesel.soundref"
+	sound_horn[]: "/sound/traffic/train_horn_2.soundref"
+	sound_gears : 1
+}
+
+vehicle_accessory: .a_lines.chassis
+{
+	data_path: "/def/vehicle/ai/train_atlantic_lines/chassis.sii"
+}
+
+vehicle_wheel_accessory: .a_lines.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .a_lines.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .a_lines.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .a_lines.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

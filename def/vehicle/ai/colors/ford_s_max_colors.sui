@@ -1,0 +1,100 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (1 color, 19 times repeated)
+	# - Gray colors:   ~21%  (1 color, 16 times repeated)
+	# - Black colors:  ~20%  (2 colors, 8 times repeated)
+	# - Silver colors: ~11%  (2 colors, 4 times repeated)
+	# - Blue colors:   ~10%  (3 colors, 3 times repeated)
+	# - Red colors:    ~8%   (2 colors, 3 times repeated)
+	# - Green colors:  ~1.8% (1 color, 1 time repeated)
+	# - Brown colors:  ~1.3% (1 color, 1 time repeated)
+	# - Orange colors: ~0.6% (0 colors, 0 times repeated)
+	# - Yellow colors: ~0.2% (0 colors, 0 times repeated)
+	# - Gold colors:   ~0.2% (0 colors, 0 times repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (0 colors, 0 times repeated)
+
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.5395, 0.4397, 0.2874) # White Grape
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.5271, 0.4793, 0.4125) # Machine Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.4678, 0.5149, 0.5210) # Stardust Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.2747, 0.3916, 0.4564) # Tonic
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.5271, 0.4793, 0.4125) # Machine Silver
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (0.0030, 0.0152, 0.0497) # Ink Blue
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.4678, 0.5149, 0.5210) # Stardust Silver
+	color[]: (0.5271, 0.4793, 0.4125) # Machine Silver
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (0.2747, 0.3916, 0.4564) # Tonic
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.2747, 0.3916, 0.4564) # Tonic
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.4678, 0.5149, 0.5210) # Stardust Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0030, 0.0152, 0.0497) # Ink Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.4678, 0.5149, 0.5210) # Stardust Silver
+	color[]: (0.1248, 0.0097, 0.0048) # Tango
+	color[]: (0.0056, 0.0296, 0.0262) # Kelp Green
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (0.1248, 0.0097, 0.0048) # Tango
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0030, 0.0152, 0.0497) # Ink Blue
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.5271, 0.4793, 0.4125) # Machine Silver
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (0.1248, 0.0097, 0.0048) # Tango
+	color[]: (0.0024, 0.0052, 0.0137) # Deep Navy
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0423, 0.0529, 0.0648) # Sea Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red

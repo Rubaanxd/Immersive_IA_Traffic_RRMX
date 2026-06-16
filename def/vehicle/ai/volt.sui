@@ -1,0 +1,43 @@
+traffic_vehicle : traffic.volt
+{
+	accessories[]: .volt.chassis
+	accessories[]: .volt.fwheel
+	accessories[]: .volt.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_electric_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+
+	vehicle_mass: 1700
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_volt_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .volt.chassis
+{
+	data_path: "/def/vehicle/ai/volt/chassis.sii"
+}
+
+vehicle_wheel_accessory: .volt.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .volt.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+

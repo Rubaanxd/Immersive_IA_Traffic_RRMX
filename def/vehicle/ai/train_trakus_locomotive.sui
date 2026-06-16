@@ -1,0 +1,50 @@
+traffic_vehicle : traffic.trakus_loco
+{
+	accessories[]: .trakus_loco.chassis
+	accessories[]: .trakus_loco.fwheel
+	accessories[]: .trakus_loco.rwheel
+	accessories[]: .trakus_loco.rwheel2
+	accessories[]: .trakus_loco.rwheel3
+
+	max_speed: 150
+	vehicle_mass: 121000
+	engine_power: 3170
+
+	tags[]: passenger
+
+@include "/def/vehicle/ai/trailer_chains/passenger_train_trailer_chains.sui"
+
+	displacement_limit: 0.0
+
+	sound_move[]: "/sound/traffic/train_diesel.soundref"
+	sound_horn[]: "/sound/traffic/train_horn_2.soundref"
+}
+
+vehicle_accessory: .trakus_loco.chassis
+{
+	data_path: "/def/vehicle/ai/train_trakus/chassis_l.sii"
+}
+
+vehicle_wheel_accessory: .trakus_loco.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .trakus_loco.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .trakus_loco.rwheel2
+{
+	offset: 2
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .trakus_loco.rwheel3
+{
+	offset: 4
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

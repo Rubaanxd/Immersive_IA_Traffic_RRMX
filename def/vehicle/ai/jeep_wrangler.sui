@@ -1,0 +1,133 @@
+traffic_vehicle : traffic.jeep_w
+{
+	accessories[]: .jeep_w.chassis
+	accessories[]: .jeep_w.fwheel
+	accessories[]: .jeep_w.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	vehicle_mass: 2000
+	
+
+	variant[]: traffic.jeep_w.soft_open
+	variant[]: traffic.jeep_w.soft_top
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/jeep_wrangler_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .jeep_w.chassis
+{
+	data_path: "/def/vehicle/ai/jeep_wrangler/chassis_hard_top.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in_o.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in_o.sii"
+}
+
+
+traffic_vehicle : traffic.jeep_w.soft_open
+{
+	accessories[]: .jeep_w.soft_open.chassis
+	accessories[]: .jeep_w.soft_open.fwheel
+	accessories[]: .jeep_w.soft_open.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/jeep_wrangler_colors.sui"
+	vehicle_mass: 2000
+	
+	spawn_condition[]: .traffic.jeep_w.soft_open.condition.weather
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .jeep_w.soft_open.chassis
+{
+	data_path: "/def/vehicle/ai/jeep_wrangler/chassis_soft_open.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.soft_open.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in_o.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.soft_open.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in_o.sii"
+}
+
+traffic_spawn_condition: .traffic.jeep_w.soft_open.condition.weather
+{
+	# spawn only in nice weater
+	type: weather
+	num_param[]: 0
+}
+
+traffic_vehicle : traffic.jeep_w.soft_top
+{
+	accessories[]: .jeep_w.soft_top.chassis
+	accessories[]: .jeep_w.soft_top.fwheel
+	accessories[]: .jeep_w.soft_top.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/jeep_wrangler_colors.sui"
+	vehicle_mass: 2000
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .jeep_w.soft_top.chassis
+{
+	data_path: "/def/vehicle/ai/jeep_wrangler/chassis_soft_top.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.soft_top.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in_o.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.soft_top.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in_o.sii"
+}

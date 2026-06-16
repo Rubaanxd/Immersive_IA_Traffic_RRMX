@@ -1,0 +1,100 @@
+  # This file is part of the "More realistic traffic" mod for SCS ATS.
+  #
+  # rule: traffic_rule.s_car_l
+  # name: Spawn density car low
+
+  num_params[]: 0.0 # 00:00
+  num_params[]: 0.0450 # frequency
+  num_params[]: 8 # count limit
+
+  num_params[]: 1.0 # 01:00
+  num_params[]: 0.0400
+  num_params[]: 7
+
+  num_params[]: 2.0 # 02:00
+  num_params[]: 0.0400
+  num_params[]: 7
+
+  num_params[]: 3.0 # 03:00
+  num_params[]: 0.0450
+  num_params[]: 8
+
+  num_params[]: 4.0 # 04:00
+  num_params[]: 0.0500
+  num_params[]: 10
+
+  num_params[]: 5.0 # 05:00
+  num_params[]: 0.1167
+  num_params[]: 20
+
+  num_params[]: 6.0 # 06:00
+  num_params[]: 0.2556
+  num_params[]: 45
+
+  num_params[]: 7.0 # 07:00
+  num_params[]: 0.2833
+  num_params[]: 50
+
+  num_params[]: 8.0 # 08:00
+  num_params[]: 0.2111
+  num_params[]: 37
+
+  num_params[]: 9.0 # 09:00
+  num_params[]: 0.1167
+  num_params[]: 21
+
+  num_params[]: 10.0 # 10:00
+  num_params[]: 0.1
+  num_params[]: 18
+
+  num_params[]: 11.0 # 11:00
+  num_params[]: 0.1167
+  num_params[]: 21
+
+  num_params[]: 12.0 # 12:00
+  num_params[]: 0.2444
+  num_params[]: 44
+
+  num_params[]: 13.0 # 13:00
+  num_params[]: 0.2
+  num_params[]: 35
+
+  num_params[]: 14.0 # 14:00
+  num_params[]: 0.1278
+  num_params[]: 23
+
+  num_params[]: 15.0 # 15:00
+  num_params[]: 0.1444
+  num_params[]: 25
+
+  num_params[]: 16.0 # 16:00
+  num_params[]: 0.2167
+  num_params[]: 38
+
+  num_params[]: 17.0 # 17:00
+  num_params[]: 0.2444
+  num_params[]: 44
+
+  num_params[]: 18.0 # 18:00
+  num_params[]: 0.2278
+  num_params[]: 40
+
+  num_params[]: 19.0 # 19:00
+  num_params[]: 0.1556
+  num_params[]: 28
+
+  num_params[]: 20.0 # 20:00
+  num_params[]: 0.1
+  num_params[]: 18
+
+  num_params[]: 21.0 # 21:00
+  num_params[]: 0.0800
+  num_params[]: 12
+
+  num_params[]: 22.0 # 22:00
+  num_params[]: 0.0600
+  num_params[]: 10
+
+  num_params[]: 23.0 # 23:00
+  num_params[]: 0.0500
+  num_params[]: 9

@@ -1,0 +1,64 @@
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files.
+
+	# Lincoln Town Car Stretch Limo
+
+	# ~49% black
+
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+	color[]: (0.0048, 0.0048, 0.0048) #black
+
+	# ~49% white
+
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+	color[]: (0.8714, 0.8714, 0.8714) #white
+
+	# ~2% pink
+
+	color[]: (1.0000, 0.0070, 0.2918) #deep pink

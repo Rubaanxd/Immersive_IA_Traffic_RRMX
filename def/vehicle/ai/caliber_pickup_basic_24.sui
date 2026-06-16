@@ -1,0 +1,44 @@
+traffic_vehicle : traffic.caliber.pickup.basic_24
+{
+	accessories[]: .caliber.pickup.basic_24.chassis
+	accessories[]: .caliber.pickup.basic_24.fwheel
+	accessories[]: .caliber.pickup.basic_24.rwheel
+
+	max_speed: 180
+
+	vehicle_mass: 1400
+
+	
+
+	sound_move[]: "/sound/traffic/car_diesel_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_1.soundref"
+
+	spawn_ratio: 1
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/dodge_caliber_colors.sui"
+
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"	
+}
+
+vehicle_accessory: .caliber.pickup.basic_24.chassis
+{
+	data_path: "/def/vehicle/ai/caliber_pickup_basic_24/chassis_pickup.sii"
+}
+
+vehicle_wheel_accessory: .caliber.pickup.basic_24.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_1.sii"
+}
+
+vehicle_wheel_accessory: .caliber.pickup.basic_24.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_1.sii"
+}

@@ -1,0 +1,30 @@
+traffic_vehicle : traffic.f150_crashed.event
+{
+	accessories[]: .f150_crashed.event.chassis
+	accessories[]: .f150_crashed.event.fwheel
+	accessories[]: .f150_crashed.event.rwheel
+
+	max_speed: 160
+
+	vehicle_mass: 2000
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_f150_colors.sui"
+}
+
+vehicle_accessory: .f150_crashed.event.chassis
+{
+	data_path: "/def/vehicle/ai/f150_crashed/event.sii"
+}
+
+vehicle_wheel_accessory: .f150_crashed.event.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_empty_50cm.sii"
+}
+
+vehicle_wheel_accessory: .f150_crashed.event.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_empty_50cm.sii"
+}

@@ -1,0 +1,513 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (3 colors, 42 times repeated)
+	# - Gray colors:   ~21%  (3 colors, 35 times repeated)
+	# - Black colors:  ~20%  (1 color, 100 times repeated)
+	# - Silver colors: ~11%  (1 color, 55 times repeated)
+	# - Blue colors:   ~10%  (6 colors, 8 times repeated)
+	# - Red colors:    ~8%   (4 colors, 10 times repeated)
+	# - Green colors:  ~1.8% (2 colors, 4 times repeated)
+	# - Brown colors:  ~1.3% (1 color, 6 times repeated)
+	# - Orange colors: ~0.6% (0 colors, 0 times repeated)
+	# - Yellow colors: ~0.2% (0 colors, 0 times repeated)
+	# - Gold colors:   ~0.2% (1 color, 1 time repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (0 colors, 0 times repeated)
+
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.5841, 0.5333, 0.4020) # Light Sandstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.3864, 0.4910, 0.3968) # Satin Jade
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.5841, 0.5333, 0.4020) # Light Sandstone
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.6105, 0.5583, 0.4397) # White Gold
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.5841, 0.5333, 0.4020) # Light Sandstone
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.5841, 0.5333, 0.4020) # Light Sandstone
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1095, 0.1946, 0.1878) # Magnesium
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.5841, 0.5333, 0.4020) # Light Sandstone
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0242, 0.0823, 0.1946) # Marine Blue
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.3864, 0.4910, 0.3968) # Satin Jade
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1095, 0.1946, 0.1878) # Magnesium
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.3864, 0.4910, 0.3968) # Satin Jade
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1095, 0.1946, 0.1878) # Magnesium
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.5841, 0.5333, 0.4020) # Light Sandstone
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.3864, 0.4910, 0.3968) # Satin Jade
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0307, 0.1170, 0.2664) # Steel Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1912, 0.3005, 0.5029) # Butane Blue
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.1095, 0.1946, 0.1878) # Magnesium
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.0356, 0.0369, 0.0595) # Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.0070, 0.0482, 0.1413) # Deep Water Blue
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.6724, 0.0024, 0.0110) # Tor Red
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.6724, 0.0024, 0.0110) # High Performance Red
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0070, 0.0168, 0.0762) # Midnight Blue
+	color[]: (0.9216, 0.9047, 0.6445) # Linen Gold
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1981, 0.2874, 0.3185) # Silver Steel
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.1144, 0.1170, 0.1274) # Mineral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.9131, 0.9301, 0.8148) # Stone White
+	color[]: (0.4508, 0.0110, 0.0152) # Inferno Red
+	color[]: (0.3515, 0.0097, 0.0116) # Blaze Red Crystal
+	color[]: (0.8228, 0.7913, 0.5395) # Cool Vanilla
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.1651, 0.1413, 0.1274) # Dark Titanium
+	color[]: (0.7454, 0.7913, 0.7529) # Bright Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Brilliant Black

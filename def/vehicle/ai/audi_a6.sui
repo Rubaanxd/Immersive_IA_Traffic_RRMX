@@ -1,0 +1,41 @@
+traffic_vehicle : traffic.audi_a6
+{
+	accessories[]: .audi_a6.chassis
+	accessories[]: .audi_a6.fwheel
+	accessories[]: .audi_a6.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+
+	vehicle_mass: 1800
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/audi_a6_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .audi_a6.chassis
+{
+	data_path: "/def/vehicle/ai/audi_a6/chassis.sii"
+}
+
+vehicle_wheel_accessory: .audi_a6.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_19in_l.sii"
+}
+
+vehicle_wheel_accessory: .audi_a6.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_19in_l.sii"
+}
+

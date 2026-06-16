@@ -1,0 +1,1020 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (6 colors, 42 times repeated)
+	# - Gray colors:   ~21%  (10 colors, 21 times repeated)
+	# - Black colors:  ~20%  (5 colors, 40 times repeated)
+	# - Silver colors: ~11%  (8 colors, 14 times repeated)
+	# - Blue colors:   ~10%  (12 colors, 8 times repeated)
+	# - Red colors:    ~8%   (12 colors, 7 times repeated)
+	# - Green colors:  ~1.8% (3 colors, 6 times repeated)
+	# - Brown colors:  ~1.3% (4 colors, 3 times repeated)
+	# - Orange colors: ~0.6% (0 colors, 0 times repeated)
+	# - Yellow colors: ~0.2% (2 colors, 1 time repeated)
+	# - Gold colors:   ~0.2% (1 color, 2 times repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (1 color, 8 times repeated)
+
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.7529, 0.4910, 0.0423) # Yellow
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green Pearl
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.4969, 0.3864, 0.2747) # Light Driftwood
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.7913, 0.0009, 0.0000) # Bright Red
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.5210, 0.0137, 0.0103) # Torch Red
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.1651, 0.0137, 0.0137) # Cajun Red
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.5906, 0.5210, 0.3467) # Gold Mist
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.1651, 0.0137, 0.0137) # Cajun Red
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.5906, 0.5210, 0.3467) # Gold Mist
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green Pearl
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.7913, 0.0009, 0.0000) # Bright Red
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.2270, 0.0152, 0.0252) # Red Jewel
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue
+	color[]: (0.2270, 0.0152, 0.0252) # Red Jewel
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.4969, 0.3864, 0.2747) # Light Driftwood
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0931, 0.0704, 0.0545) # Mocha Bronze
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.0307, 0.0075, 0.0086) # Dark Toreador
+	color[]: (0.2232, 0.0065, 0.0056) # Sport Red
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.7305, 0.5210, 0.2747) # Cashmere
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.2232, 0.0070, 0.0052) # Cobalt Red
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.1651, 0.0137, 0.0137) # Cajun Red
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0953, 0.0037, 0.0086) # Siren Red
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.4020, 0.0273, 0.0103) # Red Rock
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.1683, 0.0137, 0.0160) # Crystal Red
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0561, 0.0060, 0.0130) # Berry Red
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.1683, 0.0137, 0.0160) # Crystal Red
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.2232, 0.0070, 0.0052) # Cobalt Red
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0561, 0.0060, 0.0130) # Berry Red
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.5210, 0.0137, 0.0103) # Torch Red
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.4020, 0.0273, 0.0103) # Red Rock
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0931, 0.0704, 0.0545) # Mocha Bronze
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0953, 0.0037, 0.0086) # Siren Red
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.2232, 0.0065, 0.0056) # Sport Red
+	color[]: (0.7913, 0.0009, 0.0000) # Bright Red
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.4969, 0.3864, 0.2747) # Light Driftwood
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0931, 0.0704, 0.0545) # Mocha Bronze
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.2232, 0.0065, 0.0056) # Sport Red
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.4020, 0.0273, 0.0103) # Red Rock
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.1651, 0.0137, 0.0137) # Cajun Red
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.2232, 0.0070, 0.0052) # Cobalt Red
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0953, 0.0037, 0.0086) # Siren Red
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.1651, 0.0137, 0.0137) # Cajun Red
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0953, 0.0037, 0.0086) # Siren Red
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.0203, 0.0369, 0.0319) # Green Envy
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.2270, 0.0152, 0.0252) # Red Jewel
+	color[]: (0.4020, 0.0273, 0.0103) # Red Rock
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green Pearl
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.7913, 0.0009, 0.0000) # Bright Red
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0021, 0.0060, 0.0369) # Navy Blue
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.4020, 0.0273, 0.0103) # Red Rock
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.2270, 0.0152, 0.0252) # Red Jewel
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.5210, 0.0137, 0.0103) # Torch Red
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green Pearl
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.5210, 0.0137, 0.0103) # Torch Red
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.2270, 0.0152, 0.0252) # Red Jewel
+	color[]: (0.0953, 0.0037, 0.0086) # Siren Red
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.2423, 0.2705, 0.3712) # Blue Ice
+	color[]: (0.2232, 0.3663, 0.4621) # Blue Ray
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.2232, 0.0065, 0.0056) # Sport Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.4020, 0.0273, 0.0103) # Red Rock
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.2270, 0.0152, 0.0252) # Red Jewel
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.7913, 0.0009, 0.0000) # Bright Red
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0382, 0.0648, 0.1356) # Regal Blue
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0203, 0.0369, 0.0319) # Green Envy
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0203, 0.0369, 0.0319) # Green Envy
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.3231, 0.2384, 0.1384) # Antique Bronze
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0561, 0.0060, 0.0130) # Berry Red
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green Pearl
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0194, 0.0482, 0.0612) # Jasper Green
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.0953, 0.0037, 0.0086) # Siren Red
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.2232, 0.0065, 0.0056) # Sport Red
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0561, 0.0060, 0.0130) # Berry Red
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.2232, 0.0070, 0.0052) # Cobalt Red
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0561, 0.0060, 0.0130) # Berry Red
+	color[]: (0.3231, 0.2384, 0.1384) # Antique Bronze
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.2232, 0.0065, 0.0056) # Sport Red
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0110, 0.1070, 0.2122) # Aqua Blue
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0307, 0.0075, 0.0086) # Dark Toreador
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.5210, 0.0137, 0.0103) # Torch Red
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.4020, 0.0273, 0.0103) # Red Rock
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0103, 0.0160, 0.0497) # Imperial Blue
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.4564, 0.0000, 0.0044) # Victory Red
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.1683, 0.0137, 0.0160) # Crystal Red
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.1683, 0.0137, 0.0160) # Crystal Red
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.5210, 0.0137, 0.0103) # Torch Red
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0561, 0.0060, 0.0130) # Berry Red
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.1195, 0.0130, 0.0194) # Bordeaux Red
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Frost
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.3231, 0.2384, 0.1384) # Antique Bronze
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0307, 0.0075, 0.0086) # Dark Toreador
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue
+	color[]: (0.5457, 0.5210, 0.4452) # Light Tarnished Silver
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1651, 0.0137, 0.0137) # Cajun Red
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.7913, 0.0009, 0.0000) # Bright Red
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.2232, 0.0070, 0.0052) # Cobalt Red
+	color[]: (0.0203, 0.0369, 0.0319) # Green Envy
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.2232, 0.0070, 0.0052) # Cobalt Red
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0222, 0.0252, 0.0452) # Blue Velvet
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.0203, 0.0369, 0.0319) # Green Envy
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.2232, 0.0070, 0.0052) # Cobalt Red
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.6584, 0.6867, 0.8796) # Switchblade Silver
+	color[]: (0.0953, 0.0037, 0.0086) # Siren Red
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0976, 0.0976, 0.0976) # Nightfall Gray
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0137, 0.0513, 0.1714) # Laser Blue
+	color[]: (0.5210, 0.0137, 0.0103) # Torch Red
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.0144, 0.0273, 0.0409) # Ink Slate
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.1046, 0.1022, 0.0953) # Pepperdust
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.0203, 0.0369, 0.0319) # Green Envy
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.7913, 0.0009, 0.0000) # Bright Red
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.2270, 0.0152, 0.0252) # Red Jewel
+	color[]: (0.1683, 0.0137, 0.0160) # Crystal Red
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.1683, 0.0137, 0.0160) # Crystal Red
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1620, 0.1912, 0.2086) # Medium Spiral Gray
+	color[]: (0.0561, 0.0060, 0.0130) # Berry Red
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0110, 0.0452, 0.0844) # Superior Blue
+	color[]: (0.0000, 0.0048, 0.1144) # Blue Topaz
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.0307, 0.0578, 0.0437) # Medium Green Pearl
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.0331, 0.0331, 0.0331) # Carbon Flash
+	color[]: (0.6654, 0.6240, 0.5210) # Champagne Silver
+	color[]: (0.0976, 0.0976, 0.0976) # Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0561, 0.0561, 0.0561) # Ashen Gray
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.1683, 0.0137, 0.0160) # Crystal Red
+	color[]: (0.0212, 0.0273, 0.0307) # Graphite
+	color[]: (0.9911, 0.9911, 0.8228) # White Diamond
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.0545, 0.0648, 0.0630) # Heather Gray
+	color[]: (0.5841, 0.5972, 0.5457) # Cappuccino Silver Frost
+	color[]: (0.8963, 0.8879, 0.8388) # Olympic White
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.1500, 0.1470, 0.1946) # Cyber Gray
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.9473, 0.9216, 0.7913) # White
+	color[]: (0.8963, 0.8879, 0.8388) # Summit White
+	color[]: (0.0000, 0.0000, 0.0000) # Black
+	color[]: (0.5841, 0.6376, 0.7157) # Galaxy Silver
+	color[]: (0.0052, 0.0052, 0.0052) # Mosaic Black
+	color[]: (0.3050, 0.3325, 0.2961) # Dark Tarnished Silver
+	color[]: (0.2961, 0.4508, 0.5210) # Silver Topaz
+	color[]: (0.2232, 0.0065, 0.0056) # Sport Red
+	color[]: (0.4072, 0.3613, 0.3231) # Light Sandrift
+	color[]: (0.0331, 0.0331, 0.0331) # Black Granite
+	color[]: (0.5841, 0.6240, 0.6514) # Iridescent Pearl
+	color[]: (0.1651, 0.0137, 0.0137) # Cajun Red
+	color[]: (0.8308, 0.8879, 0.8308) # Bright White
+	color[]: (0.3663, 0.3515, 0.2542) # Citron Green
+	color[]: (0.6584, 0.6867, 0.8796) # Silver Ice
+	color[]: (0.4910, 0.6724, 0.8070) # Arctic Blue

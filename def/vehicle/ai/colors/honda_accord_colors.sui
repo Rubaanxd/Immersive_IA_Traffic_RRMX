@@ -1,0 +1,2975 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (8 colors, 94 times repeated)
+	# - Gray colors:   ~21%  (28 colors, 22 times repeated)
+	# - Black colors:  ~20%  (5 colors, 120 times repeated)
+	# - Silver colors: ~11%  (10 colors, 33 times repeated)
+	# - Blue colors:   ~10%  (24 colors, 12 times repeated)
+	# - Red colors:    ~8%   (14 colors, 17 times repeated)
+	# - Green colors:  ~1.8% (4 colors, 13 times repeated)
+	# - Brown colors:  ~1.3% (7 colors, 6 times repeated)
+	# - Orange colors: ~0.6% (0 colors, 0 times repeated)
+	# - Yellow colors: ~0.2% (0 colors, 0 times repeated)
+	# - Gold colors:   ~0.2% (2 colors, 3 times repeated)
+	# - Purple colors: ~0.1% (3 colors, 1 time repeated)
+	# - Other colors:  ~0.8% (2 colors, 12 times repeated)
+
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.1221, 0.0844, 0.0409) # Mandarin Gold
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0409, 0.0319, 0.0369) # Dark Currant
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.4072, 0.3663, 0.3325) # Naples Gold
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0595, 0.0452, 0.0409) # Kona Coffee
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.2705, 0.0823, 0.0176) # Tiger Eye
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.2705, 0.0823, 0.0176) # Tiger Eye
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.2705, 0.0823, 0.0176) # Tiger Eye
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0723, 0.0529, 0.0513) # Dark Amber
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0409, 0.0319, 0.0369) # Black Currant
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0723, 0.0529, 0.0513) # Dark Amber
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0409, 0.0319, 0.0369) # Dark Currant
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.0409, 0.0319, 0.0369) # Black Currant
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6240, 0.5841, 0.7454) # Heather Mist
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0595, 0.0452, 0.0409) # Kona Coffee
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0595, 0.0452, 0.0409) # Kona Coffee
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1878, 0.2051, 0.3005) # Signet Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0409, 0.0319, 0.0369) # Dark Currant
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0595, 0.0452, 0.0409) # Kona Coffee
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.1221, 0.0844, 0.0409) # Mandarin Gold
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.3325, 0.3050, 0.2384) # Desert Mist
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.1301, 0.1022, 0.0782) # Bold Beige
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.1301, 0.1022, 0.0782) # Bold Beige
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0409, 0.0319, 0.0369) # Black Currant
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0595, 0.0452, 0.0409) # Kona Coffee
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.3325, 0.3050, 0.2384) # Desert Mist
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1170, 0.1144, 0.1878) # Cool Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.2705, 0.0823, 0.0176) # Tiger Eye
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1301, 0.1022, 0.0782) # Bold Beige
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0723, 0.0529, 0.0513) # Dark Amber
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.2705, 0.0823, 0.0176) # Tiger Eye
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.0409, 0.0319, 0.0369) # Dark Currant
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.0409, 0.0319, 0.0369) # Black Currant
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1301, 0.1022, 0.0782) # Bold Beige
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0097, 0.0307, 0.0529) # Azure Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1301, 0.1022, 0.0782) # Bold Beige
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.3325, 0.3050, 0.2384) # Desert Mist
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.0409, 0.0319, 0.0369) # Black Currant
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.3325, 0.3050, 0.2384) # Desert Mist
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.4397, 0.5647, 0.5647) # New Silver
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.1022, 0.1274, 0.1590) # Solaris Silver
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0723, 0.0529, 0.0513) # Dark Amber
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0723, 0.0529, 0.0513) # Dark Amber
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.3325, 0.3050, 0.2384) # Desert Mist
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.3278, 0.3813, 0.4735) # Celestial Blue
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1441, 0.1441, 0.1384) # New Hematite
+	color[]: (0.0595, 0.0452, 0.0409) # Kona Coffee
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0409, 0.0319, 0.0369) # Black Currant
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0409, 0.0319, 0.0369) # Dark Currant
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.0262, 0.0369, 0.0482) # Graphite
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0409, 0.0319, 0.0369) # Dark Currant
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.4072, 0.3663, 0.3325) # Naples Gold
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.2542, 0.2831, 0.3663) # Blue Sky
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0097, 0.0152, 0.0203) # Deep Green
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0012, 0.0513, 0.2705) # Still Night Blue
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.3325, 0.3050, 0.2384) # Desert Mist
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.1301, 0.1022, 0.0782) # Bold Beige
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.2747, 0.2789, 0.2705) # Urban Gray
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0116, 0.0168, 0.0331) # Deep Velvet Blue
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.0065, 0.0467, 0.0452) # Cypress Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0561, 0.0630, 0.0612) # Mystic Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0242, 0.0395, 0.0931) # Obsidian Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.0395, 0.0545, 0.0685) # Isle Green
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.1845, 0.1981, 0.3050) # Glacier Blue
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.5583, 0.6514, 0.7011) # Flint Gray
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0130, 0.0203, 0.0704) # Super Blue Marine
+	color[]: (0.0467, 0.0452, 0.0723) # Raisin
+	color[]: (0.0152, 0.0307, 0.0222) # New Dark Green
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.1590, 0.0030, 0.0065) # Crimson
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.0356, 0.0452, 0.0545) # Phantom Gray
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0823, 0.0070, 0.0152) # Redondo Red
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0356, 0.0452, 0.0545) # Dark Charcoal
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1356, 0.1779, 0.1878) # Opal Sage
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0152, 0.0296, 0.0467) # Dark Green
+	color[]: (0.2705, 0.0823, 0.0176) # Tiger Eye
+	color[]: (0.1070, 0.0000, 0.0110) # Basque Red
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.4969, 0.4910, 0.4793) # Alabaster Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.4072, 0.3663, 0.3325) # Naples Gold
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.2307, 0.0037, 0.0091) # Moroccan Red
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.1274, 0.1812, 0.1878) # Cool Blue
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.3185, 0.3515, 0.4072) # Forged Silver
+	color[]: (0.2789, 0.2918, 0.3050) # Lunar Silver
+	color[]: (0.0052, 0.0040, 0.0976) # Vortex Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.0232, 0.0409, 0.1441) # Fresco Blue
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.5906, 0.5776, 0.5149) # Burnished Silver
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.2789, 0.0000, 0.0024) # Radiant Red
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0116, 0.0137, 0.0513) # Eternal Blue
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.0908, 0.1070, 0.1529) # Modern Steel
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.1022, 0.1812, 0.2582) # Sage Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1221, 0.0844, 0.0409) # Mandarin Gold
+	color[]: (0.0152, 0.0369, 0.0648) # Malachite Green
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0467, 0.0648, 0.1470) # Canyon River Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0212, 0.0296, 0.0762) # Pacific Blue
+	color[]: (0.1144, 0.1022, 0.0908) # New Opal Silver
+	color[]: (0.1144, 0.1119, 0.1441) # Polished Metal
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0782, 0.0976, 0.4452) # Still Night
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0152, 0.0307, 0.0222) # Dark Emerald Green
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0110, 0.0203, 0.0319) # Ball Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0823, 0.0070, 0.0152) # Royal Ruby Red
+	color[]: (0.0437, 0.0000, 0.0000) # Dark Cherry
+	color[]: (0.2462, 0.2051, 0.1620) # Carbon Bronze
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.9823, 0.9823, 0.9823) # Taffeta White
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.0262, 0.0578, 0.0931) # Dark Eucalyptus
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.2051, 0.2582, 0.3140) # Sebring Silver
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.0116, 0.0110, 0.0176) # Nighthawk Black
+	color[]: (0.1441, 0.0000, 0.0097) # Tango Red
+	color[]: (0.0000, 0.0000, 0.0000) # New Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0262, 0.0203, 0.0222) # Graphite Luster
+	color[]: (0.0685, 0.0018, 0.0091) # Bordeaux Red
+	color[]: (0.0723, 0.0529, 0.0513) # Dark Amber
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper Red
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.1195, 0.0030, 0.0097) # Fire Pepper
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0212, 0.0482, 0.0908) # Paradise Blue Green
+	color[]: (0.0331, 0.0437, 0.0723) # Nocturne Blue
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.6105, 0.0048, 0.0116) # Milano Red
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.6724, 0.6240, 0.5210) # Champagne Frost
+	color[]: (0.1221, 0.1441, 0.1812) # Meteorite Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.2159, 0.0037, 0.0080) # San Marino Red
+	color[]: (0.0252, 0.0497, 0.0561) # Noble Green
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.9047, 1.0000, 0.8632) # Taffeta White
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.1095, 0.1301, 0.1529) # Sonic Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.1441, 0.1441, 0.1384) # Hematite
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.1022, 0.1812, 0.2582) # Grayish Blue Green
+	color[]: (0.3564, 0.3712, 0.3050) # Cashmere Silver
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0116, 0.0168, 0.0648) # Royal Blue
+	color[]: (0.0097, 0.0319, 0.1812) # Sapphire Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8388, 0.8148, 0.8148) # White Orchid
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.7011, 0.7305, 0.6724) # Frost White
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.0212, 0.0529, 0.1070) # Deep Blue Opal
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.0222, 0.0273, 0.0482) # New Teal
+	color[]: (0.2159, 0.2159, 0.2159) # Galaxy Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Crystal Black
+	color[]: (0.8228, 0.8228, 0.8228) # Premium White
+	color[]: (0.0152, 0.0296, 0.0467) # Sherwood Green
+	color[]: (0.8228, 0.9473, 0.8070) # White Diamond
+	color[]: (0.4397, 0.5647, 0.5647) # Satin Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Flamenco Black
+	color[]: (0.0999, 0.0021, 0.0075) # Torino Red
+	color[]: (0.8469, 0.8469, 0.8469) # Platinum White
+	color[]: (0.0027, 0.0086, 0.0865) # Belize Blue
+	color[]: (0.6724, 0.5972, 0.5333) # Burnished Silver
+	color[]: (0.1144, 0.1022, 0.0908) # Silver Frost
+	color[]: (0.2122, 0.3140, 0.4179) # Greenish Silver
+	color[]: (0.0273, 0.0356, 0.0513) # Night Shade Gray
+	color[]: (0.0021, 0.0021, 0.0021) # Granada Black
+	color[]: (0.3712, 0.3916, 0.4233) # Solar Silver

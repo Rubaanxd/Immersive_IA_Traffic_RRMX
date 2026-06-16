@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.crown_v
+{
+	accessories[]: .crown_v.chassis
+	accessories[]: .crown_v.fwheel
+	accessories[]: .crown_v.rwheel
+
+	max_speed: 300
+	
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_crown_victoria_colors.sui"
+		
+	tags[]: vintage 
+
+	vehicle_mass: 1850
+	tags[]: cheap
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .crown_v.chassis
+{
+	data_path: "/def/vehicle/ai/crown_victoria/chassis.sii"
+}
+
+vehicle_wheel_accessory: .crown_v.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_t.sii"
+}
+
+vehicle_wheel_accessory: .crown_v.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_t.sii"
+}

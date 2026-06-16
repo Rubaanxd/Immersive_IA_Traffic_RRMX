@@ -1,0 +1,46 @@
+traffic_vehicle : traffic.verano
+{
+	accessories[]: .verano.chassis
+	accessories[]: .verano.fwheel
+	accessories[]: .verano.rwheel
+
+	max_speed: 205
+
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_2.soundref"
+	
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/buick_verano_colors.sui"
+
+	
+	vehicle_mass: 1280
+	
+	
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .verano.chassis
+{
+	data_path: "/def/vehicle/ai/verano/chassis.sii"
+}
+
+vehicle_wheel_accessory: .verano.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .verano.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}
+

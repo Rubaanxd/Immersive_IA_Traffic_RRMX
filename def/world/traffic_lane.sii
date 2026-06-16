@@ -1,0 +1,526 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+# Attributes:
+#
+# speed_class: the value is used when determining the country speed limit ('lane_speed_class' attribute in '/def/country/(country_name)/speed_limit.sii')
+# rank: used for speed limit and lane type distribution - lane with higher rank is preferred
+#
+# NOTE: The first traffic lane definition is used as default if not set otherwise (e.g. for unconnected prefabs or trajectories)
+
+traffic_lane_data : traffic_lane.default
+{
+	speed_class: local_road
+
+	rank: 0
+
+	traffic_rules[]: traffic_rule.road_rail
+}
+
+traffic_lane_data : traffic_lane.road.local
+{
+	# Traffic lane with 'local' speed limits and low spawn density
+	# Allows changing lanes (when used for multi-lane roads), but NOT overtaking in opposite lane
+
+	speed_class: local_road
+
+	rank: 50
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+	traffic_rules[]: traffic_rule.s_cust_r
+}
+
+traffic_lane_data : traffic_lane.road.local.overtake
+{
+	# Traffic lane with 'local' speed limits and low spawn density
+	# Allows changing lanes (when used for multi-lane roads), but NOT overtaking in opposite lane
+
+	speed_class: local_road
+
+	rank: 50
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+	traffic_rules[]: traffic_rule.s_cust_r
+
+	traffic_rules[]: traffic_rule.overtake_alw	# Allow overtaking in opposite lane
+}
+
+
+traffic_lane_data : traffic_lane.road.local.full_in_out
+{
+	speed_class: local_road
+
+	rank: 50
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+
+	traffic_rules[]: traffic_rule.no_chng_in
+	traffic_rules[]: traffic_rule.no_chng_out
+}
+
+traffic_lane_data : traffic_lane.road.local.no_overtake
+{
+	# DO NOT USE!!! OBSOLETE - Kept for backward compatibility
+
+	speed_class: local_road
+
+	rank: 50
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+	traffic_rules[]: traffic_rule.s_cust_r
+}
+
+traffic_lane_data : traffic_lane.road.divided
+{
+	speed_class: divided_road
+
+	rank: 150
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_h
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+}
+
+traffic_lane_data : traffic_lane.road.divided.full_in
+{
+	speed_class: divided_road
+
+	rank: 130
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_h
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+
+	traffic_rules[]: traffic_rule.no_chng_in
+}
+
+traffic_lane_data : traffic_lane.road.divided.full_out
+{
+	speed_class: divided_road
+
+	rank: 130
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_h
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+
+	traffic_rules[]: traffic_rule.no_chng_out
+}
+
+traffic_lane_data : traffic_lane.road.divided.high_density
+{
+	speed_class: divided_road
+
+	rank: 120
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_u
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_u
+	traffic_rules[]: traffic_rule.s_truck_h
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_h
+}
+
+traffic_lane_data : traffic_lane.road.divided.low_density
+{
+	speed_class: divided_road
+
+	rank: 110
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+}
+
+traffic_lane_data : traffic_lane.road.freeway
+{
+	speed_class: freeway
+
+	rank: 250
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_f
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_f
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+}
+
+traffic_lane_data : traffic_lane.road.freeway.no_trucks
+{
+	speed_class: freeway
+
+	rank: 230
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.no_trucks
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_police
+}
+
+traffic_lane_data : traffic_lane.road.freeway.truck_lane
+{
+	speed_class: freeway
+
+	rank: 230
+
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_f
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.truck_lane
+
+	traffic_rules[]: traffic_rule.no_chng_in
+	traffic_rules[]: traffic_rule.no_chng_out
+}
+
+traffic_lane_data : traffic_lane.road.freeway.full_in
+{
+	speed_class: freeway
+
+	rank: 230
+
+	traffic_rules[]: traffic_rule.road
+
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_f
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_f
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+
+	traffic_rules[]: traffic_rule.no_chng_in
+}
+
+traffic_lane_data : traffic_lane.road.freeway.full_out
+{
+	speed_class: freeway
+
+	rank: 230
+
+	traffic_rules[]: traffic_rule.road
+
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_f
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_f
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+
+	traffic_rules[]: traffic_rule.no_chng_out
+}
+
+traffic_lane_data : traffic_lane.road.freeway.full_in_out
+{
+	speed_class: freeway
+
+	rank: 230
+
+	traffic_rules[]: traffic_rule.road
+
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_f
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_f
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+
+	traffic_rules[]: traffic_rule.no_chng_in
+	traffic_rules[]: traffic_rule.no_chng_out
+}
+
+traffic_lane_data : traffic_lane.road.freeway.high_density
+{
+	speed_class: freeway
+
+	rank: 220
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_uh
+	traffic_rules[]: traffic_rule.s_trl_u
+	traffic_rules[]: traffic_rule.s_trm_f
+	traffic_rules[]: traffic_rule.s_trh_u
+	traffic_rules[]: traffic_rule.s_truck_f
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_h
+	traffic_rules[]: traffic_rule.s_police
+}
+
+traffic_lane_data : traffic_lane.road.freeway.low_density
+{
+	speed_class: freeway
+
+	rank: 210
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_truck_d_l
+	traffic_rules[]: traffic_rule.s_bus_l
+}
+
+traffic_lane_data : traffic_lane.road.freeway.on_ramp
+{
+	speed_class: freeway
+
+	rank: 211
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.on_ramp
+}
+
+traffic_lane_data : traffic_lane.road.freeway.off_ramp
+{
+	speed_class: freeway
+
+	rank: 211
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+}
+
+
+traffic_lane_data : traffic_lane.road.local.tram
+{
+	speed_class: local_road
+
+	rank: 50
+
+	traffic_rules[]: traffic_rule.road_tram
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+	traffic_rules[]: traffic_rule.s_tram
+}
+
+traffic_lane_data : traffic_lane.road.local.tram.custom
+{
+	speed_class: local_road
+
+	rank: 50
+
+	traffic_rules[]: traffic_rule.road_tram
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_bus_l
+	traffic_rules[]: traffic_rule.s_police
+	traffic_rules[]: traffic_rule.s_tram_c
+}
+
+traffic_lane_data : traffic_lane.road.divided.tram
+{
+	speed_class: divided_road
+
+	rank: 130
+
+	traffic_rules[]: traffic_rule.road_tram
+	traffic_rules[]: traffic_rule.s_car_h
+	traffic_rules[]: traffic_rule.s_truck_h
+	traffic_rules[]: traffic_rule.s_bus_h
+	traffic_rules[]: traffic_rule.s_police
+	traffic_rules[]: traffic_rule.s_tram
+}
+
+traffic_lane_data : traffic_lane.rail.tram
+{
+	speed_class: rail_tram
+
+	traffic_rules[]: traffic_rule.rail_tram
+	traffic_rules[]: traffic_rule.s_tram
+}
+
+traffic_lane_data : traffic_lane.rail.tram.custom
+{
+	speed_class: rail_tram
+
+	traffic_rules[]: traffic_rule.rail_tram
+	traffic_rules[]: traffic_rule.s_tram_c
+}
+
+traffic_lane_data : traffic_lane.no_vehicles
+{
+	# Small road with no vehicles allowed by default.
+	# Use traffic area to allow any vehicle access/spawning.
+
+	speed_class: local_road
+
+	traffic_rules[]: traffic_rule.private_area
+	traffic_rules[]: traffic_rule.s_cust_r
+}
+
+traffic_lane_data : traffic_lane.no_vehicles.dirt
+{
+	# Small dirt road with no vehicles allowed by default.
+	# Use traffic area to allow any vehicle access/spawning.
+
+	speed_class: local_road
+
+	traffic_rules[]: traffic_rule.uneven_road
+	traffic_rules[]: traffic_rule.private_area
+	traffic_rules[]: traffic_rule.s_cust_r
+}
+
+traffic_lane_data : traffic_lane.side_road
+{
+	# Small road with occasionally spawned cars
+	# Use traffic area to allow access/spawning for other vehicle types.
+
+	speed_class: local_road
+
+	traffic_rules[]: traffic_rule.allow_car
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.private_area
+	traffic_rules[]: traffic_rule.s_cust_r
+}
+
+traffic_lane_data : traffic_lane.rail.train
+{
+	speed_class: rail_train
+
+	traffic_rules[]: traffic_rule.rail_train
+	traffic_rules[]: traffic_rule.s_train_crg
+	traffic_rules[]: traffic_rule.s_train_p
+}
+
+traffic_lane_data : traffic_lane.rail.train.cargo
+{
+	speed_class: rail_train
+
+	traffic_rules[]: traffic_rule.rail_train
+	traffic_rules[]: traffic_rule.s_train_crg
+}
+
+traffic_lane_data : traffic_lane.rail.train.cargo_low
+{
+	speed_class: rail_train
+
+	traffic_rules[]: traffic_rule.rail_train
+	traffic_rules[]: traffic_rule.s_train_crgl
+}
+
+traffic_lane_data : traffic_lane.rail.train.passenger
+{
+	speed_class: rail_train
+
+	traffic_rules[]: traffic_rule.rail_train
+	traffic_rules[]: traffic_rule.s_train_p
+}
+
+traffic_lane_data : traffic_lane.rail.train_wire.passenger
+{
+	speed_class: rail_train
+
+	traffic_rules[]: traffic_rule.rail_train_w
+	traffic_rules[]: traffic_rule.s_train_w
+}
+
+# Metro rail
+traffic_lane_data : traffic_lane.rail.train.metro
+{
+	speed_class: rail_train
+
+	traffic_rules[]: traffic_rule.rail_train
+	traffic_rules[]: traffic_rule.s_train_m
+}
+
+traffic_lane_data : traffic_lane.road.forest
+{
+	speed_class: local_road
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.physics
+}
+
+traffic_lane_data : traffic_lane.road.local.dust
+{
+	speed_class: local_road
+
+	rank: 30
+
+	traffic_rules[]: traffic_rule.road
+	traffic_rules[]: traffic_rule.s_car_l
+	traffic_rules[]: traffic_rule.s_trl_r
+	traffic_rules[]: traffic_rule.s_trm_r
+	traffic_rules[]: traffic_rule.s_trh_r
+	traffic_rules[]: traffic_rule.s_truck_l
+	traffic_rules[]: traffic_rule.s_police
+	traffic_rules[]: traffic_rule.overtake_alw	# Allow overtaking (including 'wrong way')
+	traffic_rules[]: traffic_rule.uneven_road
+	traffic_rules[]: traffic_rule.s_cust_r
+}
+
+
+
+}

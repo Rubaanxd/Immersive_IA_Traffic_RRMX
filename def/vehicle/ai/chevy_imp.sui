@@ -1,0 +1,39 @@
+traffic_vehicle : traffic.chevy_imp
+{
+	accessories[]: .chevy_imp.chassis
+	accessories[]: .chevy_imp.fwheel
+	accessories[]: .chevy_imp.rwheel
+
+	max_speed: 300
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_impala_colors.sui"
+		
+	
+	vehicle_mass: 1850
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .chevy_imp.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_imp/chassis.sii"
+}
+
+vehicle_wheel_accessory: .chevy_imp.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in.sii"
+}
+
+vehicle_wheel_accessory: .chevy_imp.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in.sii"
+}

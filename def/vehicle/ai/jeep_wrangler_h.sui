@@ -1,0 +1,50 @@
+traffic_vehicle : traffic.jeep_w.hook
+{
+	accessories[]: .jeep_w.hook.chassis
+	accessories[]: .jeep_w.hook.fwheel
+	accessories[]: .jeep_w.hook.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	
+	
+	vehicle_mass: 2750 # +750kg trailer
+
+	trailer_chains[]: "trailer.ai_car.camper"
+	trailer_chains[]: "trailer.ai_car.util_buggy"
+	trailer_chains[]: "trailer.ai_car.util_boat"
+	
+	tags[]: tourist
+
+	spawn_ratio: 0.1
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/jeep_wrangler_colors.sui"
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .jeep_w.hook.chassis
+{
+	data_path: "/def/vehicle/ai/jeep_wrangler/chassis_hard_top_hook.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.hook.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_17in_o.sii"
+}
+
+vehicle_wheel_accessory: .jeep_w.hook.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_17in_o.sii"
+}
+
+
+

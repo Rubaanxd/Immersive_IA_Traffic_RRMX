@@ -1,0 +1,51 @@
+traffic_vehicle : traffic.pv_posted
+{
+	accessories[]: .pv_posted.chassis
+	accessories[]: .pv_posted.fwheel
+	accessories[]: .pv_posted.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	allow_parked: true
+	vehicle_mass: 5500
+
+	engine_power: 150
+
+	spawn_ratio: 0.25
+
+	spawn_condition[]: .traffic.pv_posted.condition.time
+
+	tags[]: van
+
+
+@include "drivers_van.sui"
+}
+
+vehicle_accessory: .pv_posted.chassis
+{
+	data_path: "/def/vehicle/ai/package_van/chassis_posted.sii"
+}
+
+vehicle_wheel_accessory: .pv_posted.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_cargo.sii"
+}
+
+vehicle_wheel_accessory: .pv_posted.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_cargo.sii"
+}
+traffic_spawn_condition: .traffic.pv_posted.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 08:00 - 18:30
+	num_param[]: 480
+	num_param[]: 1110
+}
+

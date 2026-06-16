@@ -1,0 +1,42 @@
+traffic_vehicle : traffic.enclave
+{
+	accessories[]: .enclave.chassis
+	accessories[]: .enclave.fwheel
+	accessories[]: .enclave.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 1700
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/buick_enclave_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .enclave.chassis
+{
+	data_path: "/def/vehicle/ai/enclave/chassis.sii"
+}
+
+vehicle_wheel_accessory: .enclave.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .enclave.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+

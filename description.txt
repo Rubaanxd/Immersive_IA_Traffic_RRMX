@@ -1,0 +1,65 @@
+Immersive IA Traffic - RRMX
+
+[ ESPAÑOL ]
+
+Bienvenido a Immersive Traffic - RRMX, el mod definitivo para renovar por completo la experiencia de tráfico virtual en American Truck Simulator. El objetivo de este mod es dar vida a los conductores de IA y a las carreteras, haciendo que cada viaje se sienta natural, orgánico y verdaderamente inmersivo.
+
+Hemos ajustado cuidadosamente los mecanismos de aparición y comportamiento del juego para llevar el realismo al siguiente nivel:
+
+[ NUEVO EN RRMX - COMPORTAMIENTO DE IA REALISTA ]
+- Preferencias de Velocidad Orgánicas: No todo el mundo conduce exactamente al límite de velocidad. Te encontrarás con conductores que van ligeramente por debajo del límite, mientras que los conductores impacientes irán con confianza hasta un +10% por encima del límite para adelantarte.
+- Agresividad Humana: Los conductores de IA ahora dejan distancias de seguimiento más cortas y realistas. Son más impacientes, lo que significa que no esperarán para siempre en las intersecciones para incorporarse, y usarán sus bocinas mucho más rápido (2-4 segundos) si bloqueas su camino.
+- Ceder el Paso Dinámico: Los vehículos de la IA son más inteligentes a la hora de aprovechar los pequeños huecos en el tráfico y abortarán rápidamente el ceder el paso si el otro conductor duda.
+
+[ DENSIDAD DE TRÁFICO DINÁMICA ]
+La densidad del tráfico ahora está fuertemente dictada por la hora del día y la zona en la que conduces:
+- Atascos en Hora Pico: Prepárate para una congestión masiva en las áreas urbanas durante los desplazamientos de la mañana (07:00 - 08:30) y de la tarde (16:00 - 18:00).
+- El Turno de Noche: Las autopistas y las ciudades entre las 22:00 y las 04:00 están ahora dominadas por un gran flujo de camiones de logística. Si conduces de noche, compartirás la carretera principalmente con otros camioneros haciendo sus rutas.
+- Áreas Rurales Vivas: Conducir por caminos vecinales a las 3:00 AM ya no es algo completamente desierto. Ocasionalmente verás otros vehículos, manteniendo la sensación de un mundo vivo.
+- Servicios de Emergencia: La presencia de patrullas, ambulancias y camiones de bomberos se ha incrementado significativamente en áreas urbanas y carreteras, especialmente durante las horas pico.
+
+[ DISTRIBUCIÓN DE COLORES DEL MUNDO REAL ]
+- La coloración del tráfico de la IA sigue estrictamente la distribución estadística de colores del mercado de vehículos de EE. UU. (2023).
+- Espera ver principalmente vehículos blancos, grises, negros, plateados y azules, con ocasionales toques de colores brillantes para igualar la estética del mundo real.
+- Se compilaron más de 4,900 colores de vehículos diferentes en esquemas de color específicos.
+
+[ OTROS AJUSTES ]
+- Los vehículos históricos y clásicos aparecen con mucha menos frecuencia, como en la vida real.
+- Los trenes tienen configuraciones realistas de kilómetros de largo en lugar de solo un puñado de vagones. Los trenes de pasajeros funcionan principalmente durante el día, mientras que los trenes de carga funcionan con mayor densidad por la noche.
+- Los tranvías y metros pasan con mayor frecuencia durante la hora pico.
+
+¡Disfruta del viaje con Immersive Traffic - RRMX!
+
+[ ENGLISH ]
+
+Welcome to Immersive Traffic - RRMX, the ultimate mod to completely overhaul the virtual traffic experience in American Truck Simulator. The stated goal of this mod is to breathe life into the AI drivers and the roads themselves, making every journey feel natural, organic, and truly immersive. 
+
+We have carefully tuned the game's spawning and behavior mechanisms to push realism to the next level:
+
+[ NEW IN RRMX - REALISTIC AI BEHAVIOR ]
+- Organic Speed Preferences: Not everyone drives exactly at the speed limit. You will encounter drivers going slightly below the limit, while impatient drivers will confidently push up to +10% over the limit to overtake you.
+- Human-like Aggressiveness: AI drivers now leave shorter, more realistic following distances. They are more impatient, meaning they won't wait forever at intersections to merge, and they will use their horns much faster (2-4 seconds) if you block their path.
+- Dynamic Yielding: AI vehicles are smarter about taking small gaps in traffic and will quickly abort yielding if the other driver hesitates.
+
+[ DYNAMIC TRAFFIC DENSITY ]
+The traffic density is now heavily dictated by the time of day and the zone you are driving in:
+- Rush Hour Jams: Prepare for massive congestion in urban areas during the morning (07:00 - 08:30) and afternoon (16:00 - 18:00) commutes.
+- The Night Shift: Highways and cities between 22:00 and 04:00 are now dominated by a heavy flow of logistics trucks. If you drive at night, you will share the road mainly with other truckers doing their runs.
+- Living Rural Areas: Driving through country roads at 3:00 AM is no longer completely deserted. You will occasionally spot other vehicles, keeping the world feeling alive.
+- Emergency Services: The presence of police patrols, ambulances, and firetrucks has been significantly increased in urban areas and highways, especially during rush hours.
+
+[ REAL-WORLD COLOR DISTRIBUTION ]
+- The coloring of AI traffic strictly follows the statistical color distribution of the US vehicle market (2023). 
+- Expect to see mostly white, gray, black, silver, and blue vehicles, with occasional bright splashes of color to match real-world aesthetics. 
+- Over 4,900 different vehicle colors were compiled into specific color schemes.
+
+[ OTHER TWEAKS ]
+- Historic and classic vehicles spawn much less frequently, as in real life.
+- Trains have realistic, miles-long setups instead of just a handful of wagons. Passenger trains run mostly during the day, while freight trains run heavier at night.
+- Trams and metros run more frequently during rush hour.
+
+Enjoy the drive with Immersive Traffic - RRMX!
+
+---
+
+

@@ -1,0 +1,46 @@
+
+traffic_vehicle : traffic.hd_pickup.bare
+{
+	accessories[]: .hd_pickup.bare.chassis
+	accessories[]: .hd_pickup.bare.fwheel
+	accessories[]: .hd_pickup.bare.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	
+	tags[]: pickup
+	tags[]: empty
+	tags[]: suv
+
+	vehicle_mass: 3000
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_silverado_colors.sui"
+
+
+	
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .hd_pickup.bare.chassis
+{
+	data_path: "/def/vehicle/ai/hd_pickup/chassis_bare.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.bare.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .hd_pickup.bare.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}

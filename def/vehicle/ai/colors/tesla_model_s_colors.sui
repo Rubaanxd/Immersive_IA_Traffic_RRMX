@@ -1,0 +1,1010 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (2 colors, 125 times repeated)
+	# - Gray colors:   ~21%  (12 colors, 17 times repeated)
+	# - Black colors:  ~20%  (8 colors, 25 times repeated)
+	# - Silver colors: ~11%  (8 colors, 14 times repeated)
+	# - Blue colors:   ~10%  (9 colors, 11 times repeated)
+	# - Red colors:    ~8%   (12 colors, 7 times repeated)
+	# - Green colors:  ~1.8% (5 colors, 4 times repeated)
+	# - Brown colors:  ~1.3% (0 colors, 0 times repeated)
+	# - Orange colors: ~0.6% (1 color, 6 times repeated)
+	# - Yellow colors: ~0.2% (1 color, 2 times repeated)
+	# - Gold colors:   ~0.2% (0 colors, 0 times repeated)
+	# - Purple colors: ~0.1% (1 color, 1 time repeated)
+	# - Other colors:  ~0.8% (2 colors, 4 times repeated)
+
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.8469, 0.4678, 0.0762) # Brilliant Yellow
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0356, 0.0685, 0.0685) # Sequoia Green
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.3278, 0.0018, 0.0086) # Fusion Red
+	color[]: (0.0356, 0.0685, 0.0685) # Sequoia Green
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.8070, 0.0482, 0.0369) # Crimson Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0762, 0.0110, 0.0212) # Sunset Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.8469, 0.4678, 0.0762) # Brilliant Yellow
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0762, 0.0110, 0.0212) # Sunset Red
+	color[]: (0.0482, 0.1070, 0.1384) # Sequoia Green
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0137, 0.0595, 0.0908) # Muir
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0137, 0.0595, 0.0908) # Muir
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0097, 0.1620, 0.0823) # Racing Green
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.0482, 0.1070, 0.1384) # Sequoia Green
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.3005, 0.0086, 0.0116) # New Red
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.4969, 0.0130, 0.0242) # Radiant Red
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.4969, 0.0130, 0.0242) # Radiant Red
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.6795, 0.7084, 0.5029) # Shasta White
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.9647, 0.3231, 0.0595) # Very Orange
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0482, 0.1070, 0.1384) # Sequoia Green
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.6795, 0.7084, 0.5029) # Pearl White
+	color[]: (0.4125, 0.0103, 0.0086) # Sunset Red
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0908, 0.0137, 0.0319) # Signature Red
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.0452, 0.0021, 0.0044) # Midnight Cherry Red
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.3419, 0.0000, 0.0040) # Ultra Red
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.3005, 0.0086, 0.0116) # New Red
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.1912, 0.0262, 0.0284) # Signature Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0021, 0.0044) # Midnight Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.5271, 0.0000, 0.0194) # Sunset Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0137, 0.0595, 0.0908) # Muir
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3278, 0.0018, 0.0086) # Fusion Red
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.1912, 0.0262, 0.0284) # Signature Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.3419, 0.0000, 0.0040) # Ultra Red
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.5271, 0.0000, 0.0194) # Sunset Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0452, 0.0021, 0.0044) # Midnight Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.4125, 0.0103, 0.0086) # Sunset Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3419, 0.0000, 0.0040) # Ultra Red
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3005, 0.0086, 0.0116) # Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.5271, 0.0000, 0.0194) # Sunset Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.9647, 0.3231, 0.0595) # Very Orange
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0762, 0.0110, 0.0212) # Sunset Red
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.3278, 0.0018, 0.0086) # Fusion Red
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3005, 0.0086, 0.0116) # Sunset Red
+	color[]: (0.8070, 0.0482, 0.0369) # Crimson Red
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.9647, 0.3231, 0.0595) # Very Orange
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0097, 0.1620, 0.0823) # Racing Green
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.4125, 0.0103, 0.0086) # Sunset Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.5271, 0.0000, 0.0194) # Sunset Red
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0482, 0.1070, 0.1384) # Sequoia Green
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3005, 0.0086, 0.0116) # Red
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.4125, 0.0103, 0.0086) # Sunset Red
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.0137, 0.0595, 0.0908) # Muir
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0762, 0.0110, 0.0212) # Sunset Red
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.3005, 0.0086, 0.0116) # New Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.3005, 0.0086, 0.0116) # New Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.8070, 0.0482, 0.0369) # Crimson Red
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.6795, 0.7084, 0.5029) # Shasta White
+	color[]: (0.0356, 0.0685, 0.0685) # Sequoia Green
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3005, 0.0086, 0.0116) # Sunset Red
+	color[]: (0.1912, 0.0262, 0.0284) # Signature Red
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.3419, 0.0000, 0.0040) # Ultra Red
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.8070, 0.0482, 0.0369) # Crimson Red
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.1912, 0.0262, 0.0284) # Signature Red
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.4969, 0.0130, 0.0242) # Radiant Red
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.0452, 0.0021, 0.0044) # Midnight Cherry Red
+	color[]: (0.3005, 0.0086, 0.0116) # New Red
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0021, 0.0044) # Midnight Cherry Red
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0097, 0.1620, 0.0823) # Racing Green
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.3005, 0.0086, 0.0116) # Red
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.4969, 0.0130, 0.0242) # Radiant Red
+	color[]: (0.0762, 0.0110, 0.0212) # Sunset Red
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.4125, 0.0103, 0.0086) # Sunset Red
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.1912, 0.0262, 0.0284) # Signature Red
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.4969, 0.0130, 0.0242) # Radiant Red
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.3005, 0.0086, 0.0116) # Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.6795, 0.7084, 0.5029) # White Water
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0040, 0.0284, 0.1301) # Twilight Blue
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.6795, 0.7084, 0.5029) # White Water
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.6795, 0.7084, 0.5029) # White Water
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3419, 0.0000, 0.0040) # Ultra Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0452, 0.0021, 0.0044) # Midnight Cherry Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.3278, 0.0018, 0.0086) # Fusion Red
+	color[]: (0.6795, 0.7084, 0.5029) # Pearl White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.9647, 0.3231, 0.0595) # Very Orange
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.0762, 0.0110, 0.0212) # Sunset Red
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3005, 0.0086, 0.0116) # Sunset Red
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.3419, 0.0000, 0.0040) # Ultra Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.3005, 0.0086, 0.0116) # Sunset Red
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.6795, 0.7084, 0.5029) # Pearl White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.4125, 0.0103, 0.0086) # Sunset Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0075, 0.0578, 0.4179) # Electric Blue
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.9647, 0.3231, 0.0595) # Very Orange
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8070, 0.0482, 0.0369) # Crimson Red
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3005, 0.0086, 0.0116) # Sunset Red
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.1912, 0.0262, 0.0284) # Signature Red
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.0452, 0.0021, 0.0044) # Midnight Cherry Red
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue Pearl
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.4969, 0.0130, 0.0242) # Radiant Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.1912, 0.0262, 0.0284) # Signature Red
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8070, 0.0482, 0.0369) # Crimson Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.3005, 0.0086, 0.0116) # Red
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.3278, 0.0018, 0.0086) # Fusion Red
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.3278, 0.0018, 0.0086) # Fusion Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3663, 0.4397, 0.4508) # Starlight Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.9647, 0.3231, 0.0595) # Very Orange
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.6795, 0.7084, 0.5029) # Shasta White
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.5711, 0.5776, 0.5711) # Mercury
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3005, 0.0086, 0.0116) # New Red
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.3419, 0.0000, 0.0040) # Ultra Red
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.3278, 0.0018, 0.0086) # Fusion Red
+	color[]: (0.6795, 0.7084, 0.5029) # Shasta White
+	color[]: (0.1441, 0.1559, 0.1714) # Magneto Metallic Shadow
+	color[]: (0.3005, 0.0086, 0.0116) # Sunset Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0097, 0.1620, 0.0823) # Racing Green
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.6795, 0.7084, 0.5029) # White Water
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.7454, 0.7379, 0.7758) # Sterling Silver
+	color[]: (0.3005, 0.0086, 0.0116) # Sunset Red
+	color[]: (0.0452, 0.0578, 0.0704) # Dolphin Gray
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7991) # Silver
+	color[]: (0.5271, 0.0000, 0.0194) # Sunset Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.1746, 0.1248, 0.1441) # Titanium
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0356, 0.0497, 0.1413) # Deep Blue
+	color[]: (0.3005, 0.0086, 0.0116) # New Red
+	color[]: (0.0000, 0.0000, 0.0000) # Solid Black
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0561, 0.0648, 0.0908) # Pacific Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0030, 0.0030, 0.0044) # Onyx Black
+	color[]: (0.0356, 0.0685, 0.0685) # Sequoia Green
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0648, 0.0612, 0.0762) # Anza Brown
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.3005, 0.0086, 0.0116) # Red
+	color[]: (0.2462, 0.4233, 0.5647) # Glacier Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Obsidian Black
+	color[]: (0.0762, 0.1144, 0.1845) # Thunder Gray
+	color[]: (0.4969, 0.0130, 0.0242) # Radiant Red
+	color[]: (0.5271, 0.0000, 0.0194) # Sunset Red
+	color[]: (0.6795, 0.7084, 0.5029) # Pearl White
+	color[]: (0.0561, 0.0648, 0.0908) # Midnight Silver
+	color[]: (0.0000, 0.0296, 0.1529) # Abyss Blue
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.5271, 0.0000, 0.0194) # Sunset Red
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.0762, 0.0110, 0.0212) # Sunset Red
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0356, 0.0497, 0.1413) # Ocean Blue
+	color[]: (0.0273, 0.0369, 0.0762) # Pacific Blue
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.7835, 0.7682, 0.7454) # Lunar Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.3005, 0.0086, 0.0116) # Red
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.0844, 0.1070, 0.1274) # Stealth Grey
+	color[]: (0.3372, 0.3813, 0.4179) # Quicksilver
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0452, 0.0578, 0.0704) # Tiburon Gray
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Sierra Black
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.8070, 0.0482, 0.0369) # Crimson Red
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0723, 0.0908, 0.1441) # Dolphin Gray
+	color[]: (0.3663, 0.4397, 0.4508) # Silver
+	color[]: (0.7991, 0.8070, 0.7835) # Catalina White
+	color[]: (0.0561, 0.0648, 0.0908) # Steel Gray Pearl
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Jet Black
+	color[]: (0.0130, 0.0137, 0.0168) # Obsidian Black
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.0000, 0.0000, 0.0000) # Armor Black
+	color[]: (0.0648, 0.0612, 0.0762) # Sycamore Brown
+	color[]: (0.8632, 0.8632, 0.8632) # Arctic White
+	color[]: (0.3813, 0.4342, 0.5647) # San Simen Silver
+	color[]: (0.0232, 0.0284, 0.0999) # Monterey Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Eclipse Black
+	color[]: (0.4125, 0.0103, 0.0086) # Sunset Red

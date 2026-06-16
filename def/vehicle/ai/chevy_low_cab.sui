@@ -1,0 +1,1073 @@
+traffic_vehicle : traffic.lowcab
+{
+	accessories[]: .lowcab.chassis
+	accessories[]: .lowcab.fwheel
+	accessories[]: .lowcab.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	tags[]: sm_truck
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+	allow_parked: false
+
+	variant[]: traffic.lowcab_r_p
+
+	variant[]: traffic.lowcab_dvan
+	variant[]: traffic.lowcab_fbed
+	variant[]: traffic.lowcab_fbed1
+	variant[]: traffic.lowcab_fbed2
+	variant[]: traffic.lowcab_fbed3
+	variant[]: traffic.lowcab_fbed4
+	variant[]: traffic.lowcab_fbeds
+	variant[]: traffic.lowcab_dumpt
+	variant[]: traffic.lowcab_dumpd
+
+	variant[]: traffic.lowcab_r_p1
+	variant[]: traffic.lowcab_r_p2
+	variant[]: traffic.lowcab_r_c1
+	variant[]: traffic.lowcab_r_c2
+	variant[]: traffic.lowcab_r_d1
+	variant[]: traffic.lowcab_r_d2
+	variant[]: traffic.lowcab_r_t1
+	variant[]: traffic.lowcab_r_t2
+	variant[]: traffic.lowcab_r_b1
+	variant[]: traffic.lowcab_r_b2
+
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis.sii"
+}
+
+vehicle_wheel_accessory: .lowcab.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Produce XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_r_p
+{
+	accessories[]: .lowcab_r_p.chassis
+	accessories[]: .lowcab_r_p.fwheel
+	accessories[]: .lowcab_r_p.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+	# BLUE
+	color[]: (0.0685, 0.1248, 0.1812)
+	#silver
+	color[]: (0.3662, 0.3277, 0.2788)
+	#GRAY
+	color[]: (0.6, 0.6, 0.6)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_p.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_p.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_p.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_p.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dry Van XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_dvan
+{
+	accessories[]: .lowcab_dvan.chassis
+	accessories[]: .lowcab_dvan.fwheel
+	accessories[]: .lowcab_dvan.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+	# WHITE/GRAY
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.7084, 0.7084, 0.7084)
+	color[]: (0.6, 0.6, 0.6)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_dvan.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_dvan.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_dvan.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_dvan.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - No Load XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed
+{
+	accessories[]: .lowcab_fbed.chassis
+	accessories[]: .lowcab_fbed.fwheel
+	accessories[]: .lowcab_fbed.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_fbed.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Shutters No Load XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbeds
+{
+	accessories[]: .lowcab_fbeds.chassis
+	accessories[]: .lowcab_fbeds.fwheel
+	accessories[]: .lowcab_fbeds.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_fbeds.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_s.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbeds.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbeds.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Load 1 ( Boxed Fruits ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed1
+{
+	accessories[]: .lowcab_fbed1.chassis
+	accessories[]: .lowcab_fbed1.fwheel
+	accessories[]: .lowcab_fbed1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+	# WHITE/GRAY
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.9, 0.9, 0.9)
+	color[]: (0.7084, 0.7084, 0.7084)
+	color[]: (0.6, 0.6, 0.6)
+	# YELLOW
+	color[]: (0.9909, 0.5522, 0.017)
+	# BLUE
+	color[]: (0.0685, 0.1248, 0.1812)
+	#silver
+	color[]: (0.3662, 0.3277, 0.2788)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_fbed1.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed + Shutters - Load 2 ( Construction Materials ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed2
+{
+	accessories[]: .lowcab_fbed2.chassis
+	accessories[]: .lowcab_fbed2.fwheel
+	accessories[]: .lowcab_fbed2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_fbed2.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l2.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed + Shutters - Load 3 ( Mixed ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed3
+{
+	accessories[]: .lowcab_fbed3.chassis
+	accessories[]: .lowcab_fbed3.fwheel
+	accessories[]: .lowcab_fbed3.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_fbed3.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l3.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed3.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed3.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Flatbed - Load 4 ( Cable Rolls ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_fbed4
+{
+	accessories[]: .lowcab_fbed4.chassis
+	accessories[]: .lowcab_fbed4.fwheel
+	accessories[]: .lowcab_fbed4.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_fbed4.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_fbed_l4.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed4.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_fbed4.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dump Tailer ( blue ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_dumpt
+{
+	accessories[]: .lowcab_dumpt.chassis
+	accessories[]: .lowcab_dumpt.fwheel
+	accessories[]: .lowcab_dumpt.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+	# WHITE/GRAY
+	color[]: (0.7084, 0.7084, 0.7084)
+	color[]: (0.6, 0.6, 0.6)
+	#silver
+	color[]: (0.3662, 0.3277, 0.2788)
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_dumpt.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_d.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_dumpt.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_dumpt.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dump Tailer ( default ) XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_dumpd
+{
+	accessories[]: .lowcab_dumpd.chassis
+	accessories[]: .lowcab_dumpd.fwheel
+	accessories[]: .lowcab_dumpd.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/isuzu_npr_colors.sui"
+
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_dumpd.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_d1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_dumpd.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_dumpd.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dream Burger1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_r_b1
+{
+	accessories[]: .lowcab_r_b1.chassis
+	accessories[]: .lowcab_r_b1.fwheel
+	accessories[]: .lowcab_r_b1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Orange
+	color[]: (0.812, 0.376, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_b1.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_d_burger1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_b1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_b1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dream Burger2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_r_b2
+{
+	accessories[]: .lowcab_r_b2.chassis
+	accessories[]: .lowcab_r_b2.fwheel
+	accessories[]: .lowcab_r_b2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Orange
+	color[]: (0.812, 0.376, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_b2.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_d_burger2.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_b2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_b2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dirk Chicken1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_r_d1
+{
+	accessories[]: .lowcab_r_d1.chassis
+	accessories[]: .lowcab_r_d1.fwheel
+	accessories[]: .lowcab_r_d1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Black
+	color[]: (0.196, 0.196, 0.196)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_d1.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_d_chicken1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_d1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_d1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Dirk Chicken2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.lowcab_r_d2
+{
+	accessories[]: .lowcab_r_d2.chassis
+	accessories[]: .lowcab_r_d2.fwheel
+	accessories[]: .lowcab_r_d2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Black
+	color[]: (0.196, 0.196, 0.196)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_d2.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_d_chicken2.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_d2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_d2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Pizza House1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_r_p1
+{
+	accessories[]: .lowcab_r_p1.chassis
+	accessories[]: .lowcab_r_p1.fwheel
+	accessories[]: .lowcab_r_p1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Green
+	color[]: (0.314, 0.580, 0.259)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_p1.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_pizzah1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_p1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_p1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Pizza House2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.lowcab_r_p2
+{
+	accessories[]: .lowcab_r_p2.chassis
+	accessories[]: .lowcab_r_p2.fwheel
+	accessories[]: .lowcab_r_p2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Green
+	color[]: (0.314, 0.580, 0.259)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_p2.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_pizzah2.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_p2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_p2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Taco1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.lowcab_r_t1
+{
+	accessories[]: .lowcab_r_t1.chassis
+	accessories[]: .lowcab_r_t1.fwheel
+	accessories[]: .lowcab_r_t1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Salmon red
+	color[]: (0.812, 0.376, 0.314)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_t1.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_taco1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_t1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_t1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Taco2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+
+traffic_vehicle : traffic.lowcab_r_t2
+{
+	accessories[]: .lowcab_r_t2.chassis
+	accessories[]: .lowcab_r_t2.fwheel
+	accessories[]: .lowcab_r_t2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Salmon red
+	color[]: (0.812, 0.376, 0.314)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_t2.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_taco2.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_t2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_t2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Truckercola1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.lowcab_r_c1
+{
+	accessories[]: .lowcab_r_c1.chassis
+	accessories[]: .lowcab_r_c1.fwheel
+	accessories[]: .lowcab_r_c1.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Red
+	color[]: (0.553, 0.090, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_c1.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_truckcola1.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_c1.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_c1.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX variant Truckercola2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+traffic_vehicle : traffic.lowcab_r_c2
+{
+	accessories[]: .lowcab_r_c2.chassis
+	accessories[]: .lowcab_r_c2.fwheel
+	accessories[]: .lowcab_r_c2.rwheel
+
+	max_speed: 120
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	allow_parked: false
+
+	tags[]: sm_truck
+
+
+
+	# Red
+	color[]: (0.553, 0.090, 0.176)
+
+
+	vehicle_mass: 8000
+
+	engine_power: 140
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .lowcab_r_c2.chassis
+{
+	data_path: "/def/vehicle/ai/chevy_low_cab/chassis_truckcola2.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_c2.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_lowcab.sii"
+}
+
+vehicle_wheel_accessory: .lowcab_r_c2.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_lowcab.sii"
+}

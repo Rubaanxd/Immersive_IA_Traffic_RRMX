@@ -1,0 +1,103 @@
+traffic_vehicle : traffic.heimdall.suv.premium_24
+{
+	accessories[]: .heimdall.suv.premium_24.chassis
+	accessories[]: .heimdall.suv.premium_24.fwheel
+	accessories[]: .heimdall.suv.premium_24.rwheel
+
+	max_speed: 240
+	vehicle_mass: 2600
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/hyundai_kona_colors.sui"
+	
+	tags[]: expensive
+	tags[]: suv
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .heimdall.suv.premium_24.chassis
+{
+	data_path: "/def/vehicle/ai/heimdall_suv_premium_24/chassis.sii"
+}
+
+vehicle_wheel_accessory: .heimdall.suv.premium_24.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_car_modern_17in_01.sii"
+}
+
+vehicle_wheel_accessory: .heimdall.suv.premium_24.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_car_modern_17in_01.sii"
+}
+
+#XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  Company ETSATS - Steet View XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+traffic_vehicle : traffic.heimdall.suv.premium_24.streetcam
+{
+	accessories[]: .heimdall.suv.premium_24.streetcam.chassis
+	accessories[]: .heimdall.suv.premium_24.streetcam.fwheel
+	accessories[]: .heimdall.suv.premium_24.streetcam.rwheel
+
+	max_speed: 240
+	vehicle_mass: 2600
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	
+	tags[]: suv
+
+	color[]: (1, 1, 1)
+
+	allow_parked: false
+	spawn_ratio: 0.08
+
+	spawn_condition[]: .traffic.heimdall.suv.premium_24.streetcam.condition.weather
+	spawn_condition[]: .traffic.heimdall.suv.premium_24.streetcam.condition.time
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .heimdall.suv.premium_24.streetcam.chassis
+{
+	data_path: "/def/vehicle/ai/heimdall_suv_premium_24/chassis_streetcam.sii"
+}
+
+vehicle_wheel_accessory: .heimdall.suv.premium_24.streetcam.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_car_modern_17in_01.sii"
+}
+
+vehicle_wheel_accessory: .heimdall.suv.premium_24.streetcam.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_car_modern_17in_01.sii"
+}
+
+traffic_spawn_condition: .traffic.heimdall.suv.premium_24.streetcam.condition.weather
+{
+	# spawn only in nice weather
+	type: weather
+	num_param[]: 0
+}
+
+traffic_spawn_condition: .traffic.heimdall.suv.premium_24.streetcam.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 09:00 - 16:00
+	num_param[]: 540
+	num_param[]: 960
+}

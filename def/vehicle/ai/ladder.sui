@@ -1,0 +1,38 @@
+traffic_vehicle : traffic.ladder
+{
+	accessories[]: .ladder.chassis
+	accessories[]: .ladder.fwheel
+	accessories[]: .ladder.rwheel
+
+	max_speed: 100
+	allow_parked: false
+
+	tags[]: heavy_duty
+
+	vehicle_mass: 6200
+
+	spawn_ratio: 0.05
+
+	engine_power: 270
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .ladder.chassis
+{
+	data_path: "/def/vehicle/ai/box/chassis_ladder.sii"
+}
+
+vehicle_wheel_accessory: .ladder.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_box.sii"
+}
+
+vehicle_wheel_accessory: .ladder.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_box.sii"
+}
+

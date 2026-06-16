@@ -1,0 +1,90 @@
+traffic_vehicle : traffic.xc90
+{
+	accessories[]: .xc90.chassis
+	accessories[]: .xc90.fwheel
+	accessories[]: .xc90.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+	vehicle_mass: 2500
+
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/volvo_xc90_colors.sui"
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .xc90.chassis
+{
+	data_path: "/def/vehicle/ai/xc90/chassis.sii"
+}
+
+vehicle_wheel_accessory: .xc90.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o_1.sii"
+}
+
+vehicle_wheel_accessory: .xc90.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o_1.sii"
+}
+
+########## Volvo XC90 towing variant ##########
+traffic_vehicle : traffic.xc90_h
+{
+	accessories[]: .xc90_h.chassis
+	accessories[]: .xc90_h.fwheel
+	accessories[]: .xc90_h.rwheel
+
+	max_speed: 120
+	vehicle_mass: 3250 # +750kg trailer
+	spawn_ratio: 0.1
+	allow_parked: false
+
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_move[]: "/sound/traffic/car_normal_3.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_3.soundref"
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/volvo_xc90_colors.sui"
+
+	tags[]: cheap
+	tags[]: common
+
+	trailer_chains[]: "trailer.ai_car.camper"
+	trailer_chains[]: "trailer.ai_car.util_buggy"
+	trailer_chains[]: "trailer.ai_car.util_boat"
+	trailer_chains[]: "trailer.ai_car.horse"
+	trailer_chains[]: "trailer.ai_car.small_cargo1"
+	trailer_chains[]: "trailer.ai_car.small_cargo2"
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .xc90_h.chassis
+{
+	data_path: "/def/vehicle/ai/xc90/chassis_h.sii"
+}
+
+vehicle_wheel_accessory: .xc90_h.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_o_1.sii"
+}
+
+vehicle_wheel_accessory: .xc90_h.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_o_1.sii"
+}

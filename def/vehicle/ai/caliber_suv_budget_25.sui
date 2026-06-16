@@ -1,0 +1,44 @@
+
+traffic_vehicle : traffic.caliber.suv.budget_25
+{
+	accessories[]: .caliber.suv.budget_25.chassis
+	accessories[]: .caliber.suv.budget_25.fwheel
+	accessories[]: .caliber.suv.budget_25.rwheel
+
+	max_speed: 240
+	vehicle_mass: 2600
+
+	sound_move[]: "/sound/traffic/car_v8_1.soundref"
+	sound_move[]: "/sound/traffic/car_v8_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+	
+	tags[]: cheap
+	tags[]: common
+
+	spawn_ratio: 1.0
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/chevrolet_trax_colors.sui"
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .caliber.suv.budget_25.chassis
+{
+	data_path: "/def/vehicle/ai/caliber_suv_budget_25/chassis.sii"
+}
+
+vehicle_wheel_accessory: .caliber.suv.budget_25.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in.sii"
+}
+
+vehicle_wheel_accessory: .caliber.suv.budget_25.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in.sii"
+}
+

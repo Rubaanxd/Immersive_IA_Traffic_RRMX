@@ -1,0 +1,44 @@
+traffic_vehicle : traffic.ford_smax
+{
+	accessories[]: .ford_smax.chassis
+	accessories[]: .ford_smax.fwheel
+	accessories[]: .ford_smax.rwheel
+
+	max_speed: 160
+
+	sound_move[]: "/sound/traffic/car_normal_1.soundref"
+	sound_move[]: "/sound/traffic/car_normal_2.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_1.soundref"
+	sound_horn[]: "/sound/traffic/car_horn_4.soundref"
+
+	vehicle_mass: 1700
+	
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/ford_s_max_colors.sui"
+	
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+	
+}
+
+vehicle_accessory: .ford_smax.chassis
+{
+	data_path: "/def/vehicle/ai/ford_smax/chassis.sii"
+}
+
+vehicle_wheel_accessory: .ford_smax.fwheel
+{
+	offset: 0
+		data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .ford_smax.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+

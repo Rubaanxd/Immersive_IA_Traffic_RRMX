@@ -1,0 +1,37 @@
+traffic_vehicle : traffic.magnum
+{
+	accessories[]: .magnum.chassis
+	accessories[]: .magnum.fwheel
+	accessories[]: .magnum.rwheel
+
+	max_speed: 160
+
+#@include "/def/vehicle/ai/colors/trace_helper_colors.sui"
+#@include "/def/vehicle/ai/colors/most_popular_colors.sui"
+@include "/def/vehicle/ai/colors/dodge_magnum_colors.sui"
+
+	vehicle_mass: 1900
+	tags[]: cheap
+	tags[]: common
+
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .magnum.chassis
+{
+	data_path: "/def/vehicle/ai/magnum/chassis.sii"
+}
+
+vehicle_wheel_accessory: .magnum.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/front_18in_3.sii"
+}
+
+vehicle_wheel_accessory: .magnum.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/ai_wheel/rear_18in_3.sii"
+}
+

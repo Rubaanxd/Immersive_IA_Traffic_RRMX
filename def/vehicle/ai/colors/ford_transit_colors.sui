@@ -1,0 +1,1012 @@
+﻿	# This file is part of the "More realistic traffic" mod for SCS ATS.
+	#
+	# This file contains color examples for various vehicle models and is intended
+	# for inclusion in AI vehicle model files. The values given are originally from
+	# the paintref web page.
+	#
+	# The distribution of the colors was based on the information on the edmunds web
+	# page. To reflect the color distribution, some colors are listed here more than
+	# once.
+	#
+	# - White colors:  ~25%  (4 colors, 62 times repeated)
+	# - Gray colors:   ~21%  (11 colors, 19 times repeated)
+	# - Black colors:  ~20%  (4 colors, 50 times repeated)
+	# - Silver colors: ~11%  (7 colors, 16 times repeated)
+	# - Blue colors:   ~10%  (14 colors, 7 times repeated)
+	# - Red colors:    ~8%   (11 colors, 7 times repeated)
+	# - Green colors:  ~1.8% (5 colors, 4 times repeated)
+	# - Brown colors:  ~1.3% (7 colors, 2 times repeated)
+	# - Orange colors: ~0.6% (3 colors, 2 times repeated)
+	# - Yellow colors: ~0.2% (2 colors, 1 time repeated)
+	# - Gold colors:   ~0.2% (2 colors, 1 time repeated)
+	# - Purple colors: ~0.1% (0 colors, 0 times repeated)
+	# - Other colors:  ~0.8% (0 colors, 0 times repeated)
+
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.2789, 0.1981, 0.1529) # Stone Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0409, 0.1356, 0.3325) # Blue
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0144, 0.0203, 0.0887) # Deep Impact Blue
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0409, 0.1356, 0.3325) # Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0144, 0.0203, 0.0887) # Deep Impact Blue
+	color[]: (0.0144, 0.0203, 0.0887) # Deep Impact Blue
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.6308, 0.0018, 0.0006) # Radiant Red
+	color[]: (0.0529, 0.0369, 0.0331) # Chroma Courture
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0409, 0.1356, 0.3325) # Blue
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.0144, 0.0203, 0.0887) # Deep Impact Blue
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0003, 0.0003, 0.0123) # Ontario
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0685, 0.1779, 0.2918) # Metropolis Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0176, 0.2086) # Dark Blue
+	color[]: (0.0000, 0.0176, 0.2086) # Dark Blue
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0052, 0.0110, 0.0529) # Dark True Blue
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0003, 0.0003, 0.0123) # Ontario
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0782, 0.0040, 0.0027) # Pepper Red
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.7913, 0.2016, 0.0123) # Saffran Yellow
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0168, 0.0000) # Jewel Green
+	color[]: (0.4910, 0.4508, 0.3712) # White Gold
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.8714, 0.0999, 0.0116) # Sedona Orange
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0262, 0.0273, 0.0561) # Ink Blue
+	color[]: (0.0262, 0.0273, 0.0561) # Ink Blue
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0030, 0.0037, 0.0152) # State Blue
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0176, 0.2086) # Dark Blue
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.7157, 0.1500, 0.0273) # Deep Orange
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0685, 0.1779, 0.2918) # Metropolis Blue
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0685, 0.1779, 0.2918) # Metropolis Blue
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0030, 0.0037, 0.0152) # State Blue
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.7835, 0.4969, 0.1170) # Solar
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0052, 0.0110, 0.0529) # Dark True Blue
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Metallic
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0030, 0.0037, 0.0152) # State Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0070, 0.0137, 0.0273) # Blazer Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0685, 0.1779, 0.2918) # Metropolis Blue
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.3968, 0.0103, 0.0086) # Colorado Red
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.2346, 0.1221, 0.0467) # Carmella
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.2346, 0.1221, 0.0467) # Carmella
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.7913, 0.2016, 0.0123) # Saffran Yellow
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.1329, 0.0953, 0.0908) # Lunar Sky
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.7157, 0.1500, 0.0273) # Deep Orange
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0262, 0.0273, 0.0561) # Ink Blue
+	color[]: (0.0176, 0.0762, 0.0666) # Jewel Green
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.3968, 0.0103, 0.0086) # Colorado Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.2016, 0.0052, 0.0056) # Kapoor Red
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0176, 0.2086) # Dark Blue
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.2016, 0.0052, 0.0056) # Kapoor Red
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6308, 0.0018, 0.0006) # Radiant Red
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0409, 0.1356, 0.3325) # Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.2016, 0.0052, 0.0056) # Kapoor Red
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0685, 0.1779, 0.2918) # Metropolis Blue
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0070, 0.0137, 0.0273) # Blazer Blue
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (1.0000, 0.5333, 0.0452) # School Bus Yellow
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.3564, 0.4179, 0.4851) # Blue Mist
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.3968, 0.0103, 0.0086) # Colorado Red
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0052, 0.0110, 0.0529) # Dark True Blue
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.6308, 0.0018, 0.0006) # Radiant Red
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0003, 0.0003, 0.0123) # Ontario
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.1195, 0.0044, 0.0044) # Garnet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.3968, 0.0103, 0.0086) # Colorado Red
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0176, 0.2086) # Dark Blue
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0529, 0.0369, 0.0331) # Chroma Courture
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0262, 0.0273, 0.0561) # Ink Blue
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0144, 0.0203, 0.0887) # Deep Impact Blue
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.0070, 0.0137, 0.0273) # Blazer Blue
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.3564, 0.0185, 0.0110) # Mars Red
+	color[]: (0.1195, 0.0044, 0.0044) # Garnet Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.1329, 0.0953, 0.0908) # Lunar Sky
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.2122, 0.0976, 0.0704) # Burnished Glow
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0782, 0.0040, 0.0027) # Pepper Red
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0052, 0.0110, 0.0529) # Dark True Blue
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Metallic
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.8714, 0.0999, 0.0116) # Sedona Orange
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.0052, 0.0110, 0.0529) # Dark True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0262, 0.0273, 0.0561) # Ink Blue
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.6308, 0.5583, 0.3712) # Pueblo Gold
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Metallic
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Metallic
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.3564, 0.4179, 0.4851) # Blue Mist
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0685, 0.1779, 0.2918) # Metropolis Blue
+	color[]: (0.0782, 0.0040, 0.0027) # Pepper Red
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0030, 0.0037, 0.0152) # State Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0176, 0.0762, 0.0666) # Jewel Green
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.3564, 0.0185, 0.0110) # Mars Red
+	color[]: (0.0782, 0.0040, 0.0027) # Pepper Red
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0000, 0.0168, 0.0000) # Jewel Green
+	color[]: (0.3564, 0.4179, 0.4851) # Blue Mist
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2016, 0.0052, 0.0056) # Kapoor Red
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0070, 0.0137, 0.0273) # Blazer Blue
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.0000, 0.0176, 0.2086) # Dark Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.3564, 0.0185, 0.0110) # Mars Red
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0030, 0.0037, 0.0152) # State Blue
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.3968, 0.0103, 0.0086) # Colorado Red
+	color[]: (0.1195, 0.0044, 0.0044) # Garnet Red
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0262, 0.0273, 0.0561) # Ink Blue
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.2016, 0.0052, 0.0056) # Kapoor Red
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.3564, 0.4179, 0.4851) # Blue Mist
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0003, 0.0003, 0.0123) # Ontario
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Metallic
+	color[]: (0.0685, 0.1779, 0.2918) # Metropolis Blue
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6308, 0.0018, 0.0006) # Radiant Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion
+	color[]: (0.0070, 0.0137, 0.0273) # Blazer Blue
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.1195, 0.0044, 0.0044) # Garnet Red
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.3564, 0.4179, 0.4851) # Blue Mist
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0262, 0.0273, 0.0561) # Ink Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0144, 0.0203, 0.0887) # Deep Impact Blue
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0176, 0.1070, 0.1651) # Blue Ambition
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0070, 0.0137, 0.0273) # Blazer Blue
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.2542, 0.1845, 0.1046) # Noisette
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.1195, 0.0044, 0.0044) # Garnet Red
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0782, 0.0040, 0.0027) # Pepper Red
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.0176, 0.0762, 0.0666) # Jewel Green
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0030, 0.0037, 0.0152) # State Blue
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.1119, 0.0685, 0.0685) # Caribou
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.2016, 0.0052, 0.0056) # Kapoor Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0030, 0.0037, 0.0152) # State Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.3968, 0.0103, 0.0086) # Colorado Red
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.0003, 0.0003, 0.0123) # Ontario
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0409, 0.1356, 0.3325) # Blue
+	color[]: (0.2789, 0.1981, 0.1529) # Stone Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.3564, 0.0185, 0.0110) # Mars Red
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0003, 0.0003, 0.0123) # Ontario
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0343, 0.0497, 0.0823) # Midnight Sapphire
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.2542, 0.1845, 0.1046) # Noisette
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.6308, 0.0018, 0.0006) # Radiant Red
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.3968, 0.0103, 0.0086) # Colorado Red
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.3564, 0.4179, 0.4851) # Blue Mist
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0409, 0.1356, 0.3325) # Blue
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0176, 0.0762, 0.0666) # Jewel Green
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.3564, 0.4179, 0.4851) # Blue Mist
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Metallic
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0176, 0.2086) # Dark Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.6308, 0.0018, 0.0006) # Radiant Red
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.4072, 0.4452, 0.4678) # Moondust Silver
+	color[]: (0.9734, 0.0185, 0.0343) # Race Red
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.2122, 0.0976, 0.0704) # Burnished Glow
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1119, 0.0685, 0.0685) # Caribou
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0070, 0.0137, 0.0273) # Blazer Blue
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.7605, 0.0452, 0.0307) # Colorado Red
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.3564, 0.0185, 0.0110) # Mars Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.0000, 0.0168, 0.0000) # Jewel Green
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.1195, 0.0044, 0.0044) # Garnet Red
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0343, 0.0497, 0.0823) # Blue Jeans
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0203, 0.0331, 0.0482) # Deep Jewel Green
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.6795, 0.7305, 0.6939) # Silver
+	color[]: (0.1195, 0.0044, 0.0044) # Garnet Red
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion Red
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0409, 0.1356, 0.3325) # Blue
+	color[]: (0.3278, 0.0091, 0.0075) # Vermillion
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.4851, 0.4287, 0.3712) # Diffused Silver
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.0000, 0.0000, 0.0000) # Agate Black
+	color[]: (0.0497, 0.0630, 0.0497) # Guard
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0595, 0.0704, 0.0782) # Magnum Grey
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.2016, 0.0052, 0.0056) # Kapoor Red
+	color[]: (0.0052, 0.0110, 0.0529) # Dark True Blue
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.6308, 0.0018, 0.0006) # Radiant Red
+	color[]: (0.3278, 0.0091, 0.0075) # Bright Red
+	color[]: (0.0000, 0.0168, 0.0000) # Jewel Green
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.0003, 0.0003, 0.0123) # Ontario
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.3564, 0.0185, 0.0110) # Mars Red
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.1878, 0.2542, 0.2874) # Avalon
+	color[]: (0.0144, 0.0203, 0.0887) # Deep Impact Blue
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0052, 0.0110, 0.0529) # Dark True Blue
+	color[]: (0.0409, 0.1356, 0.3325) # Blue Metallic
+	color[]: (0.2307, 0.2542, 0.2623) # Avalanche Gray
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0908, 0.1022, 0.0999) # Carbonized Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.0116, 0.0242, 0.0185) # Green Gem
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic
+	color[]: (0.1500, 0.1620, 0.1559) # Solar Silver
+	color[]: (0.0976, 0.1356, 0.1620) # Medium Steel Blue
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.1274, 0.1248, 0.0844) # Magnetic Gray
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (0.4452, 0.4342, 0.3663) # Dark Mica Stone
+	color[]: (0.0782, 0.0040, 0.0027) # Pepper Red
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.8879, 0.8796, 0.8632) # Oxford White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.2582, 0.2195, 0.1779) # Tectonic Silver
+	color[]: (0.6867, 0.7379, 0.7011) # Frozen White
+	color[]: (0.0319, 0.0343, 0.0482) # Midnight Sky
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black
+	color[]: (0.0762, 0.0762, 0.0802) # Sterling Gray
+	color[]: (0.0545, 0.0545, 0.0513) # Abyss Gray
+	color[]: (0.0000, 0.0000, 0.0000) # Shadow Black
+	color[]: (1.0000, 1.0000, 1.0000) # Diamond White
+	color[]: (0.8228, 0.9387, 0.9301) # Frozen White
+	color[]: (0.0000, 0.0000, 0.0000) # Tuxedo Black
+	color[]: (0.7011, 0.6867, 0.6514) # Ingot Silver
+	color[]: (0.6795, 0.7305, 0.6939) # Moondust Silver
+	color[]: (0.0782, 0.0040, 0.0027) # Pepper Red
+	color[]: (0.3564, 0.0185, 0.0110) # Mars Red
+	color[]: (0.0000, 0.0000, 0.0000) # Panther Black

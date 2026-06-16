@@ -1,0 +1,127 @@
+
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+traffic_vehicle : traffic.bus_s
+{
+	accessories[]: .bus_s.chassis
+	accessories[]: .bus_s.fwheel
+	accessories[]: .bus_s.rwheel
+
+	max_speed: 100
+	allow_parked: false
+
+	tags[]: bus
+	tags[]: pass
+
+	vehicle_mass: 12000
+
+	spawn_ratio: 0.25
+
+	spawn_condition[]: .traffic.bus_s.condition.time
+	spawn_condition[]: .traffic.bus_s.condition.city
+
+@include "drivers_generic.sui"
+}
+
+vehicle_accessory: .bus_s.chassis
+{
+	data_path: "/def/vehicle/ai/bus_s/chassis.sii"
+}
+vehicle_wheel_accessory: .bus_s.fwheel
+{
+	data_path: "/def/vehicle/ai_wheel/front_bus.sii"
+}
+vehicle_wheel_accessory: .bus_s.rwheel
+{
+	data_path: "/def/vehicle/ai_wheel/rear_bus.sii"
+}
+traffic_spawn_condition: .traffic.bus_s.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 06:00 - 9:00
+	num_param[]: 360
+	num_param[]: 540
+
+	# 12:00 - 13:00
+	num_param[]: 720
+	num_param[]: 780
+
+	# 15:00 - 18:00
+	num_param[]: 900
+	num_param[]: 1080
+}
+
+traffic_spawn_condition: .traffic.bus_s.condition.city
+{
+	# spawn only inside cities
+	type: city
+	str_param[]: "?*"
+}
+
+
+traffic_vehicle : traffic.bus_school
+{
+	accessories[]: .bus_school.chassis
+	accessories[]: .bus_school.fwheel
+	accessories[]: .bus_school.rwheel
+
+
+	tags[]: schoolbus
+
+	max_speed: 100
+
+	spawn_ratio: 0.25
+
+	vehicle_mass: 20000
+	engine_power: 200
+
+	spawn_condition[]: .traffic.bus_school.condition.time
+	spawn_condition[]: .traffic.bus_school.condition.city
+
+@include "drivers_generic.sui"
+
+}
+
+vehicle_accessory: .bus_school.chassis
+{
+	data_path: "/def/vehicle/ai/bus_school/chassis.sii"
+}
+
+vehicle_wheel_accessory: .bus_school.fwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/f_wheel/steel_yellow.sii"
+}
+
+vehicle_wheel_accessory: .bus_school.rwheel
+{
+	offset: 0
+	data_path: "/def/vehicle/r_wheel/steel_yellow.sii"
+}
+
+
+traffic_spawn_condition: .traffic.bus_school.condition.time
+{
+	# spawn only in following game time intervals
+	type: time
+
+	# 06:00 - 9:00
+	num_param[]: 360
+	num_param[]: 540
+
+	# 12:00 - 13:00
+	num_param[]: 720
+	num_param[]: 780
+
+	# 15:00 - 18:00
+	num_param[]: 900
+	num_param[]: 1080
+}
+
+traffic_spawn_condition: .traffic.bus_school.condition.city
+{
+	# spawn only inside urban areas
+	type: area
+	str_param[]: "urban"
+}
