@@ -1,0 +1,31 @@
+﻿SiiNunit
+{
+
+# Aumentar vehiculos de lujo, deportivos y electricos en EEUU para contrastar con Mexico
+country_traffic_info : .country.info.traffic.mercedes_ce {
+	object: traffic.mercedes_ce
+	spawn_ratio: 2.00
+}
+
+country_traffic_info : .country.info.traffic.mustang {
+	object: traffic.mustang
+	spawn_ratio: 2.50
+}
+
+country_traffic_info : .country.info.traffic.tesla {
+	object: traffic.tesla
+	spawn_ratio: 3.00
+}
+
+# Reducir vehiculos utilitarios antiguos/basicos en EEUU
+country_traffic_info : .country.info.traffic.mercury {
+	object: traffic.mercury
+	spawn_ratio: 0.30
+}
+
+country_traffic_info : .country.info.traffic.chevy_pickup {
+	object: traffic.chevy_pickup
+	spawn_ratio: 0.50
+}
+
+}
