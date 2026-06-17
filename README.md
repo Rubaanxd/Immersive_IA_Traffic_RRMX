@@ -43,3 +43,51 @@ Transición socioeconómica y legal hiperrealista al cruzar la frontera entre EE
 ## 🤝 Contribuciones
 
 Este mod es un proyecto abierto al crecimiento. Si deseas adaptar el mod a nuevos mapas o ajustar el comportamiento, consulta el archivo `NOTES.md` incluido en el código fuente para obtener una guía técnica detallada de la arquitectura.
+
+---
+
+# Immersive IA Traffic - RRMX 🚦 (English)
+
+**Immersive IA Traffic - RRMX** is a complete overhaul mod for American Truck Simulator designed to breathe life into the Artificial Intelligence and the roads. The main goal is to transform the predictable "robots" of the base game into drivers with organic, impatient, and realistic behaviors.
+
+## 🌟 Main Features
+
+### 🧠 Realistic AI Behavior
+- **Organic Speed:** AI dynamically drives between **10% and 30% over the official speed limit**. No more slow or perfect traffic.
+- **Impatience & Aggressiveness:** Drivers maintain shorter following distances, brake more abruptly, will honk at you quickly if you block them (2-4 seconds), and will not hesitate to overtake you.
+
+### 🏙️ Dynamic Hourly Density
+Traffic is no longer static. It is regulated by an advanced time-based system:
+- **Rush Hour:** Massive congestion in urban areas during morning (07:00 - 08:30) and afternoon (16:00 - 18:00) commutes.
+- **Night Shift:** Highways between 22:00 and 04:00 are dominated by heavy logistics trucks.
+- **Emergency Presence:** Police vehicles, ambulances, and fire trucks appear more frequently during rush hours.
+
+### 🚧 Living Roads (Road Events)
+- Random event frequency multiplied by 2.
+- Patrol cars parked on shoulders monitoring speed.
+- Accidents, debris, and blown tires scattered across the road.
+- Realistic roadworks with alternating traffic lights on single-lane roads.
+
+### 🇲🇽 Cross-Border Integration (Reforma Map Support)
+Hyper-realistic socioeconomic and legal transition when crossing the US-Mexico border:
+- **United States:** Massive increase in modern, luxury, and sports vehicles (Mustangs, Teslas, Mercedes).
+- **Mexico:** AI obeys real Mexican km/h limits (110 km/h on highways). Decrease in luxury cars and drastic increase in work pickups, older vehicles, taxis, and buses.
+
+### 🚔 Realistic Fines
+- Collisions: Fine increased to **$1,200**.
+- Speeding: Fine adjusted to the US average of **$350**. Active 15% chance of getting ticketed if you speed past a moving patrol car.
+
+---
+
+## 📦 Installation
+
+1. Download the latest version of the mod.
+2. Place the `.scs` file or mod folder in `Documents/American Truck Simulator/mod`.
+3. Activate the mod in the in-game Mod Manager.
+4. **Priority:** Give it the **highest priority possible** (place it above map mods like Reforma and above any other traffic mod).
+
+---
+
+## 🤝 Contributing
+
+This mod is an open project. If you wish to adapt the mod to new maps or tweak behavior, check the `NOTES.md` file included in the source code for a detailed technical architecture guide.
